@@ -1,2 +1,5 @@
 [project]
 name = adi-static
+
+[packages]
+lektor-webpack-support = 0.3

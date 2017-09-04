@@ -1,0 +1,125 @@
+$logo-height: 2.25rem;
+$speed: 0.3s;
+.navbar {
+    @include transition($speed);
+    @include shadow;
+    height: $navbar-height;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: $white;
+    z-index: 1000;
+    top: $ribbon-height;
+
+    &.scroll {
+        height: $navbar-scroll-height;
+        .logo {
+            margin-top: (($navbar-scroll-height - $logo-height)/2);
+        }
+        ul li a div {
+            height: $navbar-scroll-height;
+            line-height: $navbar-scroll-height;
+        }
+    }
+
+    .logo {
+        @include transition($speed);
+        height: $logo-height;
+        margin-top: (($navbar-height - $logo-height)/2);
+    }
+    .right {
+        float: right;
+    }
+    .menu {
+        font-size: 0;
+        li {
+            font-size: 1rem;
+        }
+
+        > li {
+            display: inline-block;
+            div {
+                @include transition($speed);
+                padding: 0 1.25rem;
+                height: $navbar-height;
+                line-height: $navbar-height;
+            }
+
+            &.navbar-dropdown {
+                position: relative;
+                .dropdown-items {
+                    @include shadow;
+                    position: absolute;
+                    display: none;
+                    left: 0;
+                    overflow: visible;
+                    white-space: nowrap;
+
+                    &:before {
+                        position: absolute;
+                        left: -0.5rem;
+                        right: -0.5rem;
+                        top: -0.5rem;
+                        height: 0.5rem;
+                        background-color: $white;
+                        content: ' ';
+                        display: block;
+                    }
+
+                    li {
+                        background-color: $white;
+                        display: block;
+
+                        a div {
+                            line-height: 3rem;
+                            height: 3rem;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .dropdown-items {
+                        display: block;
+                    }
+                }
+            }
+
+            &:last-child a div {
+                margin-right: -1.25rem;
+            }
+        }
+
+    }
+
+    a, a:hover {
+        color: $gray;
+    }
+
+    &.up {
+        top: -$navbar-height !important;
+    }
+}
+
+@media screen and (max-width: $phone-max) {
+    .navbar  {
+        &.up {
+            top: 0;
+        }
+
+        .menu > li {
+            div {
+                padding: 0 0.75rem;
+            }
+
+            &.navbar-dropdown .dropdown-items li a div {
+                line-height: 4rem;
+                height: 4rem;
+            }
+
+            &:last-child a div {
+                margin-right: 0;
+            }
+        }
+    }
+
+}
