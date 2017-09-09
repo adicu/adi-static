@@ -1,0 +1,55 @@
+{% import "macros.html" as macros %}
+<!DOCTYPE html>
+<html>
+  <head>
+    {%- block head -%}
+    {%- block meta -%}
+    {%- set title %} ADI: {{ this.title }} {% endset %}
+    {%- set description = bag('meta').description %}
+    {%- set author = bag('meta').author %}
+    {%- set logo_url %} {{ "/static/img/logo/blue.png" | asseturl }} {% endset %}
+    <meta charset="utf-8">
+    <title>ADI: {{ this.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ description }}">
+    <meta name="author" content="ADI">
+    <meta name="robots" content="index, follow">
+
+    <meta itemprop="name" content="{{ title }}">
+    <meta itemprop="description" content="{{ description }}">
+    <meta itemprop="image" content="{{ logo_url }}">
+
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ '' | url }}">
+    <meta property="og:image" content="{{ logo_url }}">
+    <meta property="og:description" content="{{ description }}">
+    {%- endblock meta-%}
+
+    {%- block fonts %}
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Slab|Merriweather+Sans:300,400,700,400italic' rel='stylesheet' type='text/css'>
+    {%- endblock fonts -%}
+
+    {%- block css %}
+    <link rel="stylesheet" type="text/css" href="{{ '/static/css/reset.min.css' | asseturl }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/static/gen/styles.css' | asseturl }}">
+    {%- endblock css-%}
+
+    {%- block js %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/mobile-detect.js/0.4.3/mobile-detect.min.js"></script>
+    {%- endblock js -%}
+    {%- endblock head -%}
+  </head>
+  <body>
+    <div class="all-wrapper">
+      {{ macros.navbar() }}
+
+      {%- block body -%}{%- endblock body -%}
+
+      <div class="footer-spacer"></div>
+      {{ macros.footer() }}
+    </div>
+  </body>
+</html>

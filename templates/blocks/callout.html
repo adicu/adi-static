@@ -1,0 +1,27 @@
+<section class="callout">
+  <div class="full {{ this.color }}">
+    <div class="content">
+      <div class="callout-left">
+        <div class="section-header">
+          <h4>{{ this.title }}</h4>
+          <span class="bar gray"></span>
+        </div>
+        <h3> {{ this.description }}
+        {% if this.button %}
+        <div class="button-group">
+          <div class="button gray">
+            <a href="{{ this.link }}">{{ this.button }}</a>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+      <div class="callout-right">
+        <div class="card">
+          <a href="{{ this.link }}">
+            <i style="background-image: url({{ record.attachments.images.get(this.image) | url}});"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

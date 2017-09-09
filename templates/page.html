@@ -1,6 +1,18 @@
-{% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
-{% endblock %}
+{% extends "base.html" %}
+
+{%- block body -%}
+<div class="all-wrapper">
+  <div class="hero">
+    <div class="scrim"></div>
+    <i style="background-image: url({{ this.attachments.images.get(this.header) | url}});"></i>
+  </div>
+  <div class="main">
+    {% block main %}
+    {{ this.body }}
+    {% for blk in this.callouts.blocks %}
+    {{ blk }}
+    {% endfor %}
+    {% endblock main %}
+  </div>
+</div>
+{% endblock body %}
