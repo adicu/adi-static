@@ -4,7 +4,6 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: {
-    'app': './js/main.js',
     'styles': './scss/main.scss'
   },
   output: {
@@ -13,19 +12,20 @@ module.exports = {
   },
   devtool: '#cheap-module-source-map',
   resolve: {
-    modulesDirectories: ['node_modules'],
-    extensions: ['', '.js']
+    modules: ['node_modules'],
   },
   module: {
     loaders: [
       { test: /\.js$/, exclude: /node_modules/,
         loader: 'babel-loader' },
       { test: /\.scss$/,
-        loader: ExtractTextPlugin.extract(
-          'style-loader', 'css-loader!sass-loader') },
+        loader: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader!sass-loader',
+        })},
       { test: /\.css$/,
-        loader: ExtractTextPlugin.extract(
-          'style-loader', 'css-loader') },
+        loader: ExtractTextPlugin.extract({
+          fallback: 'style-loader', use: 'css-loader'}) },
       { test: /\.(woff2?|ttf|eot|svg|png|jpe?g|gif)$/,
         loader: 'file' }
     ]
@@ -34,6 +34,5 @@ module.exports = {
     new ExtractTextPlugin('styles.css', {
       allChunks: true
     }),
-    new webpack.optimize.UglifyJsPlugin()
   ]
 };
