@@ -1,0 +1,33 @@
+_model: event
+---
+title: Accessible ML: Dimensionality Reduction with PCA
+---
+start: 2016-03-21 21:00
+---
+end: 2016-03-21 22:00
+---
+background_image: 
+---
+location: Hamilton 304
+---
+short_description: 
+Learn how to reduce the size of high dimensional datasets using PCA, a popular technique in ML.
+---
+long_description: 
+Big data is big... really big and also has lots of noise. How do we reduce the dimensionality of these massive datasets to something tractable? Join ADI and learn how to reduce the size of high dimensional datasets using PCA, a popular technique in ML.
+
+No prerequisites necessary though some linear algebra background is useful and we'll take a glance at some Python.
+
+###What will I do?
+You'll learn about dimensionality reducation, why it matters, a common technique called PCA and how to use it in Python. Then you can apply it to all the other algorithms you've seen in the Accessible ML series.
+
+###Who should come to this event?
+Anyone with an interest in machine learning is welcome — no prior experience necessary! We'll start with basic stats and make you a dimensionality reduction pro! Impress your friends with your godly PCA abilities.
+
+###What should I bring?
+PCA's heavy on concepts so that's going to be our focus. We'll also have a code demo but I don't expect you to follow the code as much as see the results. That said, bring a laptop if you want to run them on your own machine, in which case we recommend that you install jupyter notebook (http://jupyter.readthedocs.org/en/latest/install.html) on it prior to the event.
+
+###How can I contact the event organizers?
+If you have any questions, feel free to reach out to Parthi (parthi@adicu.com).
+---
+facebook_url: https://www.facebook.com/events/1292007334161739/

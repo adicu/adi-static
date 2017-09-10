@@ -2,7 +2,7 @@ _model: page
 ---
 title: Welcome
 ---
-header: devfest.jpg
+background_image: devfest.jpg
 ---
 body:
 

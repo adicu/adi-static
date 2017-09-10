@@ -1,0 +1,39 @@
+_model: event
+---
+title: Intro to Git
+---
+start: 2015-11-17 20:00
+---
+end: 2015-11-17 21:00
+---
+background_image: 1sid.jpg
+---
+location: Hamilton 602
+---
+short_description: 
+Heard of GitHub but don't know it is? Using Git for class but don't understand how it works?
+---
+long_description: 
+In theory, git is a beautiful and elegant tool that solves all your version control problems. In practice, using and learning git can be a giant mess. We'll cover git from the ground up, including why you should git, how git sees the world, how to use git, and how to get started with [Github](https://github.com/).
+
+## FAQ
+
+### Who should come to this event?
+Anyone who's interested in learning how to use git and [Github](https://github.com/)
+
+### What should I bring?
+Yourself. If you want to follow along, bring a laptop too.
+
+### What should I install beforehand?
+If you want to follow along, you should [install git](https://git-scm.com/downloads) beforehand.
+
+### Can I use a PC, a Chromebook, or ...?
+If you can install git on it, you can use it.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+
+Feel free to shoot us an email at alan@adicu.com
+
+
+---
+facebook_url: https://www.facebook.com/events/1003945722961334/

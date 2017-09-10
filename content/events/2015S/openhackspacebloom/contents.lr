@@ -1,0 +1,19 @@
+_model: event
+---
+title: Open Hack Space - Sponsored by Bloomberg
+---
+start: 2015-01-05 20:00
+---
+end: 2015-01-06 00:00
+---
+background_image: pythondev.jpg
+---
+location: Computer Science Lounge (Mudd 4th Floor)
+---
+short_description: 
+Chill with other DevFest-ers. See tech talks and meet engineers from our sponsor companies. Learn more about the material for the day. Level up your hack. The Open Hack Space has something for everyone. You bring the enthusiasm, we’ll provide the snacks.
+---
+long_description: 
+Chill with other DevFest-ers. See tech talks and meet engineers from our sponsor companies. Learn more about the material for the day. Level up your hack. The Open Hack Space has something for everyone. You bring the enthusiasm, we’ll provide the snacks. There will be delicious dinner here before the Flask workshop, too!
+---
+facebook_url: https://www.facebook.com/events/779857615439938/

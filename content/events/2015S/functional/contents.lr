@@ -1,0 +1,33 @@
+_model: event
+---
+title: Functional Programming: An Introductory Overview
+---
+start: 2015-04-23 20:00
+---
+end: 2015-04-23 21:00
+---
+background_image: functional-cover.png
+---
+location: Hamilton 602
+---
+short_description: 
+A monad is just a monoid in the category of endofunctors, what’s the problem?
+---
+long_description: 
+Ease into Functional Programming with an hour of friendly interactive examples during which we will tackle FP lingo and concepts such as monads and monoids.
+
+Start leveraging these FP concepts and see for yourself how FP leads to better, highly parallelizable, safe, and scalable code which is easy to read!
+
+If you wish to follow along with the examples please ensure to install Scala by downloading SBT, running the installer, and then issuing these commands.
+$ sbt
+
+sbt> ++2.11.6
+
+sbt> console
+
+scala> println(“hi”)
+
+
+COMS1004/1007 is recommended but not required, as frequent references to Java will be made.
+---
+facebook_url: https://www.facebook.com/events/892770177450042/

@@ -1,0 +1,33 @@
+_model: event
+---
+title: Accessible ML: Time Series Forecasting
+---
+start: 2016-02-29 20:00
+---
+end: 2016-02-29 21:00
+---
+background_image: 
+---
+location: Hamilton 304
+---
+short_description: 
+Time series data presents its own unique challenges and insights. Join ADI and CDSS and learn how to forecast time series data! We will be modeling electricity prices using weather data.
+
+Some statistics understanding is useful, as is experience with python. We recommend that you bring a laptop and install jupyter notebook (http://jupyter.readthedocs.org/en/latest/install.html) so you can follow along with the code during the workshop.
+---
+long_description: 
+## FAQ:
+
+### What will I do?
+You'll write a program in Python which runs forecasting techniques on energy and weather data. By the end of the presentation, you'll be able to start using ARIMA regressions on time series data. 
+
+### Who should come to this event?
+Anyone with an interest in machine learning is welcome — no prior experience required! Some stats background is helpful, but not required. The code will be written in Python.
+
+### What should I bring?
+It is very helpful to bring a laptop. We recommend that you install jupyter notebook (http://jupyter.readthedocs.org/en/latest/install.html) it.
+
+### How can I contact the event organizers?
+If you have any questions, feel free to reach out to Sunny (sb3436@columbia.edu), one of the event organizers.
+---
+facebook_url: https://www.facebook.com/events/237236666615555/

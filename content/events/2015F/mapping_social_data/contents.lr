@@ -1,0 +1,21 @@
+_model: event
+---
+title: Mapping Social Data
+---
+start: 2015-11-09 19:00
+---
+end: 2015-11-09 20:00
+---
+background_image: nycmap2.jpg
+---
+location: Butler 208b
+---
+short_description: 
+Learn how to make beautiful and informative visualizations using Open Data with one of NYC’s greatest Civic Hackers.
+---
+long_description: 
+Join us for a talk by NYC Civic Hacker Chris Whong on making beautiful and informative maps with Open Data. Chris will go over some of his most interesting and impactful projects, his methodologies, and his experiences with the Civic Technology and Open Data landscape. Technical background may be helpful but is not necessary. 
+ 
+Chris will also discuss working at CartoDB, where he helps people make maps.
+---
+facebook_url: https://www.facebook.com/events/186357975037632

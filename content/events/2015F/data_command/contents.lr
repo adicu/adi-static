@@ -1,0 +1,42 @@
+_model: event
+---
+title: Data Science from the Command Line
+---
+start: 2015-12-09 20:00
+---
+end: 2015-12-09 21:00
+---
+background_image: 12321626_930764353626082_4551740073058665148_n.jpg
+---
+location: Math 502
+---
+short_description: 
+Want an introduction to Data Science or to expand your toolkit for working with data? This talk will demonstrate the use of the command line in Data Science and go over some of the most powerful tools for data manipulation that you can run from inside the terminal.
+
+
+---
+long_description: 
+FAQ:
+Who should come to this event?
+Anyone who is interested in Data Science and has basic familiarity with the command line!
+
+What should I bring?
+Bring a laptop!
+
+What should I install beforehand?
+If you want to get ahead of the game, install VirtualBox and Vagrant!
+
+What topics should I know before coming?
+Just be familiar with basic command line commands!
+
+Can I use a PC, a Chromebook, or a X computer?
+Bring any of the above! If you bring a PC with windows, you may want to look into PuTTY as a GUI for Vagrant. It will be helpful/necessary to use some of the tools we'll be using!
+You can read more about this at http://datascienceatthecommandline.com/ (just scroll down a bit)
+
+What will I learn?
+Why and how command line tools can be powerful and effective in managing data as well as some specific command line tools that will be particularly helpful.
+
+Is there a way to contact any of the event organizers if I have questions not listed here?
+Yes! If you have any questions, feel free to reach out to hank@adicu.com !
+---
+facebook_url: https://www.facebook.com/events/539466072880106/

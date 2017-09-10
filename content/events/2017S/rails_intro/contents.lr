@@ -1,0 +1,19 @@
+_model: event
+---
+title: Intro to Ruby on Rails 
+---
+start: 2017-03-08 21:00
+---
+end: 2017-03-08 22:00
+---
+background_image: giphy.gif
+---
+location: Pupin 224
+---
+short_description: 
+Come learn how to build web apps using Ruby on Rails. It's one of the most popular frameworks.
+---
+long_description: 
+No experience needed! Bring your laptop to follow along. Ruby on Rails is a popular MVC web framework used by GitHub, Airbnb, Twitch, SoundCloud, Hulu, Square and many more. Come learn how to build apps in Rails. We'll also take a look at different useful libraries for Ruby (called gems) such as devise and kaminari.
+---
+facebook_url: https://www.facebook.com/events/1740713072906318/

@@ -1,0 +1,23 @@
+_model: event
+---
+title: Segovia: Building a technology platform for emerging markets
+---
+start: 2014-11-18 19:00
+---
+end: 2014-11-18 20:00
+---
+background_image: banner-top-ninja_1.png
+---
+location: 420 Pupin
+---
+short_description: 
+Billions of people in the emerging markets are isolated from digital and physical distribution systems. This talk will address how Segovia is solving these challenges with a technology platform built for the emerging markets.
+---
+long_description: 
+This talk will address how Segovia is solving the challenges of isolated digital and physical distribution systems with a technology platform built for the emerging markets. The Segovia platform is built on the MEAN stack, with extensions to MongoDB to support intermittent connectivity, creative use of Angular directives to bind data across disparate sources, and integration of advanced biometric tools for identity resolution.
+
+Billions of people in the emerging markets are isolated from digital and physical distribution systems. Our best technical minds have yet to focus on this part of the world, and our best technologies don't work in a world with poor connectivity, unclear identities and undetected fraud.
+
+
+---
+facebook_url: https://www.facebook.com/events/1000565223294305/

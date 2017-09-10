@@ -1,0 +1,41 @@
+_model: event
+---
+title: Accessible ML: Intro to Neural Networks
+---
+start: 2016-02-24 20:00
+---
+end: 2016-02-24 21:00
+---
+background_image: 
+---
+location: Math 203
+---
+short_description: 
+Feeling all the hype around “deep learning” but not really sure what it is? ADI and CDSS are launching the first workshop in our AccessibleML series: Introduction to Neural Networks! We’ll help you master the core concepts behind artificial neural networks and understand how they can tackle a wide range of problems that defeat traditional Artificial Intelligence.
+
+
+---
+long_description: 
+## FAQ
+### Who should come to this event?
+*Anyone* with an interest in machine learning is welcome — no prior experience required!
+
+### What should I bring?
+Bring a laptop.
+
+### What should I install beforehand?
+Have Python and IPython Notebook ready to go.
+
+### What topics should I know before coming?
+Basic familiarity with Python is strongly recommended.
+
+### Can I use a PC, a Chromebook, or an X computer?
+Any of the above work!
+
+### What will I learn?
+You’ll write a program in Python which implements a neural network and classifies data from a sample dataset. By the end of this presentation, you’ll be able to start using Artificial Neural Networks to tackle problems of your own.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+If you have any questions, feel free to reach out to lucas@adicu.com or carlos.martin@columbia.edu.
+---
+facebook_url: https://www.facebook.com/events/672901209515585/

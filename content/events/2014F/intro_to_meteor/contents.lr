@@ -1,0 +1,19 @@
+_model: event
+---
+title: Columbia Creates: Intro to Meteor.js
+---
+start: 2014-10-07 21:00
+---
+end: 2014-10-07 22:00
+---
+background_image: meteor.jpeg
+---
+location: Hamilton 304
+---
+short_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together. This talk features MeteorJS, a framework that does most of the heavy lifting for you in realtime.
+---
+long_description: 
+MeteorJS allows you to program in Javascript on the client and on the server. Have all of your users be in sync automatically. Come learn about the technology powering [ADI Courses](http://courses.adicu.com/)! Knowledge of Javascript and HTML recommended.
+---
+facebook_url: https://www.facebook.com/events/690120467744638/

@@ -1,0 +1,21 @@
+_model: event
+---
+title: Intro to python data science
+---
+start: 2016-10-26 21:00
+---
+end: 2016-10-26 22:00
+---
+background_image: Top5LibrariesforDataScienceinPython.jpg
+---
+location: Hamilton 413
+---
+short_description: 
+This workshop is for students looking to get started working with data in Python.
+---
+long_description: 
+This workshop is for students looking to get started working with data in Python. We will guide attendees through a step-by-step tutorial in which we will cover importing a dataset, using Pandas DataFrames to store and manipulate data, using NumPy to perform statistical analysis, and using MatPlotLib to generate interactive visualizations. No prior experience is necessary. Students should bring their laptops and can prepare for the event by downloading PyCharm a free Python IDE, which we will be using for this tutorial. Food will be provided for attendees.
+
+
+---
+facebook_url: https://www.facebook.com/events/1115586451871026/

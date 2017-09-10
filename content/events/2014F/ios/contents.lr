@@ -1,0 +1,21 @@
+_model: event
+---
+title: Diving into iOS Development
+---
+start: 2014-11-12 21:00
+---
+end: 2014-11-12 22:00
+---
+background_image: ios.png
+---
+location: Hamilton 602
+---
+short_description: 
+Do you want to make the next awesome application for the iPhone? Come to ADI's "Diving into iOS Development" to get an overview of the tools and patterns of iOS development and how you can get started on building cool applications.
+---
+long_description: 
+Have you always wanted to make an application that all your friend could use on their phones? Are you a student who wants to learn more about cool design patterns and building interfaces for iPhones and iPads? Have you taken Advanced Programming and want to step your C programming up to the next level?
+
+If you answered yes to any of these, come to "Diving into iOS Development" with ADI! ADI member Matt Piccolella will give a talk that outlines the most important concepts in iOS development, the tools that iOS developers work with to build awesome things, and show you the places you can go to start developing. No Mac is required; you will not be required to develop along to understand the talk.
+---
+facebook_url: https://www.facebook.com/events/745569575513884/

@@ -1,0 +1,19 @@
+_model: event
+---
+title: Interactive Apps: Leveling Up with jQuery
+---
+start: 2015-02-18 20:00
+---
+end: 2015-02-18 21:30
+---
+background_image: jQuery.png
+---
+location: Hamilton 703
+---
+short_description: 
+Did you build an app at DevFest, but now you want to make it interactive and responsive? Come learn about jQuery, the most popular JavaScript library in the world that is used to make 60% of the world's top websites awesome!
+---
+long_description: 
+jQuery allows you to do incredible things on a website, including animations, handling events like scrolling and clicking, and making elements of the webpage disappear and appear. This event will provide you with the basic elements of JavaScript, followed by a run-down of the most useful features of jQuery. In the workshop, we will make a webpage that can do all sorts of awesome things. A basic knowledge of HTML is assumed, but not particularly necessary for learning jQuery.
+---
+facebook_url: 

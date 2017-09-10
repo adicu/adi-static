@@ -1,0 +1,23 @@
+_model: event
+---
+title: Skurt Tech Talk
+---
+start: 2016-10-05 20:00
+---
+end: 2016-10-05 21:00
+---
+background_image: 
+---
+location: 603 Hamilton Hall
+---
+short_description: 
+Want to know how to build software that intersects with the real world? At Skurt, we are building a variety of systems that help us move cars around cities, efficiently.  ​
+---
+long_description: 
+Want to know how to build software that intersects with the real world? At Skurt, we are building a variety of systems that help us move cars around cities, efficiently. 
+
+Our logistical infrastructure consists of 'hubs', where we maintain and store cars, along with delivery agents that move cars from point to point. Growing and maintaining this network poses a range of technical challenges.
+
+In this talk, we will focus on our dispatch-logic that optimizes for car-delivery-time and we will chat about some other challenges faced by the Skurt engineering team. ​
+---
+facebook_url: https://www.facebook.com/events/1814036862148718/

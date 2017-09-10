@@ -1,0 +1,19 @@
+_model: event
+---
+title: Platformer Workshop
+---
+start: 2015-04-03 18:30
+---
+end: 2015-04-03 20:00
+---
+background_image: platformer.png
+---
+location: 603 Hamilton
+---
+short_description: 
+Come learn how to make a platforming game that you can play in your web browser! This will be taught from the ground up and is a good first step in game development if you are familiar with introductory programming concept. Bring your laptop!
+---
+long_description: 
+Come learn how to make a platforming game that you can play in your web browser! Jump, fall, and slide your way to new knowledge while we cover the basics of platforming movement. We will be writing our game from scratch together using JavaScript and talking through some of the things that go into beginning game development. Introductory programming experience in any language recommended. Bring your laptop!
+---
+facebook_url: https://www.facebook.com/events/1636056883288969/

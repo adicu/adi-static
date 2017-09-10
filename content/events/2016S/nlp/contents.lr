@@ -1,0 +1,40 @@
+_model: event
+---
+title: Intro to Natural Language Processing
+---
+start: 2016-03-01 21:00
+---
+end: 2016-03-01 22:00
+---
+background_image: 
+---
+location: Hamilton 702
+---
+short_description: 
+Join us for a workshop on natural language processing, a field of computer science that approaches problems using textual data in a computational way. In this workshop, we'll go over some fundamental concepts and techniques used in the exciting field of Natural Language Processing!
+---
+long_description: 
+## FAQ:
+
+### Who should come to this event?
+Anyone remotely interested in learning about natural language processing! 
+
+### What should I bring?
+Bring a laptop!
+
+### What should I install beforehand?
+Ideally, have Python and Anaconda or Pip (preferably Anaconda) installed. If you want to get ahead, install the nltk, re, and matploblib libraries, but we'll also go through set up!
+  
+### What topics should I know before coming?
+Familiarity with some Python will allow you to get the most from this talk! 
+
+### Can I use a PC, a Chromebook, or an X computer?
+Bring any of the above!
+
+### What will I learn?
+You'll learn about regular expressions, parts of speech tagging, sentiment analysis, other NLP techniques, and how to apply them in python using the nltk and re modules.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+Of course! If you have any questions, feel free to reach out to lesley@adicu.com!
+---
+facebook_url: https://www.facebook.com/events/953681801346714/

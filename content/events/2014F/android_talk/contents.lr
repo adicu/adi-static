@@ -1,0 +1,27 @@
+_model: event
+---
+title: Intro to Android Development
+---
+start: 2014-11-24 20:00
+---
+end: 2014-11-24 21:00
+---
+background_image: android-fb.jpg
+---
+location: 702 Hamilton
+---
+short_description: 
+Learn how to build Android apps!
+
+---
+long_description: 
+Own an Android device? Have a great idea for a mobile app like Uber for cats? Know some Java from 1004 or 1007? Then you're all set to learn Android programming!
+ 
+Join ADI to learn about the Android development environment, basics of building apps and how to become a pro developer. Laptop not required. Just show up and we'll point you in the right direction.
+
+Find the tutorial here: https://github.com/parthibanloganathan/android-tutorial
+
+Find the slides here: http://slides.com/parthibanloganathan/intro-to-android-development#/
+
+---
+facebook_url: 

@@ -1,0 +1,19 @@
+_model: event
+---
+title: Open Hack Space
+---
+start: 2015-01-31 14:00
+---
+end: 2015-02-01 00:00
+---
+background_image: pythondev.jpg
+---
+location: Computer Science Lounge (Mudd 4th Floor)
+---
+short_description: 
+If you know Python and your computer is already to go, come by our Open Hack Space. We’ll have snacks, friends, and programming, the only things a true hacker could want!
+---
+long_description: 
+If you know Python and your computer is already to go, come by our Open Hack Space. We’ll have snacks, friends, and programming, the only things a true hacker could want!
+---
+facebook_url: https://www.facebook.com/events/779857615439938/

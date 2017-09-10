@@ -1,0 +1,46 @@
+_model: event
+---
+title: The Future of Front-End Frameworks
+---
+start: 2016-03-21 20:00
+---
+end: 2016-03-21 21:00
+---
+background_image: 
+---
+location: Hamilton 503
+---
+short_description: 
+Steve from the [The Coding Space](http://www.thecodingspace.com/) will be talking about designing web UIs and front ends.
+---
+long_description: 
+**Who should come to this event?**
+
+Anyone interested in learning about user interfaces or ReactJS and its derivatives.
+
+
+**What should I bring?**
+
+Bring a laptop!
+
+
+**What should I install beforehand?**
+Nothing, we'll be using the cloud.
+
+
+**Can I use a PC, a Chromebook, or a Mac?**
+
+Bring something that runs Chrome.
+
+
+**What will I learn?**
+
+You will learn about a bit about the history of user interface programming, the recent explosion in front-end JavaScript frameworks, and potential directions that the future is going to take us. Some technologies that we'll touch on: JavaScript, JQuery, AngularJS, ReactJS, Flux, ClojureScript/Om and Elm. We'll also do a code along with some of them.
+
+
+**Is there a way to contact any of the event organizers if I have questions not listed here?**
+
+Of course! If you have any questions, feel free to reach out to [steve@thecodingspace.com](steve@thecodingspace.com).
+
+---
+facebook_url: https://www.facebook.com/events/581314265349903/

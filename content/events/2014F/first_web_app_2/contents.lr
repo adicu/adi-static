@@ -1,0 +1,26 @@
+_model: event
+---
+title: Columbia Creates: Build Your First Web App (Part 2)
+---
+start: 2014-10-01 21:00
+---
+end: 2014-10-01 22:00
+---
+background_image: flask.png
+---
+location: Hamilton 602
+---
+short_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together. If you're a beginner, come to this event to learn to use Flask to build a webapp in Python!
+---
+long_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together. If you're a beginner, come to this event to learn to use Flask to build a webapp in Python! This is the second part in a series of lectures that will teach you to build your first web app, using our tried and true DevFest curriculum.
+
+Missed the workshop or want to get a head start? We're going to be following along with [this tutorial](http://old.adicu.com/intro-webdev/) developed by ADI's Dan Schlosser.  
+
+**Suggested Prerequisites:** You should go through [ADI's environment setup tutorial](http://squidarth.github.io/Devfest-Environment-Setup/), which will allow you to run all code in a virtual environment, using [Vagrant](https://www.vagrantup.com/). If you prefer to run you programs locally, you should be able to run [`python`](https://www.python.org/) and [`pip`](https://pip.pypa.io/en/latest/installing.html) from your terminal or command prompt.
+
+
+
+---
+facebook_url: https://www.facebook.com/events/1466079103680119/

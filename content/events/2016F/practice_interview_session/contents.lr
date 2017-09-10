@@ -1,0 +1,30 @@
+_model: event
+---
+title: Practice Interview Session
+---
+start: 2016-10-10 20:00
+---
+end: 2016-10-10 22:00
+---
+background_image: coding.jpg
+---
+location: Hamilton 516
+---
+short_description: 
+The final part of our Career Series Workshop is here!
+
+You'll be paired with an interviewer and simulate a technical interview. We'll be asking you to solve Data Structures/Algorithms interview questions and code on the spot! Please don't forget to bring a laptop! 
+---
+long_description: 
+The final part of our Career Series Workshop is here!
+
+You'll be paired with an interviewer and simulate a technical interview. We'll be asking you to solve Data Structures/Algorithms interview questions and code on the spot! Please don't forget to bring a laptop! 
+
+This event is part of the ADI Career Series, a sequence of presentations and workshops that will help prepare you for tech recruitment.
+
+1. How to Land a Tech Internship
+2. Data Structures for Interviews
+3. Algorithms for Interviews
+4. Practice Interview Sessions
+---
+facebook_url: https://www.facebook.com/events/1706221089697805/

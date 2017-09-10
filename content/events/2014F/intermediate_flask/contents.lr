@@ -1,0 +1,23 @@
+_model: event
+---
+title: Intermediate Flask
+---
+start: 2014-11-19 21:00
+---
+end: 2014-11-19 22:00
+---
+background_image: flasksq.png
+---
+location: Hamilton 602
+---
+short_description: 
+Come learn to program larger applications in Flask!  This talk is intended for anyone that has been exposed for Flask, or who is willing to learn quickly.
+---
+long_description: 
+Come learn to program larger applications in Flask! This talk is intended for anyone that has been exposed for Flask, or who is willing to learn quickly.  
+
+If you've been to any Flask talks from ADI, or have built "Hello World" in Flask, you'll be up to speed.  If not, never fear!  There will be a lightning review of Flask basics at the beginning
+
+All of the code for this workshops is [hosted online](https://github.com/danrschlosser/intermediate-flask) and is in our [resources page](https://adicu.com/resources#flask)
+---
+facebook_url: https://www.facebook.com/events/1004641396228030/

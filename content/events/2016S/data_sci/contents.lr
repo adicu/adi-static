@@ -1,0 +1,50 @@
+_model: event
+---
+title: Intro to Data Science
+---
+start: 2016-04-19 20:00
+---
+end: 2016-04-19 21:00
+---
+background_image: coding.jpg
+---
+location: Hamilton 603
+---
+short_description: 
+Heard this buzzword being thrown around and not exactly sure what it is but curious to find out? Perfect! This is the event for  you!
+---
+long_description: 
+Heard about this buzzword but not sure what it is and curious to find out? Perfect, then this event is for you!
+
+## FAQ
+
+### Who should come to this event?
+
+Anyone interested in learning what data science is!
+
+### What should I bring?
+
+Yourself and a laptop!
+
+### What should I install beforehand?
+
+R, Python, and Conda/Pip! 
+
+### What topics should I know beforehand?
+
+Basically familiariy with Python! You'll learn R with us!
+
+### Can I use PC, Linx, Mac?
+
+Any works! :) 
+
+### What will I learn?
+
+R, how to use R and Python concurrently in the data science process! 
+
+### Who can I contact about this event?
+
+Contact lesley@adicu.com!
+
+---
+facebook_url: https://www.facebook.com/events/258346201173550/

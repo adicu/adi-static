@@ -1,0 +1,21 @@
+_model: event
+---
+title: Haskell and Functional Programming
+---
+start: 2014-10-29 21:00
+---
+end: 2014-10-29 22:00
+---
+background_image: 2000px-Haskell-Logo.png
+---
+location: Hamilton 404
+---
+short_description: 
+Does recursion scare you and excite you at the same time?  Me too!  At this talk, we'll embrace that feeling as we go over the basics of the Haskell programming language, in all its thread-safe, strictly typed glory.
+
+---
+long_description: 
+Does recursion scare you and excite you at the same time?  Me too!  At this talk, we'll embrace that feeling as we go over the basics of the Haskell programming language, in all its thread-safe, strictly typed glory.  We'll write some basic programs, and I'll explain why recursion is simple and variable assignment is evil.  In Haskell, your code works the first time it compiles (or your money back)!
+
+---
+facebook_url: 

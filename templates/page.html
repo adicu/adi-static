@@ -4,7 +4,11 @@
 <div class="all-wrapper">
   <div class="hero">
     <div class="scrim"></div>
-    <i style="background-image: url({{ this.attachments.images.get(this.header) | url}});"></i>
+    {% if this.background_image %}
+    <i style="background-image: url({{ this.attachments.images.get(this.background_image) | url}});"></i>
+    {% else %}
+    <i style="background-image: url({{ ("/static/img/stock/" ~ (range(8) | random) ~ ".jpg") | asseturl}});"></i>
+    {% endif %}
   </div>
   <div class="main">
     {% block main %}

@@ -1,0 +1,23 @@
+_model: event
+---
+title:  MongoDB Tech Talk with WiCS & ADI
+---
+start: 2015-12-01 19:00
+---
+end: 2015-12-01 20:00
+---
+background_image: 11223303_1084482668238064_5726559360208984238_n.jpg
+---
+location: CS Lounge
+---
+short_description: 
+Join WiCS & ADI in a MongoDB tech talk. Learn more about MongoDB's projects from their engineers and recruiter!
+
+
+---
+long_description: 
+Underneath every MongoDB query stands the networking layer, hustling to handle connections and shepherd lowly bytes from sockets up the stack. This crucial part of the system is home to some of our deepest, darkest, oldest code. Come hear about the work we've done to re-engineer this code for asynchronous networking in MongoDB 3.2. In this talk we'll go over the big design decisions in this project, then dig into some of the technical challenges of implementing it. Like any great tech talk there will be food and SWAG!
+
+
+---
+facebook_url: https://www.facebook.com/events/824331931045290/

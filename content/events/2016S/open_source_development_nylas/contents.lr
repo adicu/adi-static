@@ -1,0 +1,23 @@
+_model: event
+---
+title: Building an Open Source Desktop App
+---
+start: 2016-03-29 20:00
+---
+end: 2016-03-29 21:00
+---
+background_image: 
+---
+location: Hamilton 702
+---
+short_description: 
+This tech talk will introduce you to new ways to build desktop applications with React, Observables, and Electron, all of which have become really popular of late.
+---
+long_description: 
+Today, Javascript has pretty much taken over your desktop. Many of the apps you use, from Slack to Spotify to Sunrise (alas), are written in Javascript. It's now easy to develop powerful native desktop apps with the latest Javascript frameworks and modern web tech. This tech talk will introduce you to new ways to build desktop applications with React, Observables, and Electron, all of which have become really popular of late.
+
+The talk will be delivered by Evan Morikawa, an engineer at Nylas. Nylas is a San Francisco-based startup building N1, an extensible email client originally forked from Atom (GitHub's hackable text editor) and now one of the most popular open-source projects on GitHub. This desktop email client is built entirely with modern web tech and allows anyone to build plugins to dramatically enhance what you can do with email. You can check it out at https://www.nylas.com/n1 and see the source code at https://github.com/nylas/N1.
+
+
+---
+facebook_url: https://www.facebook.com/events/960031974084128/

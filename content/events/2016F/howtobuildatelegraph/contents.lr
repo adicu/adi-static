@@ -1,0 +1,19 @@
+_model: event
+---
+title: How to Build a Telegraph
+---
+start: 2016-12-08 21:00
+---
+end: 2016-12-08 22:00
+---
+background_image: FB_Banner.png
+---
+location: Hamilton 303
+---
+short_description: 
+This event is the second of four workshops in ADI’s “Hardware for Everyone” series.
+---
+long_description: 
+We will explore how to build a hardware project from start to finish, from microcontroller programming to interfacing with electrical components. This event is the second of four workshops in ADI’s “Hardware for Everyone” series. You’ll be getting your hands on actual hardware to build a Morse-over-visible-light wireless device. No prior technical experience necessary.
+---
+facebook_url: https://www.facebook.com/events/1199615043410727/

@@ -1,0 +1,27 @@
+_model: event
+---
+title: Collaborative Work Using Git
+---
+start: 2016-10-26 20:00
+---
+end: 2016-10-26 21:00
+---
+background_image: git.png
+---
+location: Hamilton 707
+---
+short_description: 
+Ever wondered how to best integrate Git into your natural workflow? Come by and joing us if you'd like to learn more about how to effectively work on a group Software Engineering project. Git basics and best practices will be covered, no prior experience is required!
+
+
+---
+long_description: 
+Ever wondered how to best integrate Git into your natural workflow? Come by and joing us if you'd like to learn more about how to effectively work on a group Software Engineering project. Git basics and best practices will be covered, no prior experience is required!
+
+This talk is the second event in the ADI Software Engineering Series, a series of talks and workshops that will explore how software engineering fits into the landscape of computer science and teach you software engineering skills that aren't emphasized in your classes.
+
+1. How I Would've Done Columbia Differently
+2. Collaborating With Git
+3. Writing Good Code
+---
+facebook_url: https://www.facebook.com/events/1743291199268302/?fref=ts

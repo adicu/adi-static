@@ -1,0 +1,25 @@
+_model: event
+---
+title: Writing Good Code
+---
+start: 2016-11-03 20:00
+---
+end: 2016-11-03 21:00
+---
+background_image: wgc_cover.png
+---
+location: Hamilton 303
+---
+short_description: 
+Want to learn how to write good code? In this talk, ADI members Raymond and Lucas will introduce you to the core principles of code style, design patterns, and testing, all of which are essential for effective software engineering. Highly recommended for students with interests in software engineering or programming in any field. Basic programming experience in Java or Python suggested.
+---
+long_description: 
+Want to learn how to write good code? In this talk, ADI members Raymond and Lucas will introduce you to the core principles of code style, design patterns, and testing, all of which are essential for effective software engineering. Highly recommended for students with interests in software engineering or programming in any field. Basic programming experience in Java or Python suggested.
+
+This talk will conclude the ADI Software Engineering Series, a series of talks and workshops that will explore how software engineering fits into the landscape of computer science and teach you software engineering skills that aren't emphasized in your classes.
+
+1. How I Would've Done Columbia Differently
+2. Collaborating With Git
+3. Writing Good Code
+---
+facebook_url: https://www.facebook.com/events/1822358018051448/

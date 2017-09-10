@@ -1,0 +1,25 @@
+_model: event
+---
+title: Golang & Concurrent Programming
+---
+start: 2014-11-05 21:00
+---
+end: 2014-11-05 22:00
+---
+background_image: gopher.png
+---
+location: Hamilton 603
+---
+short_description: 
+Interested in systems programming but don't like managing your memory? Come learn the core ideas of Golang, a modern systems language designed for programmer productivity with an amazing toolset.
+---
+long_description: 
+Ever wondered how concurrent programming works?
+Tired of waiting for your AI assignment to finish running and want to speed it up?
+Interested in systems programming but don’t like managing your memory?
+
+We’ll go over the basics of asynchronous programming and the difference between async and parallel.
+This will be demonstrated using Golang, a language built with from the ground up with easy concurrency capabilities.
+We’ll also touch on some of the core ideas of Go as well as an overview of the incredible toolchain which enables Go to be a very productive language.
+---
+facebook_url: https://www.facebook.com/events/1490098051268038/

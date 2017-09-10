@@ -1,0 +1,19 @@
+_model: event
+---
+title: Demos
+---
+start: 2015-02-07 12:00
+---
+end: 2015-02-07 15:00
+---
+background_image: openhacking.jpg
+---
+location: Havemeyer 309
+---
+short_description: 
+Show off your stuff!
+---
+long_description: 
+Show off your stuff! After a long night of building, you will be able to present your hacks in front of our judges and engineer sponsors. Unlike other hackathons, every project, no matter how small, can be demoed! DevFest demos are a great place to pitch your first application. Get great feedback from our judges, and even have a chance to win a prize!
+---
+facebook_url: https://www.facebook.com/events/779857615439938/

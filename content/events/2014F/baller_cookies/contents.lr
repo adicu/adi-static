@@ -1,19 +1,19 @@
 _model: event
 ---
-title = BALLER Cookies and code
+title: BALLER Cookies and code
 ---
-start = 2014-09-03T22:00:00
+start: 2014-09-03 22:00
 ---
-end = 2014-09-04T00:00:00
+end: 2014-09-04 00:00
 ---
-background_image = ic_cookie.jpg
+background_image: ic_cookie.jpg
 ---
-location = Lerner 569
+location: Lerner 569
 ---
-short_description = 
+short_description: 
 We called this BALLER for a reason: this will be the greatest cookies and code to date.
 ---
-long_description = 
+long_description: 
 We called this BALLER for a reason: this will be the greatest cookies and code to date. Music, laughter, good times all around.... + cookie CAKE. Yes, cookie cake indeed. We’ll mostly be catching up from a summer of fun, so please come, meet up with people & enjoy yourself! For weekly C&C updates, join the [ADI Cookies and Code Facebook group](https://www.facebook.com/groups/1401066043487927/)!
 ---
-facebook_url = https://www.facebook.com/events/1471427799781942/
+facebook_url: https://www.facebook.com/events/1471427799781942/

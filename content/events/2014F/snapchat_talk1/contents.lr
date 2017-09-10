@@ -1,0 +1,24 @@
+_model: event
+---
+title: Snapchat Tech Talk
+---
+start: 2014-10-16 20:00
+---
+end: 2014-10-16 21:00
+---
+background_image: snapchat-logo.jpg
+---
+location: Hamilton 602
+---
+short_description: 
+This talk will be on how we use Google infrastructure at Snapchat, focusing on how we've scaled, built stories and chat, and dealt with performance issues to get 100s of millions of snaps served per day.
+---
+long_description: 
+Come for an exciting tech chat on how Snapchat uses existing technology to support a dynamic (and addicting) application.
+
+Snapchat is *by far* Google’s biggest App Engine customer. Join Akiva Bamberger, a Columbia Alum who works on Snapchat’s infrastructure, for a talk about they’ve utilized App Engine services to build stories and chat, and how they’ve tweaked the crap out of App Engine to scale to serve 100s of millions of snaps a day.
+
+Also there will be info on why you should work at Snapchat.
+Did we mention FREE CHIPOTLE?
+---
+facebook_url: https://www.facebook.com/events/529448707189548/

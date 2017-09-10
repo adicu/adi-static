@@ -1,0 +1,21 @@
+_model: event
+---
+title: Columbia Creates: Build Your First Web App (Part 1)
+---
+start: 2014-09-24 21:00
+---
+end: 2014-09-24 22:00
+---
+background_image: python.png
+---
+location: Hamilton 602
+---
+short_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together.  If you're a beginner, come to this event to learn Python programming basics!
+---
+long_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together. If you're a beginner, come to this event to learn Python programming basics!  This is the first part in a series of lectures that will teach you to build your first web app, using our tried and true DevFest curriculum.
+
+Missed the workshop or want to get a head start?  We're going to be following along with [this Python tutorial](http://old.adicu.com/intro-webdev/python/) developed by ADI's Matt Piccolella.
+---
+facebook_url: https://www.facebook.com/events/802343576455034/

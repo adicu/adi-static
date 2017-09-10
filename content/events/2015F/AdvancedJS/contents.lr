@@ -1,0 +1,21 @@
+_model: event
+---
+title: Intro to React.js
+---
+start: 2015-11-09 20:00
+---
+end: 2015-11-09 21:00
+---
+background_image: cuties.jpg
+---
+location: Hamilton 302
+---
+short_description: 
+Advance your JavaScript skills with this workshop hosted with a Columbia CS alum!
+---
+long_description: 
+We ask that you be familiar with some JavaScript basics (learn here: https://adicu.com/resources) and bring a laptop!
+
+We'll be beginning with application architecture, including server-side vs client-side rendering, ways of structuring JS (including Flux), different JS frameworks and useful tools, etc. Finally, we'll go into an example using React with es5!
+---
+facebook_url: https://www.facebook.com/events/1657424791188887/#

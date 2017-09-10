@@ -1,0 +1,26 @@
+_model: event
+---
+title: Visualizations in D3
+---
+start: 2015-04-10 16:00
+---
+end: 2015-04-10 18:00
+---
+background_image: d3.png
+---
+location: Butler 208b
+---
+short_description: 
+Learn to create interactive visualizations using D3.js, a powerful JavaScript Library.
+---
+long_description: 
+At the root of complex interactive visualizations are simple, data-driven shapes. This workshop will provide a basic introduction to the D3.js JavaScript library, and will walk participants through the steps necessary to use data to control and customize the visual attributes of elements in a browser. Included will be an overview of JavaScript data types, an introduction to JSON, and a summary of the D3 enter-update-exit pattern: the building blocks from which to build scalable, dynamic visualizations for a range of contexts.
+
+Experience with JavaScript is a plus, but not required. Basic experience with HTML and CSS recommended. Please bring a laptop with Google Chrome installed. 
+
+This event is co-sponsored by the Studio@Butler.
+
+
+
+---
+facebook_url: 

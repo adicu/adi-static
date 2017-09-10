@@ -1,0 +1,33 @@
+_model: event
+---
+title: Accessible ML: K-Means Clustering
+---
+start: 2016-03-02 21:00
+---
+end: 2016-03-02 22:00
+---
+background_image: 
+---
+location: Hamilton 304
+---
+short_description: 
+Unsupervised learning requires us to detect underlying patterns in the data without training our models beforehand. Join ADI and CDSS and learn how to use the k-means clustering algorithm to perform image segmentation!
+
+Some statistics understanding is useful, as is experience with Python. We recommend that you bring a laptop and install Jupyter notebook (http://jupyter.readthedocs.org/en/latest/install.html) so you can follow along with the code during the workshop.
+---
+long_description: 
+## FAQ:
+
+### What will I do?
+You'll write a program in Python which runs the k-means clustering algorithm on an image. Then, you'll be able to reconstruct the image using only the clusters obtained from the data! By the end of the presentation, you'll be able to start applying k-means on a wide variety of unsupervised learning problems.
+
+### Who should come to this event?
+Anyone with an interest in machine learning is welcome — no prior experience necessary! Some stats background is helpful, but not required. The code will be written in Python.
+
+### What should I bring?
+Please bring a laptop -- we recommend that you install jupyter notebook (http://jupyter.readthedocs.org/en/latest/install.html) on it prior to the event.
+
+### How can I contact the event organizers?
+If you have any questions, feel free to reach out to Kristy (kristy@adicu.com), or Piyali (pm2678@columbia.edu)!
+---
+facebook_url: https://www.facebook.com/events/983578581727070/

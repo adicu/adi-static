@@ -1,0 +1,19 @@
+_model: event
+---
+title: Kickoff, Lunch, & Keynote
+---
+start: 2015-01-31 12:00
+---
+end: 2015-01-31 14:00
+---
+background_image: kickoff.jpg
+---
+location: Davis Auditorium
+---
+short_description: 
+The official kickoff for DevFest! Enjoy a delicious lunch, meet and bond with other learners and hackers, and get pumped for the week ahead with a talk from our awesome keynote speaker, Stacey Mulcahy, also known as bitchwhocodes.
+---
+long_description: 
+The official kickoff for DevFest! Enjoy a delicious lunch, meet and bond with other learners and hackers, and get pumped for the week ahead with a talk from our awesome keynote speaker, Stacey Mulcahy, also known as bitchwhocodes.
+---
+facebook_url: https://www.facebook.com/events/779857615439938/

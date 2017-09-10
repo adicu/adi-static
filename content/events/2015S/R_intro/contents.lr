@@ -1,0 +1,25 @@
+_model: event
+---
+title: Intro to R
+---
+start: 2015-04-28 20:00
+---
+end: 2015-04-28 21:00
+---
+background_image: correlation.jpg
+---
+location: Hamilton 315
+---
+short_description: 
+Quick and painless intro session designed to help everyone become comfortable working in the R environment!
+---
+long_description: 
+Is that super awesome stats class still on your SSOL wish list because the homework assignments are done in R? Or R you jealous of all your friends who don't use Excel anymore for lab reports? Then come through this Tuesday for a super casual intro crash-course and emerge with one less problem in your life to worry about :D 
+
+**Recommended downloads**:
+
+R: [http://cran.r-project.org/bin/](http://cran.r-project.org/bin/)
+
+RStudio (IDE): [http://www.rstudio.com/products/rstudio/download/](http://www.rstudio.com/products/rstudio/download/)
+---
+facebook_url: https://www.facebook.com/events/1614605068785843/

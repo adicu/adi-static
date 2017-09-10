@@ -1,0 +1,24 @@
+_model: event
+---
+title: Environment Setup
+---
+start: 2015-01-31 14:00
+---
+end: 2015-01-31 17:00
+---
+background_image: setup.jpg
+---
+location: 233 Mudd
+---
+short_description: 
+Is your computer ready for the week? Not sure? We’ll help you setup your computer with an awesome development workflow that makes building apps easy. Stop by any of our three sessions to get ready to build!
+---
+long_description: 
+Is your computer ready for the week? Not sure? We’ll help you setup your computer with an awesome development workflow that makes building apps easy. Stop by any of our three hour-long sessions to get ready to build!
+Environment Setup A: 2PM-3PM
+Environment Setup B: 3PM-4PM
+Environment Setup C: 4PM-5PM
+
+
+---
+facebook_url: https://www.facebook.com/events/779857615439938/

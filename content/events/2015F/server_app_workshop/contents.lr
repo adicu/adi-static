@@ -1,0 +1,19 @@
+_model: event
+---
+title: How to build a hybrid app with the MEAN stack and Ionic
+---
+start: 2015-11-05 20:00
+---
+end: 2015-11-05 21:00
+---
+background_image: kickoff.jpg
+---
+location: Hamilton 516
+---
+short_description: 
+Workshop teaching you how to create your own fully functional server and hybrid app. Organized by ADI in collaboration with co-founder of Swipes, Helson Taveras.
+---
+long_description: 
+From creating a server with just a few commands to rapid development using AngularJS, this workshop will walk you through transforming an idea into an app. We’ll use the Node.js framework Loopback to define database models and relations with just a few keystrokes and Ionic, a framework based on Cordova and AngularJS, in unison to make a fully functional server and hybrid app.
+---
+facebook_url: https://www.facebook.com/events/765944146868429/

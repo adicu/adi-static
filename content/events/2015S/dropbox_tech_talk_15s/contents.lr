@@ -1,0 +1,19 @@
+_model: event
+---
+title: Dropbox Tech Talk: Transmogrifying Documents at Dropbox Scale
+---
+start: 2015-04-15 20:00
+---
+end: 2015-04-15 21:00
+---
+background_image: 1926826_828113583891160_2624927063611659671_n.png
+---
+location: CS Lounge
+---
+short_description: 
+Dropbox engineer Mike Lyons will be on campus talking about the technology behind Dropbox's document preview.
+---
+long_description: 
+If you open a document on the Dropbox website, you’ll notice that you can view it without installing Office. Ever wonder what’s happening behind the scenes? Dropbox engineer Mike Lyons will explain how a file becomes a preview each time you edit a document in your Dropbox. This will be an in-depth talk covering the back-end and front-end challenges of generating and rendering document previews in seconds, and how we scale this process to our more than 300 million users. Dropbox swag will be available!
+---
+facebook_url: https://www.facebook.com/events/814809905234914/

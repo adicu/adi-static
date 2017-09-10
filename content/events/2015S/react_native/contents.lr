@@ -1,0 +1,19 @@
+_model: event
+---
+title: Build iOS Apps using JavaScript with React Native
+---
+start: 2015-04-14 20:00
+---
+end: 2015-04-14 21:30
+---
+background_image: react-native-cover.jpg
+---
+location: Hamilton 602
+---
+short_description: 
+Building iOS applications has previously been quite difficult, as knowledge of Objective-C and other technologies is hard to attain. However, with Facebook's React Native, we can build native iOS applications with the simple, familiar web language of JavaScript
+---
+long_description: 
+Come out to learn how to build your first JavaScript iOS application using React Native (http://facebook.github.io/react-native/). ADI member Matt Piccolella will teach an interactive workshop in which he guide you through building your first iOS application using this amazing new technology. Using simple, easy-to-read code, applications can be developed, debugged, and styled very quickly. Only a familiarity with JavaScript is required, but it is recommended that you come with XCode installed.
+---
+facebook_url: 

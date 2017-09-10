@@ -1,0 +1,21 @@
+_model: event
+---
+title: Chrome Extensions Hackathon
+---
+start: 2016-04-12 20:00
+---
+end: 2016-04-12 21:30
+---
+background_image: farts.jpg
+---
+location: Hamilton 507
+---
+short_description: 
+Have you ever used a Chrome extension that you thought was really useful or funny? If so, come learn how to build one of your own!
+---
+long_description: 
+Chrome extensions provide a great way to add functionality to the web, which generally includes things like changing text, adding UI elements, or moving around images.
+
+Matt from ADI will be going through an introduction on how Chrome extensions work, and then show how to build some basic extensions. Then, you'll have some time to build your own Chrome extensions, and you can show them off.
+---
+facebook_url: https://www.facebook.com/events/991218217593546/

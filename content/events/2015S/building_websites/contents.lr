@@ -1,0 +1,20 @@
+_model: event
+---
+title: Build Your Own Modern Website
+---
+start: 2015-02-25 20:00
+---
+end: 2015-02-25 21:30
+---
+background_image: scroll.png
+---
+location: Pupin 420
+---
+short_description: 
+I'm sure you've seen amazing paralax websites (*cough* [DevFest](http://devfe.st/) *cough*)
+What is parallax? You need to experience it to believe it: https://i.imgflip.com/hzlp7.gif
+---
+long_description: 
+At this event on Wednesday, you will be starting the day off with a little bit of JavaScript knowledge (or a lot) and leaving with a polished, sophisticated-looking modern website using fun technology like parallax. I'm sure you've seen amazing parallax websites (*cough* http://devfe.st or http://adicu.com *cough*) or check out this gif --> https://i.imgflip.com/hzlp7.gif
+---
+facebook_url: https://www.facebook.com/events/1422173371410060/

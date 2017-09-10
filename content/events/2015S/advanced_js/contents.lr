@@ -1,0 +1,30 @@
+_model: event
+---
+title: Powered Up JavaScript
+---
+start: 2015-03-03 20:00
+---
+end: 2015-03-03 21:00
+---
+background_image: 0skrb.jpg
+---
+location: Hamilton 304
+---
+short_description: 
+Do you know how asynchronous functions work in JavaScript? Come to this workshop to learn about some more challenging topics and libraries in JavaScript, such as callbacks, async functions and promises. Soon you'll using some real powered up JavaScript!
+
+
+---
+long_description: 
+Do you know how asynchronous functions work in JavaScript? Come to this workshop to learn about some more challenging topics and libraries in JavaScript. You'll learn about:
+- callbacks
+- async functions
+- promises
+- much more!
+
+Soon you'll using some real powered up JavaScript!
+
+
+
+---
+facebook_url: https://www.facebook.com/events/1551572421779941

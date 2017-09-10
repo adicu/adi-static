@@ -1,0 +1,21 @@
+_model: event
+---
+title: Columbia Creates: Build Apps with JavaScript
+---
+start: 2014-09-23 20:00
+---
+end: 2014-09-23 21:00
+---
+background_image: javascript-gilad.png
+---
+location: Hamilton 302
+---
+short_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together. This talk features JavaScript, a powerful tool for making websites interactive!
+---
+long_description: 
+We're going to provide an overview of JavaScript and showcase some of the cool features. We'll talk about what it can be used for, both client-side and server-side. Basic programming experience recommended. Come learn about the language that powers the web.
+
+Find the slides from this talk and more JavaScript resources on [adicu.com/resources](http://adicu.com/resources).
+---
+facebook_url: https://www.facebook.com/events/773684256022112/

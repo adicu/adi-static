@@ -1,0 +1,19 @@
+_model: event
+---
+title: Build Apps with Flask
+---
+start: 2015-02-02 20:30
+---
+end: 2015-02-02 22:00
+---
+background_image: devfest-4_1.jpg
+---
+location: Schermerhorn 501
+---
+short_description: 
+Learn about Python’s premier micro-framework and how we can use it to build awesome apps fast.
+---
+long_description: 
+Learn about Python’s premier micro-framework and how we can use it to build awesome apps fast. With just a few lines of Python, you’ll have an interactive web application running using the same technology that applications like Pinterest use. We’ll start building our application for the week.
+---
+facebook_url: https://www.facebook.com/events/779857615439938/

@@ -1,0 +1,22 @@
+_model: event
+---
+title: Git Workshop
+---
+start: 2014-09-15 20:00
+---
+end: 2014-09-15 21:00
+---
+background_image: Git-Icon-1788C.png
+---
+location: Hamilton 516
+---
+short_description: 
+Coding with others? Come learn Git with ADI!
+---
+long_description: 
+Come learn Git with ADI!  Git is a very popular version control system, and is something you will almost certainly use for group projects, hackathons, and work.  We will talk about basic Git usage, how to collaborate with other people, and how to set up your own Git repository on [GitHub](https://github.com) or other hosting services.
+
+> Git Logo by [Jason Long](http://twitter.com/jasonlong), licensed under the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
+
+---
+facebook_url: https://www.facebook.com/events/844919702220155/

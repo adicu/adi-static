@@ -1,0 +1,19 @@
+_model: event
+---
+title: Building (Useless) Chrome Extensions
+---
+start: 2017-02-22 20:00
+---
+end: 2017-02-22 21:00
+---
+background_image: farts.jpg
+---
+location: Math 520
+---
+short_description: 
+Want to learn how to make your internet experience just a little better, more convenient, or even a little sillier? Learn how to do all of that by learning to build Chrome Extensions.
+---
+long_description: 
+Come learn how to build Chrome Extensions with ADI. Chrome Extensions are small programs built using Javascript, HTML, and CSS that allow you to modify or enhance the functionality of Google Chrome. ADI Member Matt Piccolella will walk you through building some (funny) Chrome Extensions that allow you to alter images, text, and other things on your favorite websites.
+---
+facebook_url: https://www.facebook.com/events/1929901787244609/

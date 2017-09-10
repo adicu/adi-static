@@ -1,0 +1,19 @@
+_model: event
+---
+title: Scientific Computing with Python
+---
+start: 2014-12-03 21:00
+---
+end: 2014-12-03 22:00
+---
+background_image: python.png
+---
+location: Hamilton 603
+---
+short_description: 
+Learn how to use Python to solve science!
+---
+long_description: 
+Trying to save humanity with your knowledge of the sciences? In hot pursuit of a Nobel Prize? Programming with Python will prove to be an indispensable tool in your scientific arsenal. Come by and learn about data analysis with Pandas, plotting with matplotlib, calculating with NumPy and SciPy, and streamlining your whole workflow with IPython. Real-world examples from astrophysics, biology, finance, and more will be demoed!
+---
+facebook_url: https://www.facebook.com/events/746462028764908/746463932098051/

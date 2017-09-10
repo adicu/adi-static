@@ -1,0 +1,24 @@
+_model: event
+---
+title: Introduction to Python
+---
+start: 2015-01-31 15:00
+---
+end: 2015-01-31 19:00
+---
+background_image: openhacking.jpg
+---
+location: 627 Mudd
+---
+short_description: 
+A quick introduction to Python, one of the programming languages we will using for the week. If you have programmed before, whether on your own or in a class, this will provide all the necessary knowledge to build your first app. Any of the four sessions will do!
+---
+long_description: 
+A quick introduction to Python, one of the programming languages we will using for the week. If you have programmed before, whether on your own or in a class, this will provide all the necessary knowledge to build your first app. Any of the four sessions will do!
+
+Intro to Python A: 3-4PM
+Intro to Python B: 4-5PM
+Intro to Python C: 5-6PM
+Intro to Python D: 6-7PM
+---
+facebook_url: https://www.facebook.com/events/779857615439938/

@@ -1,0 +1,39 @@
+_model: event
+---
+title: Collaborating with Git
+---
+start: 2016-04-11 20:00
+---
+end: 2016-04-11 21:00
+---
+background_image: 
+---
+location: Hamilton 516
+---
+short_description: 
+If you've ever wanted a better way to work on projects with your friends, this is the workshop for you! Using Git and Github effectively will serve you well in class projects, hackathons, and software engineering jobs.
+---
+long_description: 
+Working on group projects is hard, but it doesn't have to be! Learn how to use Git and GitHub to your advantage. After this workshop, you'll be able to jump into a project with friends and have no worries about working on different things at the same time.
+
+## FAQ:
+
+### Who should come to this event?
+Programmers of all levels who want to get more comfortable collaborating with other people.
+
+### What should I bring?
+Bring a laptop!
+
+### What should I install beforehand?
+You should [install and set up Git](https://help.github.com/articles/set-up-git/) and [make an account on GitHub](https://www.github.com).
+
+### What topics should I know before coming?
+Basic familiarity with Git is required. If you're not yet familiar with Git, check out [this interactive 15-minute tutorial](https://try.github.io/levels/1/challenges/1) by GitHub! There are a lot of other basic tutorials out there, too.
+
+### Can I use a PC, a Chromebook, or an X computer?
+Any of the above work!
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+If you have any questions, please reach out to evan@adicu.com.
+---
+facebook_url: https://www.facebook.com/events/944049079006101/

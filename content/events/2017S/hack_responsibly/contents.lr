@@ -1,0 +1,33 @@
+_model: event
+---
+title: How to Hack (Responsibly!)
+---
+start: 2017-04-19 20:00
+---
+end: 2017-04-19 21:00
+---
+background_image: 14457_3sbagqrz.jpg
+---
+location: CS Lounge
+---
+short_description: 
+Interested in learning about security or solving security-related problems? Join us as we solve CTF puzzles and learn how to hack (responsibly, of course)!
+---
+long_description: 
+Exploit this piece of code to view its call stack:
+
+    #include <stdio.h>
+
+    int main(int argc, char **argv) {
+
+        printf(argv[1]);
+
+        printf("\n");
+
+        return 0;
+
+    }
+
+Interested in learning about security or solving similar security-related problems as the one above? Join us as we solve CTF puzzles and learn how to hack (responsibly, of course)!
+---
+facebook_url: https://www.facebook.com/events/271660909928097/

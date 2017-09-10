@@ -1,0 +1,21 @@
+_model: event
+---
+title: Why Software Sucks
+---
+start: 2016-11-22 21:00
+---
+end: 2016-11-22 22:00
+---
+background_image: why-software-sucks.png
+---
+location: Mathematics 417
+---
+short_description: 
+What is hardware, and what can it do that software can’t? We’ll teach you how to start building technology that isn’t constrained to your laptop.
+---
+long_description: 
+What is hardware, and what can it do that software can’t? We’ll teach you how to start building technology that isn’t constrained to your laptop. We'll begin with the nitty-gritty of microcontrollers and electronics, and move up towards fabrication and machine design.
+
+This event is the first of four workshops in ADI’s “Hardware for Everyone” series. No prior technical experience necessary.
+---
+facebook_url: https://www.facebook.com/events/1690151101300571/

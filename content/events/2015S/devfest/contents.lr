@@ -1,0 +1,19 @@
+_model: event
+---
+title: DevFest
+---
+start: 2015-01-31 12:00
+---
+end: 2015-02-07 17:00
+---
+background_image: devfest-4_1.jpg
+---
+location: Davis Auditorium
+---
+short_description: 
+If you've ever wanted to build an app, now's the time to learn.  DevFest is Columbia's week-long workshop series and hackathon. Register today!
+---
+long_description: 
+Long Description.  This should be **four to five** sentences.  Feel free to include [links](http://adicu.com).
+---
+facebook_url: https://www.facebook.com/events/779857615439938/?ref=br_tf

@@ -1,0 +1,19 @@
+_model: event
+---
+title: Columbia Creates: Intro to AngularJS
+---
+start: 2014-09-29 20:00
+---
+end: 2014-09-29 21:00
+---
+background_image: pic_angular.jpg
+---
+location: Hamilton 304
+---
+short_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together. This talk features AngularJS, a powerful framework that will allow you to build awesome webapps.
+---
+long_description: 
+Want to build a webapp? Prefer to keep everything client-side? Come to this workshop to learn about AngularJS, a powerful webapp framework. A basic knowledge of HTML and JS is recommended.
+---
+facebook_url: https://www.facebook.com/events/543905535739869/

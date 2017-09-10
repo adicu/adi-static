@@ -1,0 +1,19 @@
+_model: event
+---
+title: Intro to Flask
+---
+start: 2017-03-07 19:00
+---
+end: 2017-03-07 20:00
+---
+background_image: 1sid.jpg
+---
+location: TBD
+---
+short_description: 
+Ever wondered what important paradigms are present in web development? Come learn the basics of API use and the client/server model while learning Flask basics!
+---
+long_description: 
+Long Description.  This should be **four to five** sentences.  Feel free to include [links](http://adicu.com).
+---
+facebook_url: https://www.facebook.com/events/1889181141361599/

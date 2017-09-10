@@ -1,0 +1,20 @@
+_model: event
+---
+title: Columbia Creates: Intro to D3.js
+---
+start: 2014-10-14 21:00
+---
+end: 2014-10-14 22:00
+---
+background_image: d3.png
+---
+location: Hamilton 303
+---
+short_description: 
+Never got around to learning how to make awesome data visualizations for the web? Come to this workshop to get a taste of D3.js - a powerful JavaScript library used to bring data to life.
+
+---
+long_description: 
+Columbia Creates is a program to get Columbia students at all levels of experience making apps together. This talk features D3.js, a JavaScript visualization library.  Got awesome data you want to display? Interested in, but never got around to learning how to make awesome visualizations for the web? Come to this workshop to get a taste of D3.js - a powerful JavaScript library used to bring data to life. This workshop assumes very basic HTML / CSS knowledge, and zero prior knowledge about D3.js.
+---
+facebook_url: https://www.facebook.com/events/1528838430695243/
