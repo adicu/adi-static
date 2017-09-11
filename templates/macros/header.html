@@ -1,0 +1,53 @@
+{% macro navbar() %}
+{% set navbar_items = [
+    ('Events', [
+        ('Weekly Events', '/events'),
+        ('DevFest', 'http://devfe.st'),
+        ('Startup Career Fair', '/jobfair'),
+    ]),
+    ('Resources', [
+        ('Learn to Code', '/resources'),
+        ('README', 'https://drive.google.com/file/d/0B5GqfuUnlZZmR21NTzRZdmExMDA/view')
+    ]),
+    ('Programs', [
+        ('Mentorship', '/mentorship'),
+    ]),
+    ('Contact', '/contact')
+] %}
+<div class="ribbon">
+    <div class="ribbon-inner">
+        {% for i in range(8) %}
+        <span class="ribbon-strip blue"></span>
+        <span class="ribbon-strip yellow"></span>
+        <span class="ribbon-strip green"></span>
+        {% endfor %}
+    </div>
+</div>
+<div class="navbar">
+  <div class="content">
+    <nav>
+      <a href="/">
+        <img class="logo" src="{{ '/static/img/logo/tiny.png' | asseturl }}">
+      </a>
+      <div class="right">
+        <ul class="menu">
+          {% for label, target in navbar_items %}
+          {% if target is string %}
+          <li><a href="{{target}}"><div>{{ label }}</div></a></li>
+          {% else %}
+          <li class="navbar-dropdown">
+            <div class="dropdown-label">{{label}}</div>
+            <ul class="dropdown-items">
+              {% for label, url in target %}
+              <li><a href="{{url}}"><div>{{ label }}</div></a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+{% endmacro %}

@@ -1,4 +1,5 @@
-{% import "macros.html" as macros %}
+{% from "macros/header.html" import navbar %}
+{% from "macros/footer.html" import footer %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -44,12 +45,12 @@
   </head>
   <body>
     <div class="all-wrapper">
-      {{ macros.navbar() }}
+      {{ navbar() }}
 
       {%- block body -%}{%- endblock body -%}
 
       <div class="footer-spacer"></div>
-      {{ macros.footer() }}
+      {{ footer() }}
     </div>
   </body>
 </html>
