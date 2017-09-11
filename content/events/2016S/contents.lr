@@ -1,5 +1,5 @@
 _model: dummy
 ---
-_discoverable: no
+_discoverable: yes
 ---
 _hidden: no

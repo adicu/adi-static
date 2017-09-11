@@ -3,3 +3,4 @@ name = adi-static
 
 [packages]
 lektor-webpack-support = 0.3
+lektor-markdown-highlighter = 0.1
