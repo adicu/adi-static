@@ -13,9 +13,11 @@
   <div class="main">
     {% block main %}
     {{ this.body }}
+    {% if this.callouts %}
     {% for blk in this.callouts.blocks %}
     {{ blk }}
     {% endfor %}
+    {% endif %}
     {% endblock main %}
   </div>
 </div>
