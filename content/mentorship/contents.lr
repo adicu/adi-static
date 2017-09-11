@@ -19,7 +19,7 @@ body:
   </div>
 </section>
 ---
-callouts:
+sections:
 
 #### callout ####
 color: yellow

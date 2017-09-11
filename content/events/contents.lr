@@ -1,1 +1,30 @@
-_model: events
+_model: page
+---
+sections:
+
+#### event_triples ####
+type: Upcoming
+----
+color: blue
+----
+length: 3
+#### callout ####
+color: green
+----
+title: Cookies and Code
+----
+description: Come meet the community. We bring the cookies, you bring the code!
+----
+link: 
+----
+image: cookiemonster.jpg
+----
+button: Find the next Cookies & Code
+#### event_triples ####
+type: Past
+----
+color: blue
+----
+length: 9
+---
+title: Weekly Events

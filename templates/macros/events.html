@@ -1,0 +1,28 @@
+{% from "macros/utils.html" import background_image %}
+
+{% macro event_brief(event) %}
+{% if event.start.strftime("%Y-%m-%d") == event.end.strftime("%Y-%m-%d") %}
+<p><i class="fa fa-calendar"></i>{{ event.start.strftime("%A, %B %d %Y") }}</p>
+<p><i class="fa fa-clock-o"></i>
+{{ event.start.strftime("%H:%M") }} &ndash; {{ event.end.strftime("%H:%M") }}</p>
+{% else %}
+<p><i class="fa fa-calendar"></i>Start: {{ event.start.strftime("%A, %B %d %Y %H:%M") }} </p>
+<p><i class="fa fa-calendar"></i>End: {{ event.end.strftime("%A, %B %d %Y %H:%M") }}</p>
+{% endif %}
+
+<p><i class="fa fa-map-marker"></i>{{ event.location }}</p>
+{% endmacro %}
+
+{% macro event_small(event) %}
+<div class="event small-event small">
+  <div class="inner">
+    <a href="{{ event | url }}">{{ background_image(event, event.background_image) }}</a>
+    <div class="text">
+      <a href="{{ event | url }} }}">
+        <h5>{{ event.title }}</h5>
+      </a>
+      <div class="details">{{ event_brief(event) }} </div>
+    </div>
+  </div>
+</div>
+{% endmacro %}

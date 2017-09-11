@@ -1,0 +1,7 @@
+{% macro background_image(record, image) %}
+{% if image %}
+<i class="image" style="background-image: url({{ record.attachments.images.get(image) | url}});"></i>
+{% else %}
+<i class="image" style="background-image: url({{ ("/static/img/stock/" ~ (range(8) | random) ~ ".jpg") | asseturl}});"></i>
+{% endif %}
+{% endmacro %}

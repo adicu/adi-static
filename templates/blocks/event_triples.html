@@ -1,0 +1,29 @@
+{% from "macros/events.html" import event_small %}
+
+{% if this.type == "Upcoming" %}
+{% set events = upcoming_events.all()[:this.length] %}
+{% elif this.type == "Past" %}
+{% set events = past_events.all()[:this.length] %}
+{% endif %}
+
+<section>
+  <div class="content">
+    <div class="section-header">
+      <h4>{{ this.type }} Events</h4>
+      <span class="bar {{ this.color }}"></span>
+    </div>
+{% if (events | length) > 1 %}
+    {% for row in events | batch(3) %}
+    <div class="triple">
+      {% for event in row %}
+      {{ event_small(event) }}
+      {% endfor %}
+    </div>
+    {% endfor %}
+{% elif this.type == "Upcoming" %}
+    <h3 class="no-events">We don't have any more events planned yet. Stay tuned for more events coming soon!</h3>
+{% elif this.type == "Past" %}
+    <h3 class="no-events">Oops! We seem to have lost our past events. How embarassing...</h3>
+{% endif %}
+  </div>
+</section>

@@ -1,20 +1,17 @@
 {% extends "base.html" %}
+{% from "macros/utils.html" import background_image %}
 
 {%- block body -%}
 <div class="all-wrapper">
   <div class="hero">
     <div class="scrim"></div>
-    {% if this.background_image %}
-    <i style="background-image: url({{ this.attachments.images.get(this.background_image) | url}});"></i>
-    {% else %}
-    <i style="background-image: url({{ ("/static/img/stock/" ~ (range(8) | random) ~ ".jpg") | asseturl}});"></i>
-    {% endif %}
+    {{ background_image(this, this.background_image) }}
   </div>
   <div class="main">
     {% block main %}
     {{ this.body }}
-    {% if this.callouts %}
-    {% for blk in this.callouts.blocks %}
+    {% if this.sections %}
+    {% for blk in this.sections.blocks %}
     {{ blk }}
     {% endfor %}
     {% endif %}
