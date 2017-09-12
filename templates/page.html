@@ -8,14 +8,22 @@
     {{ background_image(this, this.background_image) }}
   </div>
   <div class="main">
-    {% block main %}
-    {{ this.body }}
+    {% block top_card %}
+    <section class="card top-card">
+      <div class="content">
+        <h1 class="page-title"> {{ this.title }} </h1>
+        {% if this.top_card %} {{ this.top_card }} {% endif %}
+      </div>
+    </section>
+    {% endblock %}
+
     {% if this.sections %}
     {% for blk in this.sections.blocks %}
     {{ blk }}
     {% endfor %}
     {% endif %}
-    {% endblock main %}
+
+    {% block end_card %}{% endblock %}
   </div>
 </div>
 {% endblock body %}

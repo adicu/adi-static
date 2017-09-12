@@ -1,24 +1,26 @@
 {% from "macros/events.html" import event_brief %}
 {% extends "page.html" %}
 
-{% block main %}
-<section class="single single-event">
+{% block top_card %}
+<section class="card top-card">
   <div class="content">
-    <h1 class="page-title">{{ this.title }}</h1>
-    <div class="details">
-      <div class="section-header">
-        <h4>Details</h4>
-        <span class="bar yellow"></span>
+    <h1 class="page-title"> {{ this.title }} </h1>
+    <div class='single single-event'>
+      <div class="details">
+        <div class="section-header">
+          <h4>Details</h4>
+          <span class="bar yellow"></span>
+        </div>
+        {{ event_brief(this) }}
+        {% if this.facebook_url %}
+        <a href="{{this.facebook_url}}">
+          <div class="button blue">
+            <div class="icon-facebook">
+              <i class="fa fa-facebook"></i>RSVP on Facebook</div></div></a>
+        {% endif %}
       </div>
-      {{ event_brief(this) }}
-      {% if this.facebook_url %}
-      <a href="{{this.facebook_url}}">
-        <div class="button blue">
-          <div class="icon-facebook">
-            <i class="fa fa-facebook"></i>RSVP on Facebook</div></div></a>
-      {% endif %}
+      <div class="text"> {{ this.long_description }} </div>
     </div>
-    <div class="text"> {{ this.long_description }} </div>
   </div>
 </section>
-{% endblock main %}
+{% endblock top_card %}
