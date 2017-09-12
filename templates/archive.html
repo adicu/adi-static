@@ -1,0 +1,47 @@
+{% from "macros/utils.html" import background_image %}
+{% from "macros/events.html" import event_brief %}
+{% extends "page.html" %}
+
+{% block top_card %}
+<section class="card top-card">
+  <div class="content">
+    <h1 class="page-title"> {{ this.title }} </h1>
+
+    {% for event in this.pagination.items %}
+    <div class="event large">
+      <div class="image">
+        <a href="{{ event | url }}">
+          {{ background_image(event, event.background_image, cls=False) }}
+        </a>
+      </div>
+      <div class="text">
+        <h2><a href="{{ event | url }}">{{ event.title }}</a></h2>
+        <p class="description">{{ event.short_description }}</p>
+        <div class="details">{{ event_brief(event) }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <div class="content">
+    <div class="pagination">
+      <div class="previous">
+        {% if this.pagination.has_prev %}
+        <a href="{{ this.pagination.prev | url }}">
+          <p><i class="fa fa-chevron-left"></i>Newer</i></p>
+        </a>
+        {% endif %}
+      </div>
+      <div class="next">
+        {% if this.pagination.has_next %}
+        <a href="{{ this.pagination.next | url }}">
+          <p><i class="fa fa-chevron-right"></i>Older</i></p>
+        </a>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -6,10 +6,19 @@ from lektor.project import Project
 
 
 class FakeQuery(object):
-    def __init__(self, data, limit=None):
-        self.data = data
-        if limit:
-            self.data = self.data[:limit]
+    def __init__(self, data, *args, **kwargs):
+        self._data = data
+        self._limit = kwargs.pop("limit", None)
+        self._offset= kwargs.pop("offset", 0)
+
+        assert len(args) == 0
+        assert len(kwargs) == 0
+
+    @property
+    def data(self):
+        if self._limit:
+            return self._data[self._offset: self._offset + self._limit]
+        return self._data[self._offset:]
     def count(self):
         return len(self.data)
     def all(self):
@@ -20,9 +29,9 @@ class FakeQuery(object):
     def __iter__(self):
         return iter(self.data)
     def limit(self, limit):
-        return FakeQuery(self.data, limit)
+        return FakeQuery(self._data, limit=limit, offset=self._offset)
     def offset(self, offset):
-        return FakeQuery(self.data[offset:])
+        return FakeQuery(self._data, limit=self._limit, offset=offset)
 
 
 class EventsPlugin(Plugin):

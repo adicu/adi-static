@@ -1,7 +1,9 @@
-{% macro background_image(record, image) %}
+{% macro background_image(record, image, cls=True) %}
 {% if image %}
-<i class="image" style="background-image: url({{ record.attachments.images.get(image) | url}});"></i>
+<i style="background-image: url({{ record.attachments.images.get(image) | url}});"
+   {% if cls -%}class="image"{% endif-%} ></i>
 {% else %}
-<i class="image" style="background-image: url({{ ("/static/img/stock/" ~ (range(8) | random) ~ ".jpg") | asseturl}});"></i>
+<i style="background-image: url({{ ("/static/img/stock/" ~ (range(8) | random) ~ ".jpg") | asseturl}});"
+   {% if cls -%}class="image"{% endif-%} ></i>
 {% endif %}
 {% endmacro %}

@@ -23,7 +23,9 @@
     {% endfor %}
     {% endif %}
 
-    {% block end_card %}{% endblock %}
+    {% block bottom_card %}
+    {% if this.bottom_card %} {{ this.bottom_card }} {% endif %}
+    {% endblock %}
   </div>
 </div>
 {% endblock body %}
