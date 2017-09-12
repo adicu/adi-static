@@ -3,7 +3,9 @@
 <i style="background-image: url({{ record.attachments.images.get(image) | url}});"
    {% if cls -%}class="image"{% endif-%} ></i>
 {% else %}
-<i style="background-image: url({{ ("/static/img/stock/" ~ (range(8) | random) ~ ".jpg") | asseturl}});"
+{# Add end of URL so consecutive pages in pagination record get different backgrounds #}
+{% set offset = record.contents.bytes + ((record | url)[-2] | int(36)) %}
+<i style="background-image: url({{ ("/static/img/stock/" ~ (offset % 8) ~ ".jpg") | asseturl}});"
    {% if cls -%}class="image"{% endif-%} ></i>
 {% endif %}
 {% endmacro %}
