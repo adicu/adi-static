@@ -1,0 +1,13 @@
+_model: resource
+---
+name: Eloquent Javascript
+---
+description: *Eloquent Javascript*, written by the venerable Marijn Haverbeke, is by far the best Javascript book out there. Although geared towards an introductory audience, it's also a great way for experienced programmers to dig deep and learn to love one of the most ubiquitous languages ever.
+---
+level: beginner
+---
+topic: languages
+---
+type: book
+---
+url: http://eloquentjavascript.net/

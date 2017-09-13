@@ -1,0 +1,13 @@
+_model: resource
+---
+name: MDN Web Reference
+---
+description: The most comprehensive and up-to-date reference to web technologies you'll find on the web. Even grizzled veterans have these pages bookmarked for handy reference!
+---
+level: reference
+---
+topic: web
+---
+type: webpage
+---
+url: https://developer.mozilla.org/en-US/docs/Web

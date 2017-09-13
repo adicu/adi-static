@@ -1,0 +1,13 @@
+_model: resource
+---
+name: MDN Learning Area
+---
+description: A series of articles from Mozilla (the creators of Firefox) to teach beginners web development. Web development can be hard, and Mozilla's tried hard to provide enough detail to help you through.
+---
+level: beginner
+---
+topic: web
+---
+type: webpage
+---
+url: https://developer.mozilla.org/en-US/docs/Learn

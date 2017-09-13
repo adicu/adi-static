@@ -1,0 +1,9 @@
+name: Back to Basics (Joel on Software)
+---
+description: In this classic essay, Joel Spolsky walks through the low-level implementation of strings in C and demonstrates **why** knowing these low-level details matter.
+---
+level: intermediate
+---
+topic: general
+---
+url: https://www.joelonsoftware.com/2001/12/11/back-to-basics/

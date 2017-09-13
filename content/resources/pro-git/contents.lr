@@ -1,0 +1,11 @@
+name: Pro Git
+---
+description: Pro Git, available freely on the git website, is an excellent book covering all aspects of git, including use and inner workings. A must-read to fully understand git.
+---
+level: intermediate
+---
+topic: languages
+---
+type: book
+---
+url: https://git-scm.com/book/en/v2

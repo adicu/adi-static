@@ -1,0 +1,11 @@
+_model: resource
+---
+name: You Could Have Invented Monads!
+---
+description: Monads have a reputation for being mysterious and impenetrable abstractions, which is a shame (we blame the name). In reality, as this blog post will show,  monads are actually quite natural and common abstractions. Although the blog post uses Haskell syntax for its examples, minimal actual knowledge of Haskell is required.
+---
+level: advanced
+---
+topic: languages
+---
+url: http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html

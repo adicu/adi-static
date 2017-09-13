@@ -1,0 +1,13 @@
+name: The Architecture of Open Source Applications
+---
+description:
+
+One of the only books of its kind, AOSA walks you through the design and architecture of some of the most famous open source projects. Most software engineers only ever work with a handful of programs deeply, and so they never learn from the mistakes and lessons from experienced practitioners. Reading AOSA is one way of preventing that from happening to you. 
+---
+level: intermediate
+---
+topic: general
+---
+type: book
+---
+url: http://aosabook.org/en/index.html

@@ -1,0 +1,13 @@
+_model: resource
+---
+name: Python Data Science Handbook
+---
+description: The *Python Data Science Handbook* is a great resource for learning Python for data science. Although it covers the basics of data science, this book is more oriented towards exploring the **tools** that Python provides rather than teaching data science to an introductory audience.
+---
+level: intermediate
+---
+topic: data
+---
+type: book
+---
+url: https://jakevdp.github.io/PythonDataScienceHandbook/

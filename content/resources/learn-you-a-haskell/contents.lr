@@ -1,0 +1,13 @@
+_model: resource
+---
+name: Learn You a Haskell
+---
+description: *Learn You a Haskell (For Great Good)* is a fun and playful introduction to Haskell, the granddaddy of functional programming.
+---
+level: intermediate
+---
+topic: languages
+---
+type: book
+---
+url: http://learnyouahaskell.com/

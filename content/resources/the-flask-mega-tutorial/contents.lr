@@ -1,0 +1,19 @@
+_model: resource
+---
+name: The Flask Mega-Tutorial
+---
+_discoverable: yes
+---
+_hidden: no
+---
+description: Flask, ADI's tool of choice, is a simple and lightweight web framework for Python that lets you quickly develop web applications. This 18-part tutorial starts from Hello World and takes you all the way into a production-ready web app. Requires prior knowledge of Python.
+---
+level: intermediate
+---
+tags: web
+---
+type: webpage
+---
+url: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+---
+topic: web

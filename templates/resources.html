@@ -1,0 +1,113 @@
+{% extends "page.html" %}
+
+{% block js %}
+{{ super() }}
+<script type="text/javascript">
+$(function() {
+  $('.slideto').click(function(e) {
+    e.preventDefault();
+    id = $(this).attr('href');
+    $('html,body').animate({
+      scrollTop: $(id).offset().top
+    }, 200);
+  });
+});
+</script>
+{% endblock %}
+
+{% set fa_icons = {
+  "video": "fa-video-camera", "webpage": "fa-bookmark", "book": "fa-book"
+} %}
+aria-hidden="true"></i>
+{% macro render_resource(resource) %}
+<div class="resource">
+  <div class="inner">
+    <h5>
+      <a href="{{ resource.url }}" target="_blank">{{ resource.name }}
+        <i class="fa {{ fa_icons[resource.type] }}" aria-hidden=true></i>
+      </a>
+    </h5>
+    <h6> Level: {{ resource.level | capitalize }} </h6>
+    <p>{{ resource.description }}</p>
+  </div>
+</div>
+{% endmacro%}
+
+{% block top_card %}
+<section>
+  <div class="top-card">
+    <div class="content">
+      <h1 class="page-title">Resources</h1>
+      <div class="section-header">
+        <h4>Learn to Code</h4>
+        <span class="bar green"></span>
+      </div>
+      <h3>There are tons of different technologies out there, each of
+          which has its own tutorials, documentation, and community
+          (good or bad). ADI has done the hard work of tracking down the
+          best resources, summarizing each technology, and identify
+          critical concepts based on goal so that the only thing
+          standing between you and the implementation of your idea is a
+          little bit of learning and hard work.</h3>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="content">
+    <div class="section-header">
+      <h4>DevFest Curriculum</h4>
+      <span class="bar yellow"></span>
+    </div>
+    <h3><a href="http://devfe.st">DevFest</a> is ADI's annual week-long
+        workshop series and hackathon. At DevFest 2016, we showcased the
+        <a href="http://learn.devfe.st/">DevFest Tracks</a>, featuring 6
+        original, self-paced, open-source tutorials in a variety of
+        topics such as web development, iOS development, and data
+        science. <strong>The DevFest Tracks are the perfect place to
+        start learning new skills!</strong>  Read more about the
+        educational methodology and design behind the DevFest curriculum <a
+        href="https://medium.com/stories-from-adi/rethinking-education-at-devfest-d5fac7c303be#.vsg6g05sc">here</a>.</h3>
+  </div>
+</section>
+
+<section class="sidebar-wrapper">
+  <div class="full">
+    <div class="sidebar">
+      <div class="inner">
+        <h4>Topics</h4>
+        <span class="bar gray"></span>
+        <ul class="topics">
+          {% for topic in this.children.distinct("topic") %}
+          <li data-topic="{{ topic }}">
+            <a class="slideto" href="#{{ topic }}">
+              <p>{{ topic | capitalize }}</p></a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% for topic in this.children.distinct("topic") %}
+    <section class="topic with-sidebar" id="{{ topic }}">
+      <div class="content">
+        <div class="section-header">
+          <h4>{{ topic }}</h4>
+          {% set colors = ['green', 'yellow', 'blue'] %}
+          <span class="bar {{ colors[loop.index0 % 3] }}"></span>
+        </div>
+        <ul class="resources">
+          {% for row in this.children.filter(F.topic == topic) | batch(2) %}
+          <li>
+            {% for resource in row %}
+            {{ render_resource(resource) }}
+            {% endfor %}
+          </li>
+          {% endfor%}
+        </ul>
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</section>
+
+
+{% endblock %}
