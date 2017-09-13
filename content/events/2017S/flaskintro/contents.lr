@@ -14,6 +14,6 @@ short_description:
 Ever wondered what important paradigms are present in web development? Come learn the basics of API use and the client/server model while learning Flask basics!
 ---
 long_description: 
-Long Description.  This should be **four to five** sentences.  Feel free to include [links](http://adicu.com).
+Learn about Python’s premier micro-framework and how we can use it to build awesome apps fast. With just a few lines of Python, you’ll have an interactive web application running using the same technology that applications like Pinterest use. We’ll start building our application for the week.
 ---
 facebook_url: https://www.facebook.com/events/1889181141361599/
