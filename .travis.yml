@@ -16,8 +16,8 @@ install:
 - pip install git+https://github.com/lektor/lektor@d5670a824f2d6436080d7d44632b9388ac355fbc
 - gem install html-proofer
 script:
-- lektor build -f webpack -O _output
-- htmlproofer _output --file-ignore "/events/201[456].*/"
+- lektor build -f webpack -O $HOME/output
+- htmlproofer $HOME/output --file-ignore "/events/201[456].*/"
 
 before_deploy:
 - test $TRAVIS_BRANCH == "master"
@@ -33,6 +33,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: lektor build -f webpack && lektor deploy beta
+  script: lektor deploy -O $HOME/output beta
   on:
     branch: master
