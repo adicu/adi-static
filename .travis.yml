@@ -1,0 +1,15 @@
+language: python
+python: 3.5
+install:
+- pip install lektor
+- gem install html-proofer
+script:
+- lektor build -f webpack -O _output
+- htmlproofer _output --file-ignore "/events/201[456].*/"
+cache:
+  directories:
+    - $HOME/.cache/pip
+    - webpack/node_modules
+
+notifications:
+  email: false
