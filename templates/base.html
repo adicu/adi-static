@@ -1,7 +1,7 @@
 {% from "macros/header.html" import navbar %}
 {% from "macros/footer.html" import footer %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     {%- block head -%}
     {%- block meta -%}
@@ -15,10 +15,6 @@
     <meta name="description" content="{{ description }}">
     <meta name="author" content="ADI">
     <meta name="robots" content="index, follow">
-
-    <meta itemprop="name" content="{{ title }}">
-    <meta itemprop="description" content="{{ description }}">
-    <meta itemprop="image" content="{{ logo_url }}">
 
     <meta property="og:title" content="{{ title }}">
     <meta property="og:type" content="website">
