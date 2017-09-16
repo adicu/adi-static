@@ -1,0 +1,23 @@
+_model: event
+---
+title: Firebase for Web Apps
+---
+start: 2017-04-18 20:00
+---
+end: 2017-04-18 21:00
+---
+facebook_url: https://facebook.com/events/278520325892580
+---
+location: Mathematics 417
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/17880319_1288596677842846_5974777037346382815_o.jpg?oh=7a5342728e2cf4a96bdf3338d8eca97a&oe=5A1279FB
+---
+short_description: Move fast...
+---
+long_description: Move fast...
+Forget about infrastructure...
+Make smart, data-driven decisions...
+
+Join us for a quick walkthrough of what Firebase is and how you can use it to get started with your own application. Dive in here: https://firebase.google.com
+
+Some prior expierence with JS/programming would be helpful, but is not necessary.

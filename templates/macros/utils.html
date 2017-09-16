@@ -1,6 +1,9 @@
 {% macro background_image(record, image, cls=True) %}
-{% if image %}
+{% if image and record.attachments.images.get(image) %}
 <i style="background-image: url({{ record.attachments.images.get(image) | url}});"
+   {% if cls -%}class="image"{% endif-%} ></i>
+{% elif image %}
+<i style="background-image: url({{ image }});"
    {% if cls -%}class="image"{% endif-%} ></i>
 {% else %}
 {# Add end of URL so consecutive pages in pagination record get different backgrounds #}

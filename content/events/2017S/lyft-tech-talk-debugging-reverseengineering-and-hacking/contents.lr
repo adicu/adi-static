@@ -1,0 +1,22 @@
+_model: event
+---
+title: Lyft Tech Talk: Debugging, Reverse-Engineering, and Hacking
+---
+start: 2017-02-02 21:00
+---
+end: 2017-02-02 22:00
+---
+facebook_url: https://facebook.com/events/379768382401184
+---
+location: CS Lounge
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/16403116_1221378701231311_1803353829095956925_o.jpg?oh=8a98fb6fe3fcebbf5f6d55b546198753&oe=5A12FD00
+---
+short_description: Lyft has hundreds of software engineers, dozens of whom work on its iOS and Android mobile apps. In these production mobile apps, where logs aren’t easily accessible, debugging is super hard. Join Adam Reis, SEAS ‘15 and software engineer on Lyft’s Autonomous team, in taking a look at some of the tools Lyft uses to debug its mobile apps, and exploring how these tools can be used to reverse-engineer (and sometimes hack) all of your favorite apps.
+---
+long_description: Lyft has hundreds of software engineers, dozens of whom work on its iOS and Android mobile apps. In these production mobile apps, where logs aren’t easily accessible, debugging is super hard. Join Adam Reis, SEAS ‘15 and software engineer on Lyft’s Autonomous team, in taking a look at some of the tools Lyft uses to debug its mobile apps, and exploring how these tools can be used to reverse-engineer (and sometimes hack) all of your favorite apps.
+
+***This talk is a DevFest-affiliated event.
+Register for DevFest at: www.devfe.st
+DevFest Facebook Event: 
+https://www.facebook.com/events/1213061988729196/

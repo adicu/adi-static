@@ -1,0 +1,26 @@
+_model: event
+---
+title: Intro to Data Warehousing
+---
+start: 2017-02-01 22:00
+---
+end: 2017-02-01 23:00
+---
+facebook_url: https://facebook.com/events/250619022030464
+---
+location: Mudd 644
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/16252482_1218166938219154_813418365544689553_o.jpg?oh=8ed3d61aa2fed89808a443a5287486e5&oe=5A54765D
+---
+short_description: ***This event is one of DevFest's tech electives. Tech electives give you the opportunity to diversify your learning in addition to the DevFest Tracks.
+---
+long_description: ***This event is one of DevFest's tech electives. Tech electives give you the opportunity to diversify your learning in addition to the DevFest Tracks.
+
+Data warehousing is the backbone of large scale data management and analysis. This workshop will be an intro to relational databases and the structure and applications of data warehouses. We will also walk through creating tables in SQL and writing basic queries.
+
+Taught by Mary Nosa.
+No prior experience required!
+
+Register for DevFest at: www.devfe.st
+DevFest Facebook Event: 
+https://www.facebook.com/events/1213061988729196/
