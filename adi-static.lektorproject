@@ -4,3 +4,9 @@ name = adi-static
 [packages]
 lektor-webpack-support = 0.3
 lektor-markdown-highlighter = 0.1
+
+[servers.beta]
+name = Beta
+enabled = yes
+default = no
+target = rsync://adicu.com:/srv/beta/public_html/
