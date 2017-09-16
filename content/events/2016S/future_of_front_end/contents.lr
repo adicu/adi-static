@@ -10,10 +10,10 @@ background_image:
 ---
 location: Hamilton 503
 ---
-short_description: 
-Steve from the [The Coding Space](http://www.thecodingspace.com/) will be talking about designing web UIs and front ends.
+short_description: Steve from the [The Coding Space](http://www.thecodingspace.com/) will be talking about designing web UIs and front ends.
 ---
-long_description: 
+long_description:
+
 **Who should come to this event?**
 
 Anyone interested in learning about user interfaces or ReactJS and its derivatives.
@@ -40,7 +40,7 @@ You will learn about a bit about the history of user interface programming, the 
 
 **Is there a way to contact any of the event organizers if I have questions not listed here?**
 
-Of course! If you have any questions, feel free to reach out to [steve@thecodingspace.com](steve@thecodingspace.com).
+Of course! If you have any questions, feel free to reach out to [steve@thecodingspace.com](mailto:steve@thecodingspace.com).
 
 ---
 facebook_url: https://www.facebook.com/events/581314265349903/

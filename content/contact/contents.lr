@@ -28,6 +28,6 @@ bottom_card:
 </div>
 <div class="button-group centered">
   <div class="blue button">
-    <a href="mailto://hello@adicu.com">hello@adicu.com</a>
+    <a href="mailto:hello@adicu.com">hello@adicu.com</a>
   </div>
 </div>

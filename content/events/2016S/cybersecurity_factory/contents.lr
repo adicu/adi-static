@@ -10,12 +10,14 @@ background_image: cyber.jpg
 ---
 location: CS Lounge, Mudd
 ---
-short_description: 
+short_description:
+
 Security has become a hot topic given recent hacks of major corporations, like Sony, Home Depot, and Anthem. However, those hacks were easily preventable with the correct technology. The problem is that many times, security research is not being properly commercialized. Learn about some cutting-edge security research being done in universities, their barriers to adoption, and the need to bridge the gap between academia and industry, motivating the formation of a cybersecurity accelerator focused on students, [The Cybersecurity Factory](http://cybersecurityfactory.com/). Dinner will be provided.
 
 
 ---
-long_description: 
+long_description:
+
 [The Cybersecurity Factory](http://cybersecurityfactory.com/) is a 10-week summer program in collaboration with Highland Capital Partners that gives teams a $20,000 convertible note investment, office space, and security mentorship from industry leaders at companies like Cisco, Imprivata, Akamai, and SAP. We help early stage security companies through 1) providing the support and mentoring to transform technical ideas into a commercial solution and 2) building a network of entrepreneurs and investors interested in security companies. 
 
 We had a successful pilot program last year, and we are running it again! Here are the stories from the two teams that participated in our pilot program: [Aikicrypt](https://medium.com/cybersecurity-factory/you-can-t-start-a-company-at-your-desk-12ceb2443484#.iggrilwqz) and [Oblivilock](https://medium.com/cybersecurity-factory/piloting-our-startup-during-cybersecurity-factory-s-pilot-summer-29952b2892d6#.rjb5d6wj7).
@@ -24,7 +26,7 @@ This year, we are introducing a [pilot program](https://medium.com/cybersecurity
 
 More information about the program is available on [website](http://cybersecurityfactory.com/). Applications are now [open](https://cybersecurityfactory.wufoo.com/forms/qt8cv0t1hgi4up/)! The early deadline is 2/26, and after that, we will accept applications on a rolling basis until 3/21.
 
-If anyone has questions about Cybersecurity Factory, don’t hesitate to reach out to [team@cybersecurityfactory.com](team@cybersecurityfactory.com).
+If anyone has questions about Cybersecurity Factory, don’t hesitate to reach out to [team@cybersecurityfactory.com](mailto:team@cybersecurityfactory.com).
 
 
 ---
