@@ -1,11 +1,13 @@
 {% from "macros/events.html" import event_brief %}
-{% extends "page.html" %}
+{% from "macros/utils.html" import background_image %}
+{% extends "base.html" %}
 
-{% block top_card %}
-<section class="card top-card">
-  <div class="content">
-    <h1 class="page-title"> {{ this.title }} </h1>
-    <div class='single single-event'>
+{% block body %}
+<div class="main no-hero">
+  <div class='single single-event'>
+    <div class="content">
+      {{ background_image(this, this.background_image) }}
+      <h1 align="center"> {{ this.title }} </h1>
       <div class="details">
         <div class="section-header">
           <h4>Details</h4>
@@ -22,5 +24,5 @@
       <div class="text"> {{ this.long_description }} </div>
     </div>
   </div>
-</section>
-{% endblock top_card %}
+</div>
+{% endblock %}
