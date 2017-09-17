@@ -1,0 +1,31 @@
+{% from "macros/utils.html" import background_image %}
+{% extends "page.html" %}
+
+{% macro render_member(member)%}
+<div class="small">
+  <div class="inner">
+    {{ background_image(member, member.portrait, cls="portrait") }}
+  </div>
+  <div style="text-align: center" class="text">
+    <h5> {{ member.name }}, {{ member.school }} {{ member.year }} </h5>
+  </div>
+</div>
+{% endmacro %}
+
+{% block bottom_card %}
+<section>
+  <div class="content">
+    <div class="section-header">
+      <h4>Committee Members</h4>
+      <span class="bar green"></span>
+      {% for row in this.children | batch(2) %}
+      <div class="triple">
+        {% for member in row %}
+        {{ render_member(member) }}
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

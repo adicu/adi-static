@@ -1,0 +1,12 @@
+_model: committee
+---
+title: Committee
+---
+blurbs:
+
+#### blurb ####
+title: About
+----
+blurb: Hello
+----
+color: blue

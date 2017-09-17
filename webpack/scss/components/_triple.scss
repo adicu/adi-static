@@ -5,8 +5,6 @@ $image-separation: 1.25rem;
         @include clearfix;
     }
 
-    $small-event-width: 18.75rem;
-    $small-image-height: 14.0625rem;
     .small {
         margin-top: 0;
         margin-bottom: 0;
@@ -30,6 +28,13 @@ $image-separation: 1.25rem;
             padding-bottom: 56.25%;
             height: 0;
             margin-bottom: .625rem;
+            background-position: center center;
+            background-size: cover;
+        }
+        .portrait {
+            display: block;
+            width: 18rem;
+            height: 18rem;
             background-position: center center;
             background-size: cover;
         }
