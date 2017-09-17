@@ -11,6 +11,10 @@ cache:
     - $HOME/.cache/pip
     - webpack/node_modules
 
+before_install:
+- export TZ="US/Eastern"
+- date
+
 install:
 # Install from git commit while waiting for bugfix release
 - pip install git+https://github.com/lektor/lektor@d5670a824f2d6436080d7d44632b9388ac355fbc
