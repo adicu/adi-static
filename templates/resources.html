@@ -18,7 +18,6 @@ $(function() {
 {% set fa_icons = {
   "video": "fa-video-camera", "webpage": "fa-bookmark", "book": "fa-book"
 } %}
-aria-hidden="true"></i>
 {% macro render_resource(resource) %}
 <div class="resource">
   <div class="inner">
@@ -33,43 +32,7 @@ aria-hidden="true"></i>
 </div>
 {% endmacro%}
 
-{% block top_card %}
-<section>
-  <div class="top-card">
-    <div class="content">
-      <h1 class="page-title">Resources</h1>
-      <div class="section-header">
-        <h4>Learn to Code</h4>
-        <span class="bar green"></span>
-      </div>
-      <h3>There are tons of different technologies out there, each of
-          which has its own tutorials, documentation, and community
-          (good or bad). ADI has done the hard work of tracking down the
-          best resources, summarizing each technology, and identify
-          critical concepts based on goal so that the only thing
-          standing between you and the implementation of your idea is a
-          little bit of learning and hard work.</h3>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="content">
-    <div class="section-header">
-      <h4>DevFest Curriculum</h4>
-      <span class="bar yellow"></span>
-    </div>
-    <h3><a href="http://devfe.st">DevFest</a> is ADI's annual week-long
-        workshop series and hackathon. At DevFest 2016, we showcased the
-        <a href="http://learn.devfe.st/">DevFest Tracks</a>, featuring 6
-        original, self-paced, open-source tutorials in a variety of
-        topics such as web development, iOS development, and data
-        science. <strong>The DevFest Tracks are the perfect place to
-        start learning new skills!</strong>  Read more about the
-        educational methodology and design behind the DevFest curriculum <a
-        href="https://medium.com/stories-from-adi/rethinking-education-at-devfest-d5fac7c303be#.vsg6g05sc">here</a>.</h3>
-  </div>
-</section>
-
+{% block bottom_card %}
 <section class="sidebar-wrapper">
   <div class="full">
     <div class="sidebar">
@@ -108,6 +71,4 @@ aria-hidden="true"></i>
     {% endfor %}
   </div>
 </section>
-
-
 {% endblock %}

@@ -2,28 +2,6 @@ _model: page
 ---
 title: CS Mentorship Program
 ---
-top_card:
-
-  <div class="section-header">
-    <h4>About</h4>
-    <span class="bar blue"></span>
-  </div>
-</div>
-<div class="content">
-  <h3>The Columbia CS Mentorship Program pairs students interested in
-  computer science & technology with passionate and experienced students
-  in a wide array of fields. Pairs are chosen based on the compatibility
-  of the mentor and mentee’s personal, academic, and professional
-  interests. Our goal is to foster a strong network and support system
-  for students within the greater CS community at Columbia. The events
-  help students learn about what it's like to be a CS major on campus,
-  meet peers of diverse backgrounds within the CS community to earn
-  advice, and build friendships!</h3>
-
-  <h3>Mentees are generally first- and second-years, while mentors can
-  be anyone with experience who is willing provide one-on-one feedback
-  with mentees.</h3>
----
 sections:
 
 #### callout ####
@@ -52,3 +30,20 @@ image: mentee.jpg
 button: 
 ---
 background_image: mentorship.jpg
+---
+blurbs:
+
+#### blurb ####
+title: About
+----
+blurb:
+
+<h3>
+The Columbia CS Mentorship Program pairs students interested in computer science & technology with passionate and experienced students in a wide array of fields. Pairs are chosen based on the compatibility of the mentor and mentee’s personal, academic, and professional interests. Our goal is to foster a strong network and support system for students within the greater CS community at Columbia. The events help students learn about what it's like to be a CS major on campus, meet peers of diverse backgrounds within the CS community to earn advice, and build friendships!
+</h3>
+
+<h3>
+Mentees are generally first- and second-years, while mentors can be anyone with experience who is willing provide one-on-one feedback with mentees.
+</h3>
+----
+color: blue

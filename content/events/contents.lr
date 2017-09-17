@@ -29,16 +29,6 @@ length: 6
 ---
 title: Weekly Events
 ---
-top_card:
-
-  <div class="section-header">
-    <h4>About</h4>
-    <span class="bar yellow"></span>
-  </div>
-</div>
-<div class="content">
-  <h3>ADI runs a wide variety of events, from alternative tech treks into the city to technical workshops to community meet and greets!</h3>
----
 bottom_card:
 
 <section>
@@ -52,3 +42,12 @@ bottom_card:
     </div>
   </div>
 </section>
+---
+blurbs:
+
+#### blurb ####
+title: About
+----
+blurb: <h3>ADI runs a wide variety of events, from alternative tech treks into the city to technical workshops to community meet and greets!</h3>
+----
+color: yellow

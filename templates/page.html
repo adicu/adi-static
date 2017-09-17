@@ -8,14 +8,30 @@
     {{ background_image(this, this.background_image) }}
   </div>
   <div class="main">
-    {% block top_card %}
     <section class="card top-card">
       <div class="content">
         <h1 class="page-title"> {{ this.title }} </h1>
-        {% if this.top_card %} {{ this.top_card }} {% endif %}
+        {% block top_card %}{% endblock %}
+        {% if not self.top_card() and this.blurbs.blocks %}
+        {{ this.blurbs.blocks[0] }}
+        {% endif %}
       </div>
+      {% if not self.top_card() and this.blurbs %}
+      {% for blk in this.blurbs.blocks[1:] %}
+      <section>
+        <div class="content"> {{ blk }} </div>
+      </section>
+      {% endfor %}
+      {% endif %}
     </section>
-    {% endblock %}
+
+    {% if self.top_card() and this.blurbs%}
+    {% for blk in this.blurbs.blocks %}
+    <section>
+      <div class="content"> {{ blk }} </div>
+    </section>
+    {% endfor %}
+    {% endif %}
 
     {% if this.sections %}
     {% for blk in this.sections.blocks %}

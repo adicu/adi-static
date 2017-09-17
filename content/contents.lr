@@ -6,8 +6,6 @@ title: All things tech at Columbia
 ---
 background_image: devfest.jpg
 ---
-top_card:
----
 sections:
 
 #### callout ####
@@ -22,3 +20,18 @@ link: /resources
 image: learntocode.jpg
 ----
 button: Resources
+----
+blurbs:
+---
+blurbs:
+
+#### blurb ####
+title: What We Do
+----
+blurb:
+
+<h3>
+ADI is a student group at Columbia that aims to foster a community of students interested in technology.
+</h3>
+----
+color: yellow
