@@ -1,14 +1,17 @@
 {% macro background_image(record, image, cls=True) %}
+{% set url = image_url(record, image) %}
+<i style="background-image: url({{ url }});"
+   {% if cls -%}class="image"{% endif-%}></i>
+{% endmacro %}
+
+{% macro image_url(record, image) %}
 {% if image and record.attachments.images.get(image) %}
-<i style="background-image: url({{ record.attachments.images.get(image) | url}});"
-   {% if cls -%}class="image"{% endif-%} ></i>
+{{ record.attachments.images.get(image) | url}}
 {% elif image %}
-<i style="background-image: url({{ image }});"
-   {% if cls -%}class="image"{% endif-%} ></i>
+{{ image }}
 {% else %}
 {# Add end of URL so consecutive pages in pagination record get different backgrounds #}
 {% set offset = record.contents.bytes + ((record | url)[-2] | int(36)) %}
-<i style="background-image: url({{ ("/static/img/stock/" ~ (offset % 8) ~ ".jpg") | asseturl}});"
-   {% if cls -%}class="image"{% endif-%} ></i>
+{{ ("/static/img/stock/" ~ (offset % 8) ~ ".jpg") | asseturl}}
 {% endif %}
 {% endmacro %}
