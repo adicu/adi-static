@@ -1,5 +1,7 @@
 # ADI Website
 
+[![Build Status](https://travis-ci.org/adicu/adi-static.svg?branch=master)](https://travis-ci.org/adicu/adi-static)
+
 ADI is the tech club at Columbia. This is our new exciting static
 version of the site, built with [Lektor](http://getlektor.com/)!
 
