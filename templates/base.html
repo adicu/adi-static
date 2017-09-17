@@ -24,7 +24,7 @@
     {%- endblock meta-%}
 
     {%- block fonts %}
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href='//fonts.googleapis.com/css?family=Roboto+Slab|Merriweather+Sans:300,400,700,400italic' rel='stylesheet' type='text/css'>
     {%- endblock fonts -%}
 
@@ -32,11 +32,6 @@
     <link rel="stylesheet" type="text/css" href="{{ '/static/css/reset.min.css' | asseturl }}">
     <link rel="stylesheet" type="text/css" href="{{ '/static/gen/styles.css' | asseturl }}">
     {%- endblock css-%}
-
-    {%- block js %}
-<script async src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script async src="//cdn.jsdelivr.net/mobile-detect.js/0.4.3/mobile-detect.min.js"></script>
-    {%- endblock js -%}
     {%- endblock head -%}
   </head>
   <body>
@@ -48,5 +43,13 @@
       <div class="footer-spacer"></div>
       {{ footer() }}
     </div>
+
+    {%- block js %}
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.7/mobile-detect.min.js"></script>
+<script src="{{ "/static/gen/app.js" | asseturl }}"></script>
+    {%- endblock js -%}
   </body>
 </html>
