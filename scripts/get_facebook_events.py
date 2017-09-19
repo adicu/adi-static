@@ -1,6 +1,7 @@
 import datetime as dt
 import json
 import os
+import shutil
 import string
 
 import requests
@@ -53,18 +54,36 @@ class Event(object):
 
     @property
     def path(self):
+        root = self.root()
+        if root is not None:
+            return os.path.join(root, self.slug)
+
+    def root(self):
         root = os.path.join(
             os.path.dirname(os.path.realpath(__file__)), "../content/events")
         for key, (start, end) in SEMESTERS.items():
             if start <= self.start.date() <= end:
-                return "{}/{}/{}/".format(root, key, self.slug)
+                return os.path.join(root, key)
 
     def write(self):
         if not self.path:
             return
-        if not os.path.isdir(self.path):
-            os.makedirs(self.path)
-        with open(self.path + "contents.lr", "w") as fout:
+
+        # delete old event
+        root = self.root()
+        for d in os.listdir(root):
+            d = os.path.join(root, d)
+            if not os.path.isdir(d):
+                continue
+            with open(os.path.join(d, "contents.lr")) as fin:
+                parts = fin.read().split('\n---\n')
+            if any(part == "facebook_url: " + self.facebook_url
+                   for part in parts):
+                shutil.rmtree(os.path.join(d))
+
+        # create new event
+        os.makedirs(self.path)
+        with open(os.path.join(self.path, "contents.lr"), "w") as fout:
             fout.write("_model: event")
             fout.write("\n---\n")
             fout.write("title: " + self.title)
