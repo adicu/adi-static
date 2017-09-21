@@ -44,7 +44,6 @@ class Event(object):
 
         self.facebook_url = "https://facebook.com/events/" + event['id']
         self.background_image = event["cover"]["source"]
-        self.background_image = "?".join(self.background_image.split("?")[:-1])
         self.location = event["place"]["name"]
 
     @property
