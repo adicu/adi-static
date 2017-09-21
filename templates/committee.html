@@ -18,7 +18,7 @@
     <div class="section-header">
       <h4>Committee Members</h4>
       <span class="bar green"></span>
-      {% for row in this.children | batch(2) %}
+      {% for row in this.children | batch(3) %}
       <div class="triple">
         {% for member in row %}
         {{ render_member(member) }}
