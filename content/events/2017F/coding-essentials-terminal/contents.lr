@@ -1,0 +1,47 @@
+_model: event
+---
+title: Coding Essentials: Terminal
+---
+start: 2017-09-25 19:00
+---
+end: 2017-09-25 20:00
+---
+facebook_url: https://facebook.com/events/133833977246893
+---
+location: Lerner 568
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-0/p480x480/21640908_1448926578476521_611709648527361070_o.jpg?oh=58061930f27d2ffb530b69be52c57054&oe=5A5CB478
+---
+short_description: Interested in learning how to get started with terminal? Skip the boring documentation, and come to this interactive workshop! We’ll show you how to quickly get started with these terminal commands, tools, and programs, as well as share some tips, tricks, and cool games to help you on your journey to becoming a terminal ninja!
+---
+long_description: Interested in learning how to get started with terminal? Skip the boring documentation, and come to this interactive workshop! We’ll show you how to quickly get started with these terminal commands, tools, and programs, as well as share some tips, tricks, and cool games to help you on your journey to becoming a terminal ninja!
+
+## FAQs: 
+
+### Who should come to this event? 
+Anyone who wants to get started with basic terminal commands, tools, and programs.  
+
+### What should I bring? 
+Bring your laptop because the workshop will be interactive; we will be using the terminal as we go along.
+
+### What topics should I know before coming? 
+Absolutely nothing! 
+
+### Should I install something before coming? 
+During the workshop we will briefly cover vim. If you’re using a mac or a linux machine vim should already be installed. For windows users you can follow this tutorial (only do up to step 2)
+https://gist.github.com/danwagnerco/36295f7f92f4bd5506fa
+Setting this up can be hard, so if you can't figure it out, no worries! Either email erik@adicu.com or come in to the workshop and we'll help you out!
+
+### Can I use a PC, a Chromebook, or a X computer? 
+Yes!
+
+### What will I learn? 
+You'll learn the basics of terminal, including how to navigate, useful commands and tools, and how to get started in vim.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here? 
+
+### If you have any questions about this event please contact erik@adicu.com
+
+Clarifying Terms:
+Terminal: An interface in which allows you to communicate with a computer with text commands. 
+Vim: A text editor that is commonly used for programming.
