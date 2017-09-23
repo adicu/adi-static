@@ -10,7 +10,7 @@
   <div class="main">
     <section class="card top-card">
       <div class="content">
-        <h1 class="page-title"> {{ this.title }} </h1>
+        <h1 class="page-title">{{ this.title }}</h1>
         {% block top_card %}{% endblock %}
         {% if not self.top_card() and this.blurbs %}
         {{ this.blurbs.blocks[0] }}
