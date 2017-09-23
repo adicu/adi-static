@@ -28,9 +28,10 @@ Bring your laptop because the workshop will be interactive; we will be using the
 Absolutely nothing! 
 
 ### Should I install something before coming? 
-During the workshop we will briefly cover vim. If you’re using a mac or a linux machine vim should already be installed. For windows users you can follow this tutorial (only do up to step 2)
-https://gist.github.com/danwagnerco/36295f7f92f4bd5506fa
-Setting this up can be hard, so if you can't figure it out, no worries! Either email erik@adicu.com or come in to the workshop and we'll help you out!
+Windows users should try to intall MobaXterm, which has a built in terminal. You can download it here (either the portable or intaller work fine):
+http://mobaxterm.mobatek.net/download-home-edition.html
+
+If you can't get it done before the workshop, no worries! Either email erik@adicu.com or come in to the workshop and we'll help you out!
 
 ### Can I use a PC, a Chromebook, or a X computer? 
 Yes!
