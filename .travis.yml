@@ -37,6 +37,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: lektor deploy -O $HOME/output beta
+  script: lektor deploy -O $HOME/output production
   on:
     branch: master
