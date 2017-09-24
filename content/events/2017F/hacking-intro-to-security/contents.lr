@@ -1,0 +1,36 @@
+_model: event
+---
+title: Hacking 101: Intro to Security
+---
+start: 2017-09-27 20:00
+---
+end: 2017-09-27 21:00
+---
+facebook_url: https://facebook.com/events/171198983431228
+---
+location: Mudd CS Lounge
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/21765545_1450811314954714_2255320760215301997_o.jpg?oh=563ef00468767639b59fd139e434c2cb&oe=5A53B6D8
+---
+short_description: **NOTE: This is NOT a tech talk.
+---
+long_description: **NOTE: This is NOT a tech talk.
+
+Join us as we delve into the large field of security – we will go over the many branches and subfields within "hacking," some of which are more obscure than others. We will also go over how to get started if you are interested in this field!
+
+FAQs:
+What topics should I know before coming?
+****No prior knowledge necessary!****
+Who should come to this event?
+- Anyone who is interested in security, both offensive and defensive. You do NOT have to be a cs major!
+What should I bring?
+- Nothing but yourself and maybe some friends :)
+What will I learn?
+- What it means when people say "security," how many different subfields there are, and how to get started.
+Will we be talking about privacy?
+- No, we will not be talking about privacy policy or breaches or anything like that: this talk is strictly about security as a career field.
+Is there a way to contact any of the event organizers if I have questions not listed here?
+- Email Vivian at vivian@adicu.com
+
+Clarifying Terms:
+Security - the field of securing both software or hardware from malicious attacks, including but not limited to malware analysis, cryptography, reverse engineering, and more.
