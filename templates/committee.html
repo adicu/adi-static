@@ -3,8 +3,10 @@
 
 {% macro render_member(member)%}
 <div class="small">
-  <div class="inner">
-    {{ background_image(member, member.portrait, cls="portrait") }}
+  <div class="inner" style="text-align: center">
+    <center>
+     {{ background_image(member, member.portrait, cls="portrait") }}
+    </center>
   </div>
   <div style="text-align: center" class="text">
     <h5> {{ member.name }}, {{ member.school }} {{ member.year }} </h5>
