@@ -1,0 +1,57 @@
+_model: event
+---
+title: Intro to Docker
+---
+start: 2017-10-02 20:00
+---
+end: 2017-10-02 21:00
+---
+facebook_url: https://facebook.com/events/704842096382068
+---
+location: Lerner 568
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/21766775_1451652644870581_7292492736345236345_n.jpg?oh=a2134bb6215c725a30f38c3b8bb94a2e&oe=5A483775
+---
+short_description: Join ADI for an awesome hour of learning docker technology. This event will include a combination of brief lecture and interactive exercises. 
+---
+long_description: Join ADI for an awesome hour of learning docker technology. This event will include a combination of brief lecture and interactive exercises. 
+
+## FAQs: 
+
+### Who should come to this event? 
+Anyone who wants to learn another tool used in application deployment!
+
+### What should I bring? 
+Bring a laptop and a mind that’s ready to be blown. 😎
+
+### What topics should I know before coming? 
+Basic Linux knowledge is strongly recommended. 
+
+### Should I install something before coming? 
+Yes! 
+
+For Windows: https://store.docker.com/editions/community/docker-ce-desktop-windows
+If this doesn't work, try the following link: 
+https://docs.docker.com/toolbox/toolbox_install_windows/
+
+For Mac:
+https://store.docker.com/editions/community/docker-ce-desktop-mac
+
+For Linux: 
+You can install docker through the  package manager -- thename to download is docker-ce.
+
+PLEASE NOTE: If you can't get it done before the workshop, no worries! Either email alan@adicu.com or come in to the workshop and we'll help you out!
+
+### Can I use a PC, a Chromebook, or a X computer? 
+Yes, but MacOS or Linux is recommended!
+
+### What will I learn? 
+You'll learn how to containerize apps to run on pretty much any computer without going through dependency hell.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here? 
+If you have any questions about this event please contact lesley@adicu.com
+
+Clarifying Terms:
+- Dependency: When an object uses a function of another object. 
+- Containers: A container is an executable package that includes everything needed to run it, without the need to depend on objects outside of the image. 
+- Docker: A software technology that provides containers to developers!
