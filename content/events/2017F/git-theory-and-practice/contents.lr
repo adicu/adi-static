@@ -1,0 +1,19 @@
+_model: event
+---
+title: Git: Theory and Practice
+---
+start: 2017-10-04 20:00
+---
+end: 2017-10-04 21:00
+---
+facebook_url: https://facebook.com/events/827774700743594
+---
+location: Hamilton 303
+---
+short_description: Git tracks collaborative work on projects through a beautiful distributed graph theory model. Unfortunately, nobody knows how it works and just types in random shell commands instead. 
+---
+long_description: Git tracks collaborative work on projects through a beautiful distributed graph theory model. Unfortunately, nobody knows how it works and just types in random shell commands instead. 
+
+In this talk, we'll cover the worldview that Git uses to organize your work, spend some time putting on a firm theoretical foundation (and show where it goes wrong), before doubling back on how you can use this newfound knowledge in your daily life.
+
+This will **not** be an introduction to Git -- you should be already be familiar with basic git commands (like `git add` or `git commit`). This will focus on taking basic practitioners to the next level.
