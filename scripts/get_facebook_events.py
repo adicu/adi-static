@@ -43,7 +43,10 @@ class Event(object):
         self.short_description = self.long_description.split("\n")[0]
 
         self.facebook_url = "https://facebook.com/events/" + event['id']
-        self.background_image = event["cover"]["source"]
+        if "cover" in event:
+            self.background_image = event["cover"]["source"]
+        else:
+            self.background_image = ""
         self.location = event["place"]["name"]
 
     @property
@@ -97,8 +100,9 @@ class Event(object):
             fout.write("\n---\n")
             fout.write("location: " + self.location)
             fout.write("\n---\n")
-            fout.write("background_image: " + self.background_image)
-            fout.write("\n---\n")
+            if self.background_image:
+                fout.write("background_image: " + self.background_image)
+                fout.write("\n---\n")
 
             fout.write("short_description: " + self.short_description)
             fout.write("\n---\n")
