@@ -10,6 +10,8 @@ facebook_url: https://facebook.com/events/827774700743594
 ---
 location: Hamilton 303
 ---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22141233_1458622677506911_5262135297308973519_n.jpg?oh=ec2fe912250ec95991385780c774f797&oe=5A487C28
+---
 short_description: Git tracks collaborative work on projects through a beautiful distributed graph theory model. Unfortunately, nobody knows how it works and just types in random shell commands instead. 
 ---
 long_description: Git tracks collaborative work on projects through a beautiful distributed graph theory model. Unfortunately, nobody knows how it works and just types in random shell commands instead. 
