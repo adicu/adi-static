@@ -21,7 +21,7 @@ install:
 - gem install html-proofer
 script:
 - lektor build -f webpack -O $HOME/output
-- htmlproofer $HOME/output --file-ignore "/events/201[456].*/"
+- htmlproofer $HOME/output --file-ignore "/events/201[456].*/,/archive/pages/\d+/"
 
 before_deploy:
 - test $TRAVIS_BRANCH == "master"
@@ -37,6 +37,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: lektor deploy -O $HOME/output beta
+  script: lektor deploy -O $HOME/output production
   on:
     branch: master

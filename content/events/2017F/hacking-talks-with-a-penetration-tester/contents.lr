@@ -1,0 +1,34 @@
+_model: event
+---
+title: Hacking 101: Talks with a Penetration Tester
+---
+start: 2017-10-06 15:00
+---
+end: 2017-10-06 16:00
+---
+facebook_url: https://facebook.com/events/350861618692211
+---
+location: Lerner 568
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22254756_1458261454209700_4954543616412391069_o.jpg?oh=dd82a2ce7d02da1f1e481e22479514fa&oe=5A866B71
+---
+short_description: Penetration testing is the art of hacking a company in every single way possible – and getting paid by them to do so. Pentesters, who work on offensive security "red teams," are hired to expose the vulnerabilities of companies, including Google, Facebook, Salesforce, and wherever else you can think of, through hacking!
+---
+long_description: Penetration testing is the art of hacking a company in every single way possible – and getting paid by them to do so. Pentesters, who work on offensive security "red teams," are hired to expose the vulnerabilities of companies, including Google, Facebook, Salesforce, and wherever else you can think of, through hacking!
+
+Come hear from a former red teamer, who worked full time for a year on pentesting one of the nations biggest conglomerates, and learn how he did it / hear cool hacking stories.
+
+FAQs:
+What topics should I know before coming?
+***** No prior knowledge necessary! *****
+Who should come to this event?
+- Anyone who is interested in offensive security.
+What should I bring?
+- Bring a laptop if you'd like to follow along, but otherwise just come to listen!
+What will I learn?
+- Some methods and stories from offensive security.
+Is there a way to contact any of the event organizers if I have questions not listed here?
+- Email Vivian at vivian@adicu.com
+
+Clarifying Terms:
+Security - the field of securing both software or hardware from malicious attacks, including but not limited to malware analysis, cryptography, reverse engineering, and more.

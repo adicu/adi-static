@@ -2,13 +2,6 @@ _model: committee
 ---
 title: Committee
 ---
-blurbs:
-
-#### blurb ####
-title: About
-----
-blurb: Hello
-----
-color: blue
+blurbs: 
 ---
 background_image: committee.jpg

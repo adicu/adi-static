@@ -23,7 +23,7 @@ module.exports = {
         loader: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
-            { loader: 'css-loader', options: { minimize: false } },
+            { loader: 'css-loader', options: { minimize: true } },
             'sass-loader',
           ]
         })},
