@@ -3,13 +3,12 @@
 
 {% macro render_member(member)%}
 <div class="small">
-  <div class="inner" style="text-align: center">
-    <center>
-     {{ background_image(member, member.portrait, cls="portrait") }}
-    </center>
-  </div>
-  <div style="text-align: center" class="text">
-    <h5> {{ member.name }}, {{ member.school }} {{ member.year }} </h5>
+  <div class="inner">
+    {{ background_image(member, member.portrait, cls="portrait") }}
+    <div class="text">
+      <h5>{{ member.name }}</h5>
+      <p>{{ member.school }} {{ member.year }}</p>
+    </div>
   </div>
 </div>
 {% endmacro %}
@@ -20,14 +19,14 @@
     <div class="section-header">
       <h4>Committee Members</h4>
       <span class="bar green"></span>
-      {% for row in this.children | batch(3) %}
-      <div class="triple">
-        {% for member in row %}
-        {{ render_member(member) }}
-        {% endfor %}
-      </div>
+    </div>
+    {% for row in this.children | batch(3) %}
+    <div class="triple">
+      {% for member in row %}
+      {{ render_member(member) }}
       {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
 {% endblock %}
