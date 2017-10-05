@@ -1,6 +1,6 @@
 _model: event
 ---
-title: Hacking 101: Talks with a Penetration Tester
+title: Hacking 101: Talks with a Penetration Tester (POSTPONED)
 ---
 start: 2017-10-06 15:00
 ---
@@ -18,16 +18,21 @@ long_description: Penetration testing is the art of hacking a company in every s
 
 Come hear from a former red teamer, who worked full time for a year on pentesting one of the nations biggest conglomerates, and learn how he did it / hear cool hacking stories.
 
-FAQs:
-What topics should I know before coming?
+## FAQs:
+
+#### What topics should I know before coming?
 ***** No prior knowledge necessary! *****
-Who should come to this event?
-- Anyone who is interested in offensive security.
-What should I bring?
-- Bring a laptop if you'd like to follow along, but otherwise just come to listen!
-What will I learn?
-- Some methods and stories from offensive security.
-Is there a way to contact any of the event organizers if I have questions not listed here?
+
+#### Who should come to this event?
+Anyone who is interested in offensive security.
+
+#### What should I bring?
+Bring a laptop if you'd like to follow along, but otherwise just come to listen!
+
+#### What will I learn?
+Some methods and stories from offensive security.
+
+#### Is there a way to contact any of the event organizers if I have questions not listed here?
 - Email Vivian at vivian@adicu.com
 
 Clarifying Terms:
