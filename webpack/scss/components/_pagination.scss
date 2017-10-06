@@ -5,15 +5,19 @@ $pagination-height: 8rem;
     margin-top: -1rem;
     margin-bottom: -1rem;
     height: $pagination-height;
+    width: 100%;
+    display: inline-block;
 
     a, a:hover {
         color: $gray;
     }
 
-    .previous, .next, .archive{
+    .previous, .next, .archive {
         height: $pagination-height;
         text-align: center;
         color: $gray;
+        font-size: 0;
+        width: 50%;
 
         p {
             font-size: 2rem;
@@ -23,23 +27,17 @@ $pagination-height: 8rem;
                 background-color: $ultralightgray;
             }
         }
-    }
-    .previous {
-        display: inline-block;
-        width: 50%;
-        float: left;
-
         i {
             margin-right: 1rem;
         }
     }
-    .next {
-        display: inline-block;
-        width: 50%;
+    .previous {
         float: left;
-
-        i {
-            margin-left: 1rem;
-        }
+    }
+    .next {
+        float: right;
+    }
+    .archive {
+        margin: auto;
     }
 }
