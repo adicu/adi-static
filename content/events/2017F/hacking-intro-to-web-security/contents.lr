@@ -1,0 +1,42 @@
+_model: event
+---
+title: Hacking 101: Intro to Web Security!
+---
+start: 2017-10-10 20:10
+---
+end: 2017-10-10 21:15
+---
+facebook_url: https://facebook.com/events/1492995830784907
+---
+location: Schermerhorn 467
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/22310310_1460656523970193_8255988846489688398_n.jpg?oh=8ed21d8a279440a922bb81ebe681099c&oe=5A7DAEB5
+---
+short_description: Ever heard of the Heartbleed vulnerability, or the WannaCry ransomware attack?
+---
+long_description: Ever heard of the Heartbleed vulnerability, or the WannaCry ransomware attack?
+
+We are constantly under attack from hackers all around the world, but thankfully, spam filters, ad blockers, and safe browsing habits prevent these attacks from happening. Yet, it can still seem like these attacks are a bunch of black magic. How is it possible that opening a random spam email can cause your login information to be stolen? How can someone steal your bank information without you even knowing it?
+
+Come learn about the fundamentals of web security and about how these attacks work!
+
+## FAQs:
+
+#### What topics should I know before coming?
+*****NO PRIOR KNOWLEDGE NECESSARY*****
+(though basic understanding of web programming (e.g. HTML, Javascript, SQL) would be helpful)
+
+#### Who should come to this event?
+Anyone who is interested in web/offensive security. You don't have to be a CS major!
+
+#### What should I bring?
+Just your excited selves!
+
+#### What will I learn?
+Basics of web security and vulnerabilities (e.g. XSS attacks), and real-world examples
+
+#### Is there a way to contact any of the event organizers if I have questions not listed here?
+- Email Kevin at kevin@adicu.com
+
+Clarifying Terms:
+Security - the field of securing both software or hardware from malicious attacks, including but not limited to malware analysis, cryptography, reverse engineering, and more.
