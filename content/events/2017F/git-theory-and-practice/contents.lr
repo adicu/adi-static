@@ -19,3 +19,7 @@ long_description: Git tracks collaborative work on projects through a beautiful 
 In this talk, we'll cover the worldview that Git uses to organize your work, spend some time putting on a firm theoretical foundation (and show where it goes wrong), before doubling back on how you can use this newfound knowledge in your daily life.
 
 This will **not** be an introduction to Git -- you should be already be familiar with basic git commands (like `git add` or `git commit`).
+
+Slides:
+- https://www.dropbox.com/s/sjz715tathaggx6/GitTalk.odp?dl=0
+- https://www.dropbox.com/s/7v21e8w42vper5z/GitTalk.pdf?dl=0
