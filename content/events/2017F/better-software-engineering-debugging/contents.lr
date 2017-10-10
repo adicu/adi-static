@@ -12,19 +12,23 @@ location: Pupin 420
 ---
 background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22218506_1461682027200976_5569751498238777540_o.jpg?oh=3873f2e66583cc7988ebf188fce0a073&oe=5A71251D
 ---
-short_description: In this workshop, we will be teaching better software engineering principles within the rhelm of debugging code. Learn beyond printi debugging and advance your skills for better practice. 
+short_description: Debugging is one of the most important skills to learn as a software engineer, but most people never learn more than the basics. If you're interested in going beyond print statement debugging, this is a good workshop for you.
 ---
-long_description: In this workshop, we will be teaching better software engineering principles within the rhelm of debugging code. Learn beyond printi debugging and advance your skills for better practice. 
+long_description: Debugging is one of the most important skills to learn as a software engineer, but most people never learn more than the basics. If you're interested in going beyond print statement debugging, this is a good workshop for you.
 
-------------------------------------------------------------------------------------
+In this workshop, we'll cover lots of different things:
+- How to identify and report bugs properly
+- The latest and greatest in debugging technology (like time travel!)
+- How to interrogate live production systems without bringing them offline.
 
 ## FAQs: 
 
 ### Who should come to this event? 
-People who are interested in becoming better programmers!
+People interested in becoming better software engineers.
 
 ### What background should I have before coming? 
-We recommend at least 1 year of CS classes (e.g. past Data Structures) or industry experience.
+Although this won't require any *specific* knowledge, the talk will be geared towards intermediate developers (people with at least 1 year of CS classes and/or industry experience).
 
 ### Is there a way to contact any of the event organizers if I have questions not listed here? 
+
 If you have any questions about this event please contact alan@adicu.com
