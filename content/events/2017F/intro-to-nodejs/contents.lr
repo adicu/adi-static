@@ -1,0 +1,33 @@
+_model: event
+---
+title: Intro to node.js
+---
+start: 2017-10-16 20:10
+---
+end: 2017-10-16 21:10
+---
+facebook_url: https://facebook.com/events/1947349465525140
+---
+location: Hamilton 303
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22384224_1466463890056123_8108002048634117115_o.jpg?oh=9801a87dee0276518585c89edfb6c9ec&oe=5A81A6B8
+---
+short_description: Node.js is one of the core technologies that powers a lot the services that we use over the internet. If you've ever wanted to learn why it was so industry changing for it's time, and you want to get a quick glance at how to use it, then this is the workshop for you!
+---
+long_description: Node.js is one of the core technologies that powers a lot the services that we use over the internet. If you've ever wanted to learn why it was so industry changing for it's time, and you want to get a quick glance at how to use it, then this is the workshop for you!
+
+In this workshop, we'll cover lots of different things:
+- How node.js works as a backend framework
+- Some advantages/pitfalls that it has
+- How to write a micro server using Express
+
+## FAQs:
+
+### Who should come to this event?
+People interested in learning backend development.
+
+### What background should I have before coming?
+Experience with at least one other programming language.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+If you have any questions about this event please contact cesar@adicu.com
