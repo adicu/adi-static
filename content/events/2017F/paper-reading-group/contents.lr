@@ -18,18 +18,26 @@ long_description: Join us in our first biweekly paper reading group! Unlike most
 
 This week, we'll be taking a look at adversarial inputs, which allow malicious adversaries to systematically fool machine learning algorithms. There are lots of good introductions to the topic: our favorites are:
 
-- [Attacking Machine Learning with Adversarial Examples(https://blog.openai.com/adversarial-example-research/)
+- [Attacking Machine Learning with Adversarial Examples](https://blog.openai.com/adversarial-example-research/)
 - [Breaking Convnets](http://karpathy.github.io/2015/03/30/breaking-convnets/)
-- [Explaining and Harnessing Adversarial Examples](https://arxiv.org/pdf/1412.6572.pdf)
+- [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572)
 
 If you want to dig deeper, some papers we're looking at include:
 
-- [Universal Adversarial Peturbations](https://arxiv.org/pdf/1610.08401.pdf)
+- [Universal Adversarial Peturbations](https://arxiv.org/abs/1610.08401)
 - [Robust Adversarial Inputs](https://blog.openai.com/robust-adversarial-inputs/)
 
 If you know of other good papers in this area, we'd love to hear it!
 
 ## FAQ
+
+### What will we be discussing?
+
+It depends on who shows up! We hope to keep discussion free-flowing and flexible. But if you're interested, here are some of the questions we're thinking about:
+
+- Do adversarial examples "matter" in practice?
+- What's the right way to formalize adversarial examples? What's it mean to be "robust" to adversarial examples?
+- How important are adversarial examples to non-deep learning approaches? 
 
 ### Do I have to read everything listed?
 
