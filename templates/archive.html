@@ -12,7 +12,7 @@
   </div>
   <div class="text">
     <h2><a href="{{ event | url }}">{{ event.title }}</a></h2>
-    <p class="description">{{ event.short_description }}</p>
+    {{ event.short_description }}
     <div class="details">{{ event_brief(event) }}</div>
   </div>
 </div>
