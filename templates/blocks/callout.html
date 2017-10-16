@@ -17,9 +17,9 @@
       </div>
       <div class="callout-right">
         <div class="card">
-          <a href="{{ this.link }}">
+          {% if this.link | string %}<a href="{{ this.link }}">{% endif %}
             <i style="background-image: url({{ record.attachments.images.get(this.image) | url}});"></i>
-          </a>
+          {% if this.link | string %}</a>{% endif %}
         </div>
       </div>
     </div>

@@ -1,0 +1,42 @@
+_model: event
+---
+title: Better Software Engineering!
+---
+start: 2017-10-07 15:00
+---
+end: 2017-10-07 17:00
+---
+facebook_url: https://facebook.com/events/317453552057183
+---
+location: Lerner 568
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22136969_1459100100792502_905300160916990379_o.jpg?oh=1cb2c003ffe80b71d2b340953acd649f&oe=5A7CB12B
+---
+short_description: In this workshop, we will be teaching better software engineering principles that have redefined industry standards and productivity of coding for software engineers, data scientists, and many others.
+---
+long_description: In this workshop, we will be teaching better software engineering principles that have redefined industry standards and productivity of coding for software engineers, data scientists, and many others.
+
+The workshop will be held by Jimmy Koppel, a 3rd year PhD student at MIT researching software language engineering. The topic for this workshop will be focused on finding hidden coupling.
+
+Brief summary:
+We all know how calling a function or using a variable can couple code together. It's the hidden forms of coupling that turn new features into orchestrations of details and makes migrations take months. Hidden coupling has many shapes, from modules that touch the same file to duplicated constants to more subtle shared assumptions, but they all have the same source: When you design a piece of software, remnants of that design get embedded multiple places in the codebase. In this workshop, you will learn to spot coupling in its most subtle forms, bring your program closer to its design, and make your code easier to extend and modify.
+
+## FAQs: 
+
+### Who should come to this event? 
+People who are interested in becoming better programmers!
+
+### What should I bring? 
+Nothing!
+
+### What background should I have before coming? 
+We recommend at least 1 year of CS classes (e.g. past Data Structures) or industry experience.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here? 
+If you have any questions about this event please contact kevin@adicu.com
+------------------------------------------------------------------------------------
+
+ABOUT THE SPEAKER:
+After winning the "20 Under 20" Thiel Fellowship, Jimmy Koppel graduated early from Carnegie Mellon University to found Tarski Technologies, a startup building commercial program repair technology. In 2014, he joined Apptimize as the third employee, where he obtained four patents in the areas of binary modification and mobile A/B testing. He is currently a third-year Ph. D. student in the Computer-Aided Programming group at MIT, with research focusing on software language engineering, generic programming, and causal inference. He also runs a business turning software engineers into better software engineers ( www.jameskoppelcoaching.com ).
+
+NOTE THAT THIS IS A FREE WORKSHOP.

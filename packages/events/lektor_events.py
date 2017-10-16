@@ -2,14 +2,13 @@
 import datetime as dt
 
 from lektor.pluginsystem import Plugin
-from lektor.project import Project
 
 
 class FakeQuery(object):
     def __init__(self, data, *args, **kwargs):
         self._data = data
         self._limit = kwargs.pop("limit", None)
-        self._offset= kwargs.pop("offset", 0)
+        self._offset = kwargs.pop("offset", 0)
 
         assert len(args) == 0
         assert len(kwargs) == 0

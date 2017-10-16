@@ -1,0 +1,34 @@
+_model: event
+---
+title: Better Software Engineering: Debugging
+---
+start: 2017-10-11 20:00
+---
+end: 2017-10-11 21:00
+---
+facebook_url: https://facebook.com/events/299229093887767
+---
+location: Pupin 420
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22218506_1461682027200976_5569751498238777540_o.jpg?oh=3873f2e66583cc7988ebf188fce0a073&oe=5A71251D
+---
+short_description: Debugging is one of the most important skills to learn as a software engineer, but most people never learn more than the basics. If you're interested in going beyond print statement debugging, this is a good workshop for you.
+---
+long_description: Debugging is one of the most important skills to learn as a software engineer, but most people never learn more than the basics. If you're interested in going beyond print statement debugging, this is a good workshop for you.
+
+In this workshop, we'll cover lots of different things:
+- How to identify and report bugs properly
+- The latest and greatest in debugging technology (like time travel!)
+- How to interrogate live production systems without bringing them offline.
+
+## FAQs: 
+
+### Who should come to this event? 
+People interested in becoming better software engineers.
+
+### What background should I have before coming? 
+Although this won't require any *specific* knowledge, the talk will be geared towards intermediate developers (people with at least 1 year of CS classes and/or industry experience).
+
+### Is there a way to contact any of the event organizers if I have questions not listed here? 
+
+If you have any questions about this event please contact alan@adicu.com
