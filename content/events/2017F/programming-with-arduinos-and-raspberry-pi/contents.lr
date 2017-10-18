@@ -1,0 +1,41 @@
+_model: event
+---
+title: Programming with Arduinos and Raspberry Pi
+---
+start: 2017-10-27 15:00
+---
+end: 2017-10-27 16:00
+---
+facebook_url: https://facebook.com/events/1893428490917885
+---
+location: Hamilton 318
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22450162_1471121719590340_7836633558767047230_n.jpg?oh=1780eb21c0db89dc642824db798f14dd&oe=5A7D6DFC
+---
+short_description: ALL LEVELS WELCOMED!
+---
+long_description: ALL LEVELS WELCOMED!
+
+Have you ever wanted to build a robot? What about code that can control hardware such as LEDs, accelerometers, motors, and tons of other components? Come learn how to program Arduinos and Raspberry Pis with ADI! We will learn about Microcontrollers and Microcomputers. Their differences and the best use for each. This workshop will teach you the basics of the Arduino IDE and C++ to control your circuitry and hardware from your computer. Furthermore, we will connect a Microcomputer such as a Raspberry Pi or a Qualcomm Dragon Board to a monitor and learn how to program their pins and interact with the board's sorroundings. 
+
+Learning the basics of Arduinos and Microcomputers is essential to any hardware project! If you are already familiar with these technologies, we will teach you some cool tricks and advanced topics to improve your skills. If you are new to the game, we will teach you the basics to be able to add hardware to your projects!
+
+We will have several Arduinos and Raspberry Pis for you to use!
+
+### Who should come to this event?
+Anyone with an interest in Computer Engineering, Robotics, Electrical Engineering or just adding some hardware to your software projects. No experience neccessary. 
+
+### What should I bring
+Your computer
+
+### What should I install beforehand?
+If you want, you can start by downloading the Arduino IDE: https://www.arduino.cc/en/Main/Software
+
+### What topics should I know before coming?
+Basic Programming
+
+### Can I use a PC, a Chromebook, or a X computer?
+Anything
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+Email: ignacio@adicu.com
