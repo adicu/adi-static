@@ -1,0 +1,44 @@
+_model: event
+---
+title: APIs with ADI
+---
+start: 2017-10-30 21:00
+---
+end: 2017-10-30 22:00
+---
+facebook_url: https://facebook.com/events/182114309017829
+---
+location: Hamilton 413
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22529053_1471183156250863_4006070605074767184_o.jpg?oh=e0b7452d6d23dc4c05e823c695f4ade1&oe=5A8754E5
+---
+short_description: What is an API? How do I find the API that does what I need? What is API documentation? How do I use this API in my project? 
+---
+long_description: What is an API? How do I find the API that does what I need? What is API documentation? How do I use this API in my project? 
+
+Come to APIs with ADI! We will teach you all the basics of APIs so you can use them in projects and at hackathons. We will go over how to read API documentation and how to call an API from your project. We will teach you how to make HTTP requests and the basics of JSON. Finally, we will practice using some popular APIs.
+
+If you want to succeed at hackathons, or you want to use a certain library for your personal project, this is the workshop you need to add complex functionality to your code with minimal effort!
+
+### Who should come to this event?
+Everyone interested in adding more functionality to their projects. Knowing how to call an API is a very useful skill in software engineering, so come over! All levels of experience are welcomed. We recommend you have at least minimal knowledge of programming
+
+### What should I bring
+Your laptop
+
+### What should I install beforehand?
+Nothing!
+
+### What topics should I know before coming?
+Some intro to CS
+
+### Can I use a PC, a Chromebook, or a X computer?
+Anything
+
+### What will I learn?
+How to look up and read an APIs documentation. How to call an API from your project. How to obtain useful data from the API. 
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+Email: 
+skm2159@columbia.edu (Sanford Miller)
+ignacio@adicu.com (Ignacio Ramirez)
