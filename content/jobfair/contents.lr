@@ -24,8 +24,29 @@ title: Students
 ----
 blurb:
 <h3>
-Interested in attending the Fall 2017 Startup Career Fair? Registration opens by Friday, October 20th.
+Interested in attending the Fall 2017 Startup Career Fair? Complete the registration form, where you can also submit your resumé. See you there!
 </h3>
+<br/>
+<h3>
+[Register here](https://goo.gl/forms/iExoEiUnpxKvdN5J3) to meet these companies:
+</h3>
+
+<style>
+    img{padding:15px;}
+</style>
+<img src="a16z.png" width="20%">
+<img src="bontouch.png" width="20%">
+<img src="byteacademy.png" width="20%">
+<img src="cadre.png" width="20%">
+<img src="digitalasset.png" width="20%">
+<img src="instabase.png" width="20%">
+<img src="lyft.png" width="20%">
+<img src="paddle8.svg" width="20%">
+<img src="rubrik.png" width="20%">
+<img src="thetake.png" width="20%">
+<img src="vfa.png" width="20%">
+<img src="vimeo.svg" width="20%">
+
 ----
 color: yellow
 
@@ -34,7 +55,7 @@ title: Companies
 ----
 blurb:
 <h3>
-Want access to some of the most diverse and skilled engineering and entrepreneurial talent in NYC? Shoot us an email at <a href=mailto:jobfair@adicu.com>jobfair@adicu.com</href>.
+Want access to some of the most diverse and skilled engineering and entrepreneurial talent in NYC? Shoot us an email at <a href=mailto:jobfair@adicu.com>jobfair@adicu.com</a>.
 </h3>
 ----
 color: blue
