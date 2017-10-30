@@ -29,7 +29,7 @@ Make sure to have Python and Pandas installed. You can do that with `pip3 instal
 Definitely know at least basics in Python programming. Anyone who has taken or is currently in COMS 1002 or COMS 1006 should be able to follow along. 
 
 ## Can I use a PC, a Chromebook, or a X computer?
-Yep! Python is supported by all operating systems. 
+Anything but chromebooks support Python. If you're on a chromebook, however, you can follow along the jupyter notebook  I'll post on GitHub!
 
 ## What will I learn?
 This workshop will include a higher level review of pandas, when and how to use it, and specific techniques and approaches that you can use to process, manipulate, and showcase data.
