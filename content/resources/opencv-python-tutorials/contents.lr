@@ -1,0 +1,13 @@
+_model: resource
+---
+name: OpenCV Python Tutorials
+---
+description: OpenCV is an open source computer vision library with excellent Python bindings and documentation. If you're interested in implementing computer vision techniques, the OpenCV Python tutorials are an excellent place to begin.
+---
+level: intermediate
+---
+topic: general
+---
+type: webpage
+---
+url: https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html
