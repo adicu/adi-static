@@ -12,17 +12,18 @@ location: Lerner 569
 ---
 background_image: https://scontent.xx.fbcdn.net/v/t31.0-0/p480x480/22829447_1486955224673656_754996625992394667_o.jpg?oh=fbfb9aeb884eeac9740048eb5cb379b2&oe=5A61E620
 ---
-short_description: Join ADI and Columbia Alumnus Jessica Forde, an open source contributor to the Jupyter Notebook project, for an afternoon long workshop on Open Source Technology. The focus of this afternoon will be on how to begin contributing to open source. It will be a combination of short lectures and hacking!
+short_description: Join ADI alumna Jessica Forde, an open source maintainer at Project Jupyter (https://www.jupyter.org), for an afternoon-long workshop on open source software.  Open source software underpins many of your favorite technologies.  In this workshop, you will learn what is open source, what is Project Jupyter, why contribute to open source, and how to contribute to your favorite open source projects.  Experienced open source contributors will learn how open source works within tech companies and how to get a job working in open source.
 ---
-long_description: Join ADI and Columbia Alumnus Jessica Forde, an open source contributor to the Jupyter Notebook project, for an afternoon long workshop on Open Source Technology. The focus of this afternoon will be on how to begin contributing to open source. It will be a combination of short lectures and hacking!
+long_description: Join ADI alumna Jessica Forde, an open source maintainer at Project Jupyter (https://www.jupyter.org), for an afternoon-long workshop on open source software.  Open source software underpins many of your favorite technologies.  In this workshop, you will learn what is open source, what is Project Jupyter, why contribute to open source, and how to contribute to your favorite open source projects.  Experienced open source contributors will learn how open source works within tech companies and how to get a job working in open source.
+
+Tentative Schedule 
+2pm-2:30pm Introductory Talk
+2:30-6pm Hack on an open source issue 
 
 Frequently Asked Questions:
 
-## Do I have to stay there the whole four hours?
-Absolutely not! Feel free to stop by at any point of the event for as little or as long as you want! 
-
 ## Who topics should I know before coming? 
-You should be comfortable with programming and using Git. 
+Ideally, you should be familiar with Git.  No matter your skill set, we can find a project that will suit your interets.
 
 ## What should I bring? 
 A laptop!
@@ -32,9 +33,6 @@ If you don't have Git already installed, please go ahead and do that. Link here:
 
 ## Can I use a PC, a Chromebook, or a X computer?
 Linux and Mac are preferred! Chromebook won't work, unfortunately. 
-
-## What will I learn?
-You'll learn about getting into open source and how to contribute to open source software!
 
 ## Is there a way to contact any of the event organizers if I have questions not listed here? 
 If you have any questions about this event please contact lesley@adicu.com
