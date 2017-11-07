@@ -9,7 +9,8 @@ title: About
 ----
 blurb:
 
-<h3>Foundry connects students with civic organizations in the city to take on software projects that improve our New York community. Our aim is to both do some useful and valuable work with our partners while also exposing the students to what technology in the civic sector looks like in the real world. Feel free to reach out to <a href="mailto:foundry@adicu.com">foundry@adicu.com</a> with any questions!</h3>
+<h3>
+Foundry's goal is to foster a group of students committed to giving back to the New York community. Each semester, we pair teams of students with civic organizations to take on technical projects that benefit the city. Our hope is that the students accomplish useful and valuable work with our partners  while at the same time exposing the students to what technology in the civic sector looks like in the real world.  Feel free to reach out to <a href="mailto:foundry@adicu.com">foundry@adicu.com</a> with any questions!</h3>
 
 <br/>
 Foundry typically works in teams of 3-4 students, dedicating 5 - 10 hours per student per week for 10 weeks per semester. Each project should be the equivalent of a month-and-a-half of full-time work from a single developer, which lets us take on some pretty meaty projects.
@@ -25,4 +26,41 @@ blurb:
 <br/>
 Foundry members are usually experienced developers who've shipped real products before. Although we don't require knowledge of the specific technologies we use (which change from project to project), we expect members to quickly pick up new tools and languages as needed. Joining Foundry is a serious time commitment -- we expect you to be able to put in 5 - 10 hours a week for 10 weeks out of the semester.
 ----
-color: blue
+color: yellow
+#### blurb ####
+title: Our Philosophy
+----
+blurb:
+
+<h3> 1. In civic tech, the <strong>civic</strong> is more important than the <strong>tech</strong>.</h3>
+<br/>
+
+<p> Civic tech is littered with solutionism, where people build great technical products that nobody ends up using. We want to make sure that the things we do actually end up helping people by: </p>
+
+<ul>
+<li> Prioritizing useful and important projects over technically interesting or cool ones. </li>
+<li> Spending time understanding the use-case of anything we build. Talk to potential users! </li>
+</ul>
+
+<br/>
+<h3> 2. Plan for the long term </h3>
+<br/>
+<p> As a student organization, we're not equipped to offer 10-year support contracts some private corporations can. That means we think about long-term maintenance from day one: </p>
+
+<ul>
+<li> Documentation, tests, and deployment are first class parts of the product. </li>
+<li> New doesn't always mean better. Prefer the stable and battle-hardened over the latest hotness. </li>
+<li> Talk about hand-off early. Make life easy for future maintainers. </li>
+</ul>
+
+<br/>
+<h3> 3. A rising tide lifts all boats </h3>
+<br/>
+<p> Although we're focused on NYC, we're also part of a broader movement. We try to ensure that the work we do is useful to everyone, not just us:
+
+<ul>
+<li> Embrace open source technology, so that anyone can build off of and improve our work </li>
+<li> Work to upstream our work, so that as many people benefit as possible </li>
+</ul>
+----
+color: green

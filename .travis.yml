@@ -1,19 +1,24 @@
 language: python
-
 python: 3.5
+
 notifications:
   email: false
+  slack:
+    secure: o65I6Le0SMYHyQx3C7CmXlC0UEt9f9/6gL3a39phAEn6x1fz1ByfGRfZun5WCCid/1V6mlqOCSTj1wYS7q21i6yHbV/TJ9kaWmsMxZAiIIyJDI4pH1R0MeK8SrJ8dVQYl1TW8YosqHjQOnfYJCl7j862UdAPH0aYryV49kLCbtCtCfoHDuoeANcZ4NypngqMH9vfNz/aZAYMAnXwYs1bOLKGecrNR53lCFDQIyYzXadzDrDsFM+RUrAfZoX6zdPxbYJ8hVQPvDHdyepjPSpb6lQQ21BA5d27XvMI3UTG0v2K7Jy59O+gSVplIMvMxRFCzpOZ8lLsnHV+qekW2rDuxheixzwt80CU+IC9pJ0u+RJdp2WeaxqfnwifMaQJ+9w068URHrNovNk8C4nIOjYM2nuqrgnRjTAQ2eqr9HezBfEeyvl3CNNmm7piFA0VrrUG7Cn1VwWWV4ZWaJi+QNmOj3FP599hpdqUMsvmrd7Z1VZ1hAcoLMRB2/5aW8fzIdI1YJ+I9FXY/SBSYZX4INzT77uGe70NlNlQpJBNMsmCyULquHPL2+aQI/+xXKVILJS0EloCOl86R3b7yAZNPneKHX6N4DgLi+6mcCdy6OhEbb2XTZBCgk+vSs7wOKSHHDSjLOSJrxIc8J/TUIlNjNzqNtBu+Or94p3W7W3ldWnrKk4=
+    on_failure: always
+    on_success: change
+
 addons:
   ssh_known_hosts: adicu.com
   apt:
     packages:
     - ca-certificates
-    - libcurl3-dev
+    - libcurl3-dev      # Get right SSL certificates
 
 cache:
   directories:
-    - $HOME/.cache/pip
-    - webpack/node_modules
+  - "$HOME/.cache/pip"
+  - webpack/node_modules
 
 before_install:
 - export TZ="US/Eastern"
@@ -23,18 +28,17 @@ install:
 # Install from git commit while waiting for bugfix release
 - pip install git+https://github.com/lektor/lektor@d5670a824f2d6436080d7d44632b9388ac355fbc
 - gem install html-proofer
+
 script:
 - lektor build -f webpack -O $HOME/output
 - htmlproofer $HOME/output --file-ignore "/events/201[456].*/,/archive/pages/\d+/"
 
 before_deploy:
 - test $TRAVIS_BRANCH == "master"
-
 - openssl aes-256-cbc -K $encrypted_b4089b536350_key -iv $encrypted_b4089b536350_iv -in .ssh/deploy_rsa.enc -out .ssh/deploy_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 $TRAVIS_BUILD_DIR/.ssh/deploy_rsa
 - ssh-add $TRAVIS_BUILD_DIR/.ssh/deploy_rsa
-
 - git config user.name "ADI-Bot"
 - git config user.email "infrastructure@adicu.com"
 - scripts/travis-commit.sh

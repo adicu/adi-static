@@ -1,0 +1,31 @@
+_model: page
+---
+title: Education
+---
+background_image: edu.jpg
+---
+blurbs:
+
+#### blurb ####
+title: ABOUT
+----
+blurb:
+
+From workshops to ADI Academy to company tech talks, ADI is dedicated to enhancing tech education across Columbia. ADI believes in fostering an inclusive and thoughtful community where students can learn about computer science and technology outside of the classroom. 
+----
+color: blue
+---
+sections:
+
+#### callout ####
+color: yellow
+----
+title: Workshops
+----
+description: ADI hosts multiple workshops every week on a variety of topics. Past workshops have included: Intro to Pandas, Better Software Engineering, and Intro to Product Management.
+----
+link: 
+----
+image: workshop.jpg
+----
+button: If you're interested in giving a workshop, reach out to us at workshops@adicu.com

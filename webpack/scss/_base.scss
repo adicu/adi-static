@@ -15,7 +15,7 @@ p, .paragraph {
     margin-bottom: 0.3125rem;
     font-family: $slab;
     font-weight: $regular;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.9rem;
 }
 
@@ -27,6 +27,7 @@ pre {
 }
 
 ul li {
+    list-style-position: inside;
     font-size: 1.2rem;
     line-height: 1.9rem;
     list-style-type: disc;
