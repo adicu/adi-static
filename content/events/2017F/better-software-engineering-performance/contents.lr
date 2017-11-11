@@ -1,0 +1,39 @@
+_model: event
+---
+title: Better Software Engineering: Performance
+---
+start: 2017-11-15 20:00
+---
+end: 2017-11-15 21:00
+---
+facebook_url: https://facebook.com/events/1962855004038226
+---
+location: Pupin 414
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-0/p480x480/23550001_1493981163971062_6535542693970984843_o.jpg?oh=aa1a35e967994bf4f242ce94974a9258&oe=5AADDC21
+---
+short_description: With the rise of low-power mobile phones and embedded devices, writing reasonably fast, energy-efficient code is more important than ever. In this talk, we'll cover:
+---
+long_description: With the rise of low-power mobile phones and embedded devices, writing reasonably fast, energy-efficient code is more important than ever. In this talk, we'll cover:
+
+- thinking about performance when coding
+- designing your systems and APIs for high performance
+- your hardware and why understanding it is important
+- how your algorithms professor lied to you about performance
+
+## FAQ
+
+### Who should come to this event?
+
+Anyone who wants to become a better software engineer.
+
+### What background should I have before coming?
+
+Some basic knowledge of computer architecture would be helpful, but not required. Other than that, although no **specific** knowledge should be required, this talk will be aimed at intermediate developers (those with at least one year of CS classes and/or industry experience).
+
+### What do I need to bring?
+
+
+### If I have any questions, who should I contact?
+
+Feel free to email alan@adicu.com
