@@ -60,7 +60,7 @@ $(function() {
         <i class="fa {{ fa_icons[resource.type] }}" aria-hidden=true></i>
       </a>
     </h5>
-    <h6> Level: {{ resource.level | capitalize }} </h6>
+    <h4> Level: {{ resource.level | capitalize }} </h4>
     {{ resource.description }}
   </div>
 </div>
@@ -74,7 +74,7 @@ $(function() {
         <h4>Topics</h4>
         <span class="bar gray"></span>
         <ul class="topics">
-          {% for topic in this.children.distinct("topic") %}
+          {% for topic in this.children.distinct("topic") | sort %}
           <li data-topic="{{ topic }}">
             <a class="slideto" href="#{{ topic }}">
               <p>{{ topic | capitalize }}</p></a>
@@ -83,7 +83,7 @@ $(function() {
         </ul>
       </div>
     </div>
-    {% for topic in this.children.distinct("topic") %}
+    {% for topic in this.children.distinct("topic") | sort %}
     <section class="topic with-sidebar" id="{{ topic }}">
       <div class="content">
         <div class="section-header">
@@ -92,7 +92,7 @@ $(function() {
           <span class="bar {{ colors[loop.index0 % 3] }}"></span>
         </div>
         <ul class="resources">
-          {% for row in this.children.filter(F.topic == topic) | batch(2) %}
+          {% for row in this.children.filter(F.topic == topic) | sort | batch(2) %}
           <li>
             {% for resource in row %}
             {{ render_resource(resource) }}
