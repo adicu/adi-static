@@ -26,8 +26,8 @@ before_install:
 - date
 
 install:
-# Install from git commit while waiting for bugfix release
-- pip install -U git+https://github.com/lektor/lektor@0dc82a96010e5b0292b80a3a3a3f7ee450d2173c
+# There's a bug with Python 3 and Lektor deployment, so use python2 instead
+- export PATH=/opt/pyenv/plugins/python-build/bin:$PATH && python2 scripts/install.py
 - gem install html-proofer
 
 script:
@@ -42,7 +42,7 @@ before_deploy:
 - ssh-add $TRAVIS_BUILD_DIR/.ssh/deploy_rsa
 - git config user.name "ADI-Bot"
 - git config user.email "infrastructure@adicu.com"
-- scripts/travis-commit.sh
+- pip install requests && scripts/travis-commit.sh
 
 deploy:
   provider: script
