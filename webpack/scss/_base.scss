@@ -27,10 +27,18 @@ pre {
 }
 
 ul li {
-    list-style-position: inside;
     font-size: 1.2rem;
     line-height: 1.9rem;
+    list-style-position: inside;
     list-style-type: disc;
+}
+
+ul, .resources {
+    li {
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+        list-style-type: none;
+    }
 }
 
 em {
