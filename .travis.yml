@@ -1,5 +1,5 @@
 language: python
-python: 3.5
+python: 3.6
 
 notifications:
   email: false
@@ -26,7 +26,7 @@ before_install:
 
 install:
 # Install from git commit while waiting for bugfix release
-- pip install git+https://github.com/lektor/lektor@d5670a824f2d6436080d7d44632b9388ac355fbc
+- pip install -U git+https://github.com/lektor/lektor@0dc82a96010e5b0292b80a3a3a3f7ee450d2173c
 - gem install html-proofer
 
 script:
