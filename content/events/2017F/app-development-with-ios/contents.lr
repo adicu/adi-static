@@ -1,0 +1,38 @@
+_model: event
+---
+title: App Development with iOS
+---
+start: 2017-11-16 21:05
+---
+end: 2017-11-16 22:00
+---
+facebook_url: https://facebook.com/events/225559444649376
+---
+location: Hamilton 502
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/23434773_1495126930523152_2214989752818827065_n.jpg?oh=88c8199d402f9bd7b24f1d20384532de&oe=5AA9EE42
+---
+short_description: In this talk, we will be doing a quick introduction to the core principles in iOS app development. Topics will include:
+---
+long_description: In this talk, we will be doing a quick introduction to the core principles in iOS app development. Topics will include:
+- Swift
+- Model View Controller 
+- UIKit & Cocoa Pods
+
+## FAQ
+
+### Who should come to this event?
+
+Anyone who wants to learn how to develop iOS apps!
+
+### What background should I have before coming?
+
+Knowledge of any programming language, some knowledge about object oriented programming (Classes, Inheritance) 
+
+### What do I need to bring?
+A Mac laptop! Unfortunately, XCode (The main IDE used for iOS programming) is only available on Mac OSX computers :( 
+Please make sure to have it preinstalled before hand if you want to follow along!
+
+### If I have any questions, who should I contact?
+
+Feel free to email cesar@adicu.com
