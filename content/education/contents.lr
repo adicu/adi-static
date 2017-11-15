@@ -29,3 +29,59 @@ link:
 image: workshop.jpg
 ----
 button: If you're interested in giving a workshop, reach out to us at workshops@adicu.com
+#### callout ####
+color: blue
+----
+title: BEGINNER
+----
+description: ADI believes in making tech accessible to everyone, regardless of previous background or even whether you want to major in computer science. This track focuses on exposing students who wouldn’t otherwise take a computer science class to technology and programming.
+----
+link: 
+----
+image: know.jpg
+----
+button:
+
+Previous Workshops Include: Intro to R Programming, Coding Essentials: Terminal, and Systems in Sixty Minutes 
+#### callout ####
+color: green
+----
+title: KNOWLEDGE ADVANCEMENT
+----
+description:
+
+Knowledge Advancement is by far the widest category of workshops. Workshops typically focus on exposing students to new topics (useful for students unsure of what courses to take) and enhancing general programming and technology skills. 
+----
+link: 
+----
+image: social.jpg
+----
+button: Previous Workshops Include: Better Software Engineering Series, Intro to Natural Language Processing, and Intro to Computer Vision.
+#### callout ####
+color: yellow
+----
+title: SOCIAL IMPACT
+----
+description: As shown with ADI’s Foundry program, we care about the ways technology impacts society, and how it can be used to create a better society.
+----
+link: 
+----
+image: beg.jpg
+----
+button:
+
+Previous Workshops Include: Using Data Science to Combat Human Trafficking 
+#### callout ####
+color: blue
+----
+title: HARDWARE
+----
+description:
+
+Software is nothing without its hardware, and hardware is nothing without its software. Evidently, hardware is an important component of technology; and through workshops ADI hopes to cater to this very important part of our community. 
+----
+link: 
+----
+image: hardware.jpg
+----
+button: Previous Workshops Include: Programming with Arduino & Raspberry Pi
