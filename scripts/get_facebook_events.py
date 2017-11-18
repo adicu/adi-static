@@ -10,7 +10,8 @@ SEMESTERS = {
 }
 
 # Why do we even need an acess token for publicly available information?
-ACCESS_TOKEN = "EAAMZA08pZBs7ABANfSAX2m1wsoB9s54iRWrOSMwNlS9H3waFrKsXraX9ZCjZBsABFndAyQCql8PO4xKMNzaZCpTij7KvhZAtpJmeo6IJF7qWDTPqWhZCZCOLIDEaPVJFIYR8UYqDeHUSVsvaRfkCBpkhZCN5tiZBkDJABkmQ2qrPmQtgZDZD"
+# Go to https://developers.facebook.com/tools/explorer and hit "Get Token"
+ACCESS_TOKEN = "EAACEdEose0cBAOBt3Q7fbTCIjt6zjyZCs6OnLPQqTAaxgqBeGXQHoaZAJZA8BxinaJb2qtgpUaXzijij2vT4LI057np4FptPAmQE40E3lAcZAV27sj0QXBbUumrneBJolrqZA4juNNzvUR02ViJUHpA2zBd0jeTK5p4HFI5SNSXU2brEj0bkb8nSNJFvBum4xeIqZCzpHdAgZDZD"
 
 
 def api(path, params=None):
@@ -18,7 +19,7 @@ def api(path, params=None):
         params = {}
     params.update({"access_token": ACCESS_TOKEN})
     r = requests.get(
-        "https://graph.facebook.com/v2.10/{}".format(path), params=params)
+        "https://graph.facebook.com/v2.11/{}".format(path), params=params)
     return r.json()
 
 
