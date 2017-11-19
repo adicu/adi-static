@@ -1,6 +1,6 @@
 {% macro background_image(record, image, cls="image") %}
 {% set url = image_url(record, image) %}
-<i style="background-image: url({{ url }});"
+<i style="background-position: top; background-image: url({{ url }});"
    {% if cls -%}class="{{ cls }}"{% endif-%}></i>
 {% endmacro %}
 
