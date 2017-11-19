@@ -10,8 +10,8 @@ SEMESTERS = {
 }
 
 # Why do we even need an acess token for publicly available information?
-# Go to https://developers.facebook.com/tools/explorer and hit "Get Token"
-ACCESS_TOKEN = "EAACEdEose0cBAOBt3Q7fbTCIjt6zjyZCs6OnLPQqTAaxgqBeGXQHoaZAJZA8BxinaJb2qtgpUaXzijij2vT4LI057np4FptPAmQE40E3lAcZAV27sj0QXBbUumrneBJolrqZA4juNNzvUR02ViJUHpA2zBd0jeTK5p4HFI5SNSXU2brEj0bkb8nSNJFvBum4xeIqZCzpHdAgZDZD"
+# See https://medium.com/@Jenananthan/how-to-create-non-expiry-facebook-page-token-6505c642d0b1
+ACCESS_TOKEN = "EAAMZA08pZBs7ABAPjQUA6sQYuopwZBCbNi6uvtMa2L1sIxvRkjisLOQPcsZADz15AlGm1K8ZBo7xVW6RTtUmt2c5PezuqdPhi88zv6JMFOe3SZB9fBkXp4D4JPdOUpTXRa5KHXDG4QGonQyJZCo4XEApaKpaftCZAZAgZD"
 
 
 def api(path, params=None):
