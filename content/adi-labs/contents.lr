@@ -1,0 +1,39 @@
+_model: page
+---
+title: ADI Labs
+---
+_slug: labs
+---
+blurbs:
+
+#### blurb ####
+title: About
+----
+blurb:
+
+ADI Labs is your opportunity to learn everything you can’t learn in class, from software engineering to UI/UX design. Through ADI Labs, you will build real projects like Density that you will ship. Along the way you’ll receive personalized mentorship from peers that have real world experience working at various companies. You’ll also join an awesome community of builders that love to bring ideas to life as well as have a good time doing so.
+<br>
+<br>
+As a member of Labs, you’ll learn to contribute to open source projects and to take your programming beyond problem sets. Paired with one of our student mentors, you’ll learn software engineering techniques used in industry.
+----
+color: blue
+#### blurb ####
+title: What We Offer
+----
+blurb:
+
+#### Thoughtful mentorship
+
+What does good mentorship mean? To us, it means pushing you to learn what you didn’t think you could learn. It means supporting you when you are stuck trying to implement that tricky feature. It means making sure that you are doing what you want and learning exactly what you want. It means giving you the best resources out there for the problem you are trying to solve.
+<br>
+<br>
+#### Learning by doing
+
+We believe in diving head-first into hard problems and not holding your hand all the time. ADI Labs is all about hands-on building, so if that excites you, this is the place for you.
+<br>
+<br>
+#### A community of driven people
+
+ADI Labs is a community of motivated individuals that are not here to just fool around. They are here to learn how to build and contribute to the greater tech community. At the same time, we believe in building friendships.
+----
+color: green
