@@ -1,10 +1,11 @@
 language: python
-python: 3.5
+python: 3.6
 
 notifications:
   email: false
   slack:
-    secure: o65I6Le0SMYHyQx3C7CmXlC0UEt9f9/6gL3a39phAEn6x1fz1ByfGRfZun5WCCid/1V6mlqOCSTj1wYS7q21i6yHbV/TJ9kaWmsMxZAiIIyJDI4pH1R0MeK8SrJ8dVQYl1TW8YosqHjQOnfYJCl7j862UdAPH0aYryV49kLCbtCtCfoHDuoeANcZ4NypngqMH9vfNz/aZAYMAnXwYs1bOLKGecrNR53lCFDQIyYzXadzDrDsFM+RUrAfZoX6zdPxbYJ8hVQPvDHdyepjPSpb6lQQ21BA5d27XvMI3UTG0v2K7Jy59O+gSVplIMvMxRFCzpOZ8lLsnHV+qekW2rDuxheixzwt80CU+IC9pJ0u+RJdp2WeaxqfnwifMaQJ+9w068URHrNovNk8C4nIOjYM2nuqrgnRjTAQ2eqr9HezBfEeyvl3CNNmm7piFA0VrrUG7Cn1VwWWV4ZWaJi+QNmOj3FP599hpdqUMsvmrd7Z1VZ1hAcoLMRB2/5aW8fzIdI1YJ+I9FXY/SBSYZX4INzT77uGe70NlNlQpJBNMsmCyULquHPL2+aQI/+xXKVILJS0EloCOl86R3b7yAZNPneKHX6N4DgLi+6mcCdy6OhEbb2XTZBCgk+vSs7wOKSHHDSjLOSJrxIc8J/TUIlNjNzqNtBu+Or94p3W7W3ldWnrKk4=
+    rooms:
+    - secure: KBjMwEKsgXrSyg+hJArrSdzcuT131zJMSvuQwIT07AsT2xsGhecXAsSm3GFyg9+z22hO2ygCPbKSmt1cyUVhy59X0wAx/f7Zc8ozX40eVgRAh+nxuuM69Yua4ytR9EKAF4rhSyf4ZtNoHWmqendjBpeSChngQ0MPtiwCUHWBV54VLsZm1DEZkjkkQ+uMgNq/PFkn6AIeC1hMguB8BFj7LnAwfAcAlZGI52O4108ZLV+D3J2ovfPf/k1WZZdY03+guP50yKcFQxhXSNd5S4GVbWjWBqHEv8PB9qhkCO32vrdcegGG/P0skX88o0vXeB8knEDuzvgau2E/tlUy/f/IaA8Q2G4wpnCB3sp0ZHQotnhfKo98vjSMbq+CANhoLno/UQy0kRWG8Yg8Zwj57/fQR6f3LYH4etGZjj58D76WCSf3IqG7Wic8tpkLZbyZdKCrpArRJp/CODvoODtXpKel1DW/FJg8F2LMuZwLqrPCVhjyDGCxk2zk2bGZGF73ekgVTk5Tc3Blt2yfIKHrq+aRmyUlrASVXamHGmTZltsZzlLyVQ0Ykmt4GuV84v5/8cBDoUxBxWdo2vvQp9S/2ndyaF2FK8U1I118as+2Fi0fc73BkWgOz5855jNwvDB+VH9VH7rL2QylIiJp9SlTBdn76hn5GdAqRE5N1H1zyjcpjas=
     on_failure: always
     on_success: change
 
@@ -25,8 +26,8 @@ before_install:
 - date
 
 install:
-# Install from git commit while waiting for bugfix release
-- pip install git+https://github.com/lektor/lektor@d5670a824f2d6436080d7d44632b9388ac355fbc
+# There's a bug with Python 3 and Lektor deployment, so use python2 instead
+- export PATH=/opt/pyenv/plugins/python-build/bin:$PATH && python2 scripts/install.py
 - gem install html-proofer
 
 script:
@@ -41,7 +42,7 @@ before_deploy:
 - ssh-add $TRAVIS_BUILD_DIR/.ssh/deploy_rsa
 - git config user.name "ADI-Bot"
 - git config user.email "infrastructure@adicu.com"
-- scripts/travis-commit.sh
+- pip install requests && scripts/travis-commit.sh
 
 deploy:
   provider: script

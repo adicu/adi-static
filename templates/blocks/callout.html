@@ -10,7 +10,9 @@
         {% if this.button %}
         <div class="button-group">
           <div class="button gray">
-            <a href="{{ this.link }}">{{ this.button }}</a>
+            {% if this.link | string %}<a href="{{ this.link }}">{% endif %}
+            {{ this.button }}
+            {% if this.link | string %}</a>{% endif %}
           </div>
         </div>
         {% endif %}

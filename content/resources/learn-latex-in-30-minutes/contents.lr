@@ -1,0 +1,11 @@
+_model: resource
+---
+name: Learn LaTeX in 30 minutes
+---
+description: All those nicely-formatted, professional-looking papers and guides you come across have one thing in common: they're written with LaTeX. LaTeX is a typesetting system that lets you build beautiful, expressive documents (including those with complex mathematical notation) with just plain text. Learning LaTeX can strongly improve the readability and quality of your written work.
+---
+level: beginner
+---
+topic: languages
+---
+url: https://www.sharelatex.com/learn/Learn_LaTeX_in_30_minutes
