@@ -1,0 +1,36 @@
+_model: event
+---
+title: How to Build a Chrome Extension
+---
+start: 2017-12-01 14:00
+---
+end: 2017-12-01 15:00
+---
+facebook_url: https://facebook.com/events/194848351074669
+---
+location: Milbank 306
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/23905703_1509108339125011_479362035442127233_n.jpg?oh=62e2b8cf9a1fe3965f4850a8dba80744&oe=5AA3CA38
+---
+short_description: Want to learn how to make your internet experience just a little better, more convenient, or even a little sillier? Learn how to do all of that by learning to build Chrome Extensions!
+---
+long_description: Want to learn how to make your internet experience just a little better, more convenient, or even a little sillier? Learn how to do all of that by learning to build Chrome Extensions!
+
+## FAQ
+
+### Who should come to this event?
+Anyone who wants to learn how to build a Chrome Extension or learn how they work!
+
+### What background should I have before coming?
+If you want to follow along some previous programming experience would be helpful. We'll be working with JavaScript but don't worry if  you've never used it before!
+
+### What do I need to bring?
+If you want to follow along, bring a laptop, have a text editor installed (like Sublime), and Google Chrome! Or just come to listen :) 
+
+## What will I learn?
+We'll walk you through building some Chrome Extensions that allow you to alter images, text, and other things on your favorite websites.
+
+### If I have any questions, who should I contact?
+Feel free to email yulissa@adicu.com 
+
+Chrome Extensions: Small programs built using JavaScript, HTML, and CSS that allow you to modify or enhance the functionality of Google Chrome.
