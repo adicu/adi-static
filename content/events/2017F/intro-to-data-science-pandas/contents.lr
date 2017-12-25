@@ -1,0 +1,41 @@
+_model: event
+---
+title: Intro to Data Science: Pandas!
+---
+start: 2017-11-01 20:00
+---
+end: 2017-11-01 21:00
+---
+facebook_url: https://facebook.com/events/284755042035414
+---
+location: Hamilton 509
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22829186_1480459261989919_8299232993753557577_o.jpg?oh=3269fc5db06dc232bef374a756dc6f4c&oe=5A9D8F16
+---
+short_description: ADI will walk you through some of the basic steps of working with DataFrames using the Pandas module in Python. This workshop will include a higher level review of pandas, when and how to use it, and specific techniques and approaches that you can use to process, manipulate, and showcase data.
+---
+long_description: ADI will walk you through some of the basic steps of working with DataFrames using the Pandas module in Python. This workshop will include a higher level review of pandas, when and how to use it, and specific techniques and approaches that you can use to process, manipulate, and showcase data.
+
+## Who should come to this event?
+Anyone interested in learning how to wrangle data!
+
+## What should I bring?
+Bring a laptop and excitement! 
+
+## What should I install beforehand?
+Make sure to have Python and Pandas installed. You can do that with `pip3 install pandas`
+
+## What topics should I know before coming?
+Definitely know at least basics in Python programming. Anyone who has taken or is currently in COMS 1002 or COMS 1006 should be able to follow along. 
+
+## Can I use a PC, a Chromebook, or a X computer?
+Anything but chromebooks support Python. If you're on a chromebook, however, you can follow along the jupyter notebook  I'll post on GitHub!
+
+## What will I learn?
+This workshop will include a higher level review of pandas, when and how to use it, and specific techniques and approaches that you can use to process, manipulate, and showcase data.
+
+## Is there a way to contact any of the event organizers if I have questions not listed here? 
+If you have any questions about this event please contact lesley@adicu.com
+
+Pandas: Pandas is a module that allows Python to support DataFrames, which is a useful data structure for handling data structured in rows and columns.
+Data Wrangling: The process of transforming or manipulating data into different formats.

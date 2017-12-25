@@ -1,0 +1,41 @@
+_model: event
+---
+title: Better Software Engineering: Testing
+---
+start: 2017-11-08 20:00
+---
+end: 2017-11-08 21:00
+---
+facebook_url: https://facebook.com/events/335222200274251
+---
+location: 750 Cepsr
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/23157150_1488839647818547_8882392946464322902_o.jpg?oh=4a6d67baca5bfa643605871c3f91d72c&oe=5AA45F37
+---
+short_description: Proper testing is a crucial step when developing new software, but most
+---
+long_description: Proper testing is a crucial step when developing new software, but most
+people never get past writing basic tests. In this talk, we'll talk
+about the philosophy of testing and demonstrate how some advanced
+techniques can improve your life.
+
+We'll cover:
+- What a "good" test is and why you should write them
+- How to design a program to be testable
+- Test metrics (coverage, mutation testing)
+- Property based testing and fuzzing
+- Automatically writing test cases
+
+## FAQs:
+
+### Where is 750 CEPSR? 
+It's the building between Mudd and Pupin.
+
+### Who should come to this event?
+People interested in becoming better software engineers.
+
+### What background should I have before coming?
+Although this won't require any *specific* knowledge, the talk will begeared towards intermediate developers (people with at least 1 year of CS classes and/or industry experience).
+
+### If I have any questions about this workshop, who should I contact?
+You can contact alan@adicu.com!

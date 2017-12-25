@@ -12,7 +12,7 @@
       <h4>{{ this.type }} Events</h4>
       <span class="bar {{ this.color }}"></span>
     </div>
-{% if (events | length) > 1 %}
+{% if (events | length) >= 1 %}
     {% for row in events | batch(3) %}
     <div class="triple">
       {% for event in row %}

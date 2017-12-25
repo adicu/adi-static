@@ -1,0 +1,47 @@
+_model: event
+---
+title: Systems in 60 Minutes
+---
+start: 2017-11-09 18:50
+---
+end: 2017-11-09 19:50
+---
+facebook_url: https://facebook.com/events/1662503093780845
+---
+location: Hamilton 516
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/23215475_1488836527818859_1016925518094055750_o.jpg?oh=6a2d81f246546cf40c4395182e06228e&oe=5A8AA419
+---
+short_description: Have you ever wondered how your computer works? Or what happens behind the scenes when you visit google.com?
+---
+long_description: Have you ever wondered how your computer works? Or what happens behind the scenes when you visit google.com?
+
+Systems in 60 Minutes is a gentle introduction to systems that is suitable for all experience levels. No computer science or programming experience required.
+
+In this talk, Raymond will take you on a whirlwind tour of the basic inner workings of computers and networks, touching on topics such as databases, operating systems, and more. As systems can be an intimidating area of computer science, this talk will also give you pedagogical and practical insight on the best ways to understand systems and learn new ones.
+
+
+
+FAQ:
+
+Who should come to this event?
+
+Anyone curious about learning more about how computers and the internet work.
+
+Do I need to bring a laptop?
+
+No.
+
+What topics should I know before coming?
+
+None.
+
+Who should I contact with questions about the event?
+
+Feel free to reach out at raymond@adicu.com
+
+
+
+Clarifying Terms:
+
+Systems: An umbrella term referring to the software and hardware components of computers, computer networks, and collaboration between multiple computers.
