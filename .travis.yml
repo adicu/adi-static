@@ -32,7 +32,7 @@ install:
 
 script:
 - lektor build -f webpack -O $HOME/output
-- htmlproofer $HOME/output --file-ignore "/events/201[456].*/,/archive/pages/\d+/"
+- htmlproofer $HOME/output --file-ignore "/events/201[4567].*/,/archive/pages/\d+/"
 
 before_deploy:
 - test $TRAVIS_BRANCH == "master"
