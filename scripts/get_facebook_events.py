@@ -7,6 +7,7 @@ import requests
 
 SEMESTERS = {
     "2017F": (dt.date(2017, 9, 1), dt.date(2017, 12, 31)),
+    "2018S": (dt.date(2018, 1, 1), dt.date(2018, 5, 31)),
 }
 
 # Why do we even need an acess token for publicly available information?
