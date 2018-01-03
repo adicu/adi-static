@@ -21,111 +21,6 @@ $radius: 0.625rem;
         color: $blue;
     }
 }
-.jobfair {
-    .button i {
-        display: inline;
-        margin-left: -0.8rem;
-        margin-right: 1rem;
-    }
-}
-
-.company {
-    margin-bottom: 2rem;
-    .image-wrapper {
-        margin-bottom: 1rem;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
-        position: relative;
-
-        i {
-            position: absolute;
-            bottom: 1.5rem;
-            top: 1.5rem;
-            right: 3rem;
-            left: 3rem;
-            background-position: center center;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-
-    }
-
-}
-
-.contact-options {
-    &:after {
-        @include clearfix;
-    }
-    li {
-        width: 48%;
-        margin: 2rem 0;
-        display: inline-block;
-        float: left;
-        text-align: center;
-        & + li {
-            float: right;
-        }
-    }
-    h3 {
-        text-align: center;
-    }
-    p {
-        font-family: $sans;
-    }
-}
-
-.projects {
-    h3 {
-        margin-bottom: 2rem;
-    }
-    h2 a {
-        color: $gray !important;
-    }
-    .image {
-        padding-bottom: 0 !important;
-    }
-    .text {
-        padding-left: 2rem !important;
-    }
-}
-
-.faqs {
-
-    .pair:after {
-        @extend .clearfix;
-    }
-
-    strong {
-        margin-bottom: 1rem;
-        display: block;
-    }
-
-    .faq {
-        margin-bottom: 2rem;
-        width: 50%;
-        float: left;
-        display: block;
-        box-sizing: border-box;
-        &:first-child {
-            padding-right: 1rem;
-        }
-        &:nth-child(2) {
-            padding-left: 1rem;
-        }
-    }
-
-    p {
-        font-family: $sans;
-    }
-}
-
-
-.post-image {
-    width: 600px;
-    display: block;
-}
 
 $hero-height: 38rem;
 $hero-offset: 5rem;
@@ -354,6 +249,7 @@ $top-card-padding: 4rem 0 2.5rem;
         padding: 0 !important;
     }
 }
+
 .button-group {
     margin: 1rem 0;
     &.centered {
@@ -428,8 +324,6 @@ $large-hero-height: $hero-height + 7rem;
         i {
             height: ($hero-height + $navbar-height - 10rem);
         }
-
-
     }
 
     .main .subscribe {
@@ -446,12 +340,6 @@ $large-hero-height: $hero-height + 7rem;
                 width: 100%;
                 margin-right: 0;
             }
-        }
-    }
-
-    .contact-options {
-        li {
-            width: 100%;
         }
     }
 }
