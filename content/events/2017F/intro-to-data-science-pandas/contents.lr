@@ -10,7 +10,7 @@ facebook_url: https://facebook.com/events/284755042035414
 ---
 location: Hamilton 509
 ---
-background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22829186_1480459261989919_8299232993753557577_o.jpg?oh=08a2ea421eefba165e181625c049afb2&oe=5AC51C16
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22829186_1480459261989919_8299232993753557577_o.jpg?oh=8c290c6036e89f3682b0df84997cc597&oe=5AECA916
 ---
 short_description: ADI will walk you through some of the basic steps of working with DataFrames using the Pandas module in Python. This workshop will include a higher level review of pandas, when and how to use it, and specific techniques and approaches that you can use to process, manipulate, and showcase data.
 ---
