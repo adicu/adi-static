@@ -14,7 +14,7 @@ addons:
   apt:
     packages:
     - ca-certificates
-    - libcurl3-dev      # Get right SSL certificates
+    - libcurl4-openssl-dev      # Get right SSL certificates
 
 cache:
   directories:
@@ -32,7 +32,7 @@ install:
 
 script:
 - lektor build -f webpack -O $HOME/output
-- htmlproofer $HOME/output --file-ignore "/events/201[4567].*/,/archive/pages/\d+/"
+- htmlproofer $HOME/output --file-ignore "/events/201[4567].*/,/archive/page/\d+/"
 
 before_deploy:
 - test $TRAVIS_BRANCH == "master"
