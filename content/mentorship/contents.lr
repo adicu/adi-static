@@ -9,25 +9,25 @@ color: yellow
 ----
 title: Mentors
 ----
-description: Sorry, applications are over for this semester. Check point later if you want to participate in the spring!
+description: Applications to be a mentor for the Spring 2018 semester are open! 
 ----
-link: 
+link: https://tinyurl.com/cs-mentor-s18 
 ----
 image: mentor.jpg
 ----
-button: 
+button: Apply to be a mentor
 #### callout ####
 color: blue
 ----
 title: Mentees
 ----
-description: Sorry, applications are over for this semester. Check point later if you want to participate in the spring!
+description: Mentee applications are open for the Spring 2018 semester!
 ----
-link: 
+link: https://tinyurl.com/cs-mentee-s18
 ----
 image: mentee.jpg
 ----
-button: 
+button: Apply to be a mentee
 ---
 background_image: mentorship.jpg
 ---
@@ -39,7 +39,10 @@ title: About
 blurb:
 
 <h3>
-The CS Mentorship Program is a student initiative that pairs first-years and sophomores interested in majoring in CS with juniors and seniors currently studying it. Join us for a semester of creating long-term relationships between mentors and mentees, community events (with free food!) and mentor-led internal workshops about specific topics within CS. It is a great opportunity to give back to the CS community, gain experience leading a workshop, and meet fellow upperclassmen in CS. Workshops and informative events will take place Tuesday evenings and bonding activities Friday afternoons, so you should expect to have these times open.
+The CS Mentorship Program is a student initiative that pairs first-years and sophomores interested in majoring in CS with juniors and seniors currently studying it. Join us for a semester of creating long-term relationships between mentors and mentees, community events (with free food!) and mentor-led internal workshops about specific topics within CS.
+</h3>
+<h3>
+It is a great opportunity to give back to the CS community, gain experience leading a workshop, and meet fellow upperclassmen in CS. Workshops and informative events will take place Tuesday evenings and bonding activities Friday afternoons, so you should expect to have these times open.
 </h3>
 ----
 color: blue

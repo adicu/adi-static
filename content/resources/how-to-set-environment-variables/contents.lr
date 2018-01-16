@@ -1,0 +1,17 @@
+_model: resource
+---
+name: How To Set Environment Variables
+---
+_discoverable: yes
+---
+_hidden: no
+---
+description: There are some things we just shouldn’t share with our code. These are often configuration values that depend on the environment such as debugging flags or access tokens for APIs. Environment variables are a good solution and they are easy to consume in most languages.
+---
+level: beginner
+---
+type: webpage
+---
+url: https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html 
+---
+topic: general
