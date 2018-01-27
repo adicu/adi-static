@@ -12,17 +12,17 @@ location: Lerner 510B
 ---
 background_image: https://scontent.xx.fbcdn.net/v/t31.0-0/p480x480/26910362_1561232340579277_2563063637404211361_o.jpg?oh=504bfb8c26e74652d718f52322731b2a&oe=5B1E09CC
 ---
-short_description: Come to our paper reading group this Saturday as we explore the important problems and advances in transmitting video over the internet!
+short_description: -Come to our paper reading group this Saturday as we explore the important problems and advances in transmitting video over the internet!
 ---
-long_description: Come to our paper reading group this Saturday as we explore the important problems and advances in transmitting video over the internet!
+long_description: -Come to our paper reading group this Saturday as we explore the important problems and advances in transmitting video over the internet!
 
 A great paper to start out with is [Improving Video Bitrate Selection and Adaptation](https://drive.google.com/file/d/17WLHOVpV8QxiO7ON0AlM0VQW2ZJdkiym/view?usp=sharing). We've collected a bunch of other papers in our drive:
 https://drive.google.com/drive/folders/1ztJFsF7BYFr8he_sF7OogyUJxlsYQiKg?usp=sharing
 
 Potential discussion questions:
-What is the best measure QOE (quality of experience)?
-Is there an optimal way to maximize video quality while minimize buffering?
-What are some challenges to streaming to mobile users?
+- What is the best measure QOE (quality of experience)?
+- Is there an optimal way to maximize video quality while minimize buffering?
+- What are some challenges to streaming to mobile users?
 
 ### FAQ ###
 
