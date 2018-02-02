@@ -11,10 +11,6 @@ notifications:
 
 addons:
   ssh_known_hosts: adicu.com
-  apt:
-    packages:
-    - ca-certificates
-    - libcurl4-openssl-dev      # Get right SSL certificates
 
 cache:
   directories:
@@ -28,11 +24,9 @@ before_install:
 install:
 # There's a bug with Python 3 and Lektor deployment, so use python2 instead
 - export PATH=/opt/pyenv/plugins/python-build/bin:$PATH && python2 scripts/install.py
-- gem install html-proofer
 
 script:
 - lektor build -f webpack -O $HOME/output
-- htmlproofer $HOME/output --file-ignore "/events/201[4567].*/,/archive/page/\d+/"
 
 before_deploy:
 - test $TRAVIS_BRANCH == "master"
