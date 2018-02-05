@@ -1,0 +1,65 @@
+_model: event
+---
+title: Paper Reading: Gradual Typing
+---
+start: 2018-02-10 13:00
+---
+end: 2018-02-10 15:00
+---
+facebook_url: https://facebook.com/events/1973923676180878
+---
+location: Lerner 510B
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-0/p480x480/27625302_1575138732521971_4015593015777613626_o.jpg?oh=6b511b9dfd8ca87c855eea661707eae0&oe=5ADFA326
+---
+short_description: Please join us for the second paper reading group of the year! This
+---
+long_description: Please join us for the second paper reading group of the year! This
+Saturday, we'll be talking about gradual typing, which allows you to mix static and dynamic typing in the same language. In the last 10 years, it's been adopted by a bunch of languages, from Javascript (with [Flow] and [TypeScript]) to Python (with [MyPy]) to C# (with [dynamic]).
+
+If you want a brief introduction, we recommend starting out with:
+
+- [What is Gradual Typing?](https://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/)
+- For a real world overview, you can also checkout this PyCon presentation (https://www.youtube.com/watch?v=7ZbwZgrXnwY).
+
+We also recommend you look at [A Practitioner's Guide to Reading
+Programming Language Papers](https://blog.acolyer.org/2018/01/26/a-practitioners-guide-to-reading-programming-languages-papers/) to get a better sense of the notation and jargon.
+
+If you want to dig deep, we also recommend checking out:
+
+- The original paper that started it all, [Gradual Typing For Functional Languages](http://scheme2006.cs.uchicago.edu/13-siek.pdf)
+- [Is Sound Gradual Typing
+  Dead?](https://popl16.sigplan.org/event/popl-2016-papers-is-sound-gradual-typing-dead-) and it's follow-up paper [Sound Gradual Typing: Only Mostly Dead](https://dl.acm.org/citation.cfm?doid=3152284.3133878)
+- A formal theory behind gradual typing [Abstracting Gradual Typing](https://popl16.sigplan.org/event/popl-2016-papers-abstracting-gradual-typing)
+- [Well Typed Programs Can't be Blamed](http://www.eecs.northwestern.edu/%7Erobby/pubs/papers/scheme2007-wf.pdf)
+- [The Design and Implementation of Typed Scheme](https://www2.ccs.neu.edu/racket/pubs/popl08-thf.pdf<Paste>)
+
+## FAQ
+
+### What will we be discussing?
+
+It depends on who shows up! We try to keep discussion free-flowing and flexible. If you're curious though, some of the things we're thinking about are:
+
+- How important is it for a gradual type system to be sound?
+- Is gradual typing most useful as an "escape hatch" for statically typed languages (e.g. Java, OCaml) or as a way to add safety and documentation to dynamic languages (e.g. Python, Javascript)?
+- Can we extend gradual typing to other formal methods? Is there an analogous gradual formal verification? Gradual effect systems? Gradual dependent typing?
+
+## Do I have to read everything?
+
+Definitely not! While you should definitly look through the general
+introductions, we definitely don't expect you to read *all* the papers.
+
+### Who should come?
+
+Anyone who's interested in programming language design and is
+comfortable engaging in academic literature. While we  hope you'll spend time exploring the area independently before-hand (this leads to much better discussions), you definitely *don't* need to be a type theory guru in any way!
+
+### Who can I reach out to if I have any questions
+
+Feel free to reach out to Alan at alan@adicu.com
+
+
+[dynamic]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/using-type-dynamic
+[Flow]: https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/
+[MyPy]: http://mypy-lang.org/
+[TypeScript]: https://www.typescriptlang.org/index.html
