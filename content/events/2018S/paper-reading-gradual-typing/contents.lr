@@ -20,7 +20,7 @@ Saturday, we'll be talking about gradual typing, which allows you to mix static 
 If you want a brief introduction, we recommend starting out with:
 
 - [What is Gradual Typing?](https://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/)
-- For a real world overview, you can also checkout this PyCon presentation (https://www.youtube.com/watch?v=7ZbwZgrXnwY).
+- For a real world overview, you can also checkout this [PyCon presentation](https://www.youtube.com/watch?v=7ZbwZgrXnwY).
 
 We also recommend you look at [A Practitioner's Guide to Reading
 Programming Language Papers](https://blog.acolyer.org/2018/01/26/a-practitioners-guide-to-reading-programming-languages-papers/) to get a better sense of the notation and jargon.
@@ -44,7 +44,7 @@ It depends on who shows up! We try to keep discussion free-flowing and flexible.
 - Is gradual typing most useful as an "escape hatch" for statically typed languages (e.g. Java, OCaml) or as a way to add safety and documentation to dynamic languages (e.g. Python, Javascript)?
 - Can we extend gradual typing to other formal methods? Is there an analogous gradual formal verification? Gradual effect systems? Gradual dependent typing?
 
-## Do I have to read everything?
+### Do I have to read everything?
 
 Definitely not! While you should definitly look through the general
 introductions, we definitely don't expect you to read *all* the papers.
@@ -57,7 +57,6 @@ comfortable engaging in academic literature. While we  hope you'll spend time ex
 ### Who can I reach out to if I have any questions
 
 Feel free to reach out to Alan at alan@adicu.com
-
 
 [dynamic]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/using-type-dynamic
 [Flow]: https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/

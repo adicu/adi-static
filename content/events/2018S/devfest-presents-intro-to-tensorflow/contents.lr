@@ -1,0 +1,34 @@
+_model: event
+---
+title: DevFest Presents: Intro to Tensorflow
+---
+start: 2018-02-13 20:30
+---
+end: 2018-02-13 21:00
+---
+facebook_url: https://facebook.com/events/1664732786896345
+---
+location: Columbia University
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27503945_1575387245830453_2055798693878892543_o.jpg?oh=92f16097ea405a975284354b05918ffe&oe=5AE059BD
+---
+short_description: Learn how to write a deep neural network using TensorFlow (https://www.tensorflow.org/), Google's open-source deep learning library for research and production. TensorFlow will allow you recognize handwritten digits, and to visualize the graph and training in TensorBoard. 
+---
+long_description: Learn how to write a deep neural network using TensorFlow (https://www.tensorflow.org/), Google's open-source deep learning library for research and production. TensorFlow will allow you recognize handwritten digits, and to visualize the graph and training in TensorBoard. 
+
+Josh Gordon, Developer Advocate from Google will guest lecture.
+
+Agenda: 2 hours workshop followed by networking and Q+A
+
+Pre-Requisites: Please bring a laptop with TensorFlow version 1.0 or higher installed. You can find installation instructions on www.tensorflow.org. If you need help installing, please ask in the hackspace beforehand!
+
+Suggested background/expertise of attendees: Python programming experience. Machine Learning background helpful but not necessary.
+
+This tutorial is taught at the beginner level, and is intended for folks new to deep learning.
+
+About the Guest Lecturer: Josh Gordon works as a Developer Advocate for TensorFlow at Google. He's passionate about teaching, and has over a decade of Machine Learning experience to share. You can find him on YouTube and Twitter.
+
+About TensorFlow: TensorFlow is a fast, flexible, and open source deep learning library for research and production.
+
+**You must be registered for DevFest to attend this event!**
+FB event for DevFest: https://www.facebook.com/events/2023121701300418/
