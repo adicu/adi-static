@@ -18,8 +18,6 @@ long_description: Learn how to write a deep neural network using TensorFlow (htt
 
 Josh Gordon, Developer Advocate from Google will guest lecture.
 
-Agenda: 2 hours workshop followed by networking and Q+A
-
 Pre-Requisites: Please bring a laptop with TensorFlow version 1.0 or higher installed. You can find installation instructions on www.tensorflow.org. If you need help installing, please ask in the hackspace beforehand!
 
 Suggested background/expertise of attendees: Python programming experience. Machine Learning background helpful but not necessary.
