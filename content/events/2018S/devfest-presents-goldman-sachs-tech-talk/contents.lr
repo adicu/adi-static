@@ -1,0 +1,32 @@
+_model: event
+---
+title: DevFest Presents: Goldman Sachs Tech Talk
+---
+start: 2018-02-13 19:00
+---
+end: 2018-02-13 20:00
+---
+facebook_url: https://facebook.com/events/2030711210287327
+---
+location: CS Lounge
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27709859_1575386909163820_6177975637202614926_o.jpg?oh=df44656b1e0c4aecb250f9dcf8ccfbb8&oe=5B1A7A33
+---
+short_description: **Note: all are welcome!
+---
+long_description: **Note: all are welcome!
+
+Come to DevFest's Goldman Sach's Tech Talk, and learn how GS leverages technology to transform finance! 
+
+In today’s day and age with advancement of technology, robots can see, hear and understand natural language. This provides us with numerous possibilities to interact with robots and have them execute trivial to complex actions. Using open source technologies like Eclipse Collections and Reladomo, we can take it a step further by programming these robots to see, hear and speak. In the Internet of Things (IoT), due to the miniature nature of devices, performance optimization and processor efficiency are paramount to ensure repeatable and low power performance.
+
+In this session, we will program a Raspberry Pi and a Lego Mindstorm to download a user defined maze, solve it using Djikstra’s algorithm and traverse the path without interruptions. The session will take us through a computer vision algorithm used to analyze a dynamic maze and the details of an optimized Djikstra’s algorithm.
+
+In the second half of the session, we will program a voice assistant to control a robot and perform various actions. We will also program a mirror robot which demonstrates how we can control a single robot and have the actions be reflected across other devices.
+
+This session is designed to be fun, interactive and informative through several robot demos and opportunities to interact with the robots.
+No prior experience in robotics is necessary.
+
+Register for DevFest here: https://devfe.st/
+
+FB event for DevFest: https://www.facebook.com/events/2023121701300418/
