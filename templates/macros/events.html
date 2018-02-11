@@ -10,7 +10,9 @@
 <p><i class="fa fa-calendar"></i>End: {{ event.end.strftime("%a, %b %d %Y %H:%M") }}</p>
 {% endif %}
 
+{% if event.location %}
 <p><i class="fa fa-map-marker"></i>{{ event.location }}</p>
+{% endif %}
 {% endmacro %}
 
 {% macro event_small(event) %}

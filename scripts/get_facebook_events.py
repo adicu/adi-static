@@ -49,7 +49,10 @@ class Event(object):
             self.background_image = event["cover"]["source"]
         else:
             self.background_image = ""
-        self.location = event["place"]["name"]
+        try:
+            self.location = event["place"]["name"]
+        except KeyError:
+            self.location = ""
 
     @property
     def slug(self):
