@@ -1,0 +1,27 @@
+_model: event
+---
+title: DevFest Presents: Google Cloud Platform
+---
+start: 2018-02-13 14:00
+---
+end: 2018-02-13 16:00
+---
+facebook_url: https://facebook.com/events/1489438944511927
+---
+location: Lerner Satow Room
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27982982_1582131415156036_2059276337301399710_o.jpg?oh=fe4ab5ce12266b355e8d0aa560de0fb4&oe=5B1FB0D0
+---
+short_description: Google Cloud Platform will be hosting an overview and machine learning API workshop from 2pm - 3pm and a career panel and Q&A from 3pm - 4pm to help you learn about what's possible on Google Cloud Platform, and what it's like to be a Google engineer working on these products. They'll also be distributing $100 Google Cloud Platform credits all weekend long to help you bring your projects to the next level using our infinitely scalable VMs, world class databases and analytics, and powerful machine learning technologies.
+---
+long_description: Google Cloud Platform will be hosting an overview and machine learning API workshop from 2pm - 3pm and a career panel and Q&A from 3pm - 4pm to help you learn about what's possible on Google Cloud Platform, and what it's like to be a Google engineer working on these products. They'll also be distributing $100 Google Cloud Platform credits all weekend long to help you bring your projects to the next level using our infinitely scalable VMs, world class databases and analytics, and powerful machine learning technologies.
+
+Google Cloud offers a number of product categories including:
+Compute (App Engine, Compute Engine, Kubernetes Engine)
+Storage (Big Table, Cloud Datastore, Cloud SQL)
+Big Data (Big Query, Datalab)
+Machine Learning (Vision, Video Intelligence, Speech, Natural Language, Translate)
+
+We encourage you to use the credits during the hackathon, but don't let the hacking stop when the weekend ends. Your credits don't expire so long as you redeem the code this weekend!
+
+They'll also be raffling off a TON of Google swag and prizes. To be eligible, simply try out Google Cloud Platform and then fill out the survey at goo.gl/cloudhackathonsurvey.
