@@ -1,0 +1,56 @@
+_model: event
+---
+title: Paper Reading: Topics Over Time
+---
+start: 2018-03-03 13:00
+---
+end: 2018-03-03 14:30
+---
+facebook_url: https://facebook.com/events/538915183174435
+---
+location: Lerner 510B
+---
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-0/p480x480/28238247_1595318590503985_516803125316009792_o.jpg?oh=9d773f41d151b7937faa56b2fa372921&oe=5B12A99D
+---
+short_description: Join us for the third paper reading group of the semester! 
+---
+long_description: Join us for the third paper reading group of the semester! 
+
+This Saturday, we'll be talking about "Topics Over Time," which is  an LDA-style topic model that captures how topic structure changes over time.  NOTE: Read below for glossaries, resources, and more. 
+
+
+## FAQ
+
+### What will we be discussing?
+
+It depends on who shows up! We try to keep discussion free-flowing and flexible. The discussion is *always* tailored towards the backgrounds of those who come on the actual day.
+
+### Do I have to read everything?
+
+Definitely not! While you should definitly look through the general introductions, we definitely don't expect you to read *all* the papers/resources.
+
+### Who should come?
+
+Anyone who's interested in natural language processing, and even more specifically, how topics can be analyzed over time. This is an awesome topic to explore if you're particularly interested in interdisciplinary work.
+
+### What should I bring? 
+
+Besides excitement, up to you! Depending on your learning style, you might want to bring your laptop to google questions, a notebook and writing utensil to take notes, etc.
+
+### Who can I reach out to if I have any questions
+
+You can reach out to Lesley at lesley@adicu.com!
+
+
+If you want a brief introduction, we recommend starting out with:
+
+- [TUTORIAL: Topic Modeling: A Basic Introduction](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
+- [TUTORIAL: Introduction to Latent Dirichlet Allocation (LDA)](https://algobeans.com/2015/06/21/laymans-explanation-of-topic-modeling-with-lda-2/).
+- [SLIDES: An Intro to Topic Modeling](http://cmci.colorado.edu/~mpaul/files/nlp_lecture_12-04-13.pdf)
+
+
+If you want to dig deeper, we also recommend checking out:
+
+- The original paper, [Topics over Time: A Non-Markov
+Continuous-Time Model of Topical Trends](https://people.cs.umass.edu/~mccallum/papers/tot-kdd06s.pdf)
+- [Studying the History of Ideas Using Topic Models](https://nlp.stanford.edu/pubs/hall-emnlp08.pdf)
