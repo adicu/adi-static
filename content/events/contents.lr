@@ -15,7 +15,7 @@ title: Cookies and Code
 ----
 description: Come meet the community. We bring the cookies, you bring the code!
 ----
-link: /cookies-and-code
+link: https://adicu.com/cookies-and-code
 ----
 image: cookiemonster.jpg
 ----
@@ -26,6 +26,18 @@ type: Past
 color: blue
 ----
 length: 6
+#### callout ####
+color: blue
+----
+title: Submit an event!
+----
+description: If you know of cool, tech-related things happening in our community, let ADI know! Submit your event here the Sunday before the event is happening.
+----
+link: https://docs.google.com/forms/d/e/1FAIpQLSfNCNVL9WXtYIjpnilXyDet2HzgBxhSzNjNJEf91POF-eYvkA/viewform?c=0&w=1
+----
+image: event.jpg
+----
+button: Submit an event
 ---
 title: Weekly Events
 ---
