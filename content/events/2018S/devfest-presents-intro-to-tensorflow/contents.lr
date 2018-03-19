@@ -10,7 +10,7 @@ facebook_url: https://facebook.com/events/1664732786896345
 ---
 location: Mudd 627
 ---
-background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27503945_1575387245830453_2055798693878892543_o.jpg?oh=c0e95c09ed3cd5416e53cfd0a780bcf2&oe=5B07E6BD
+background_image: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27503945_1575387245830453_2055798693878892543_o.jpg?oh=ba16c3f33eda7011fcf7d67e0ebc75d0&oe=5B2F73BD
 ---
 short_description: Learn how to write a deep neural network using TensorFlow (https://www.tensorflow.org/), Google's open-source deep learning library for research and production. TensorFlow will allow you recognize handwritten digits, and to visualize the graph and training in TensorBoard. 
 ---
