@@ -2,6 +2,7 @@ import datetime as dt
 import os
 import shutil
 import string
+import urllib
 
 import requests
 
@@ -46,7 +47,16 @@ class Event(object):
 
         self.facebook_url = "https://facebook.com/events/" + event['id']
         if "cover" in event:
-            self.background_image = event["cover"]["source"]
+            url = urllib.parse.urlparse(event['cover']['source'])
+            qs = {
+                key: value
+                for key, value in urllib.parse.parse_qsl(url.query)
+                if key in {"oh", "oe"}  # timestamps for Facebook CDN
+            }
+            self.background_image = urllib.parse.urlunparse([
+                url.scheme, url.netloc, url.path, url.params,
+                urllib.parse.urlencode(qs), url.fragment
+            ])
         else:
             self.background_image = ""
         try:
