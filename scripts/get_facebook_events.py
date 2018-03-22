@@ -14,7 +14,7 @@ SEMESTERS = {
 # Why do we even need an acess token for publicly available information?
 # See https://medium.com/@Jenananthan/how-to-create-non-expiry-facebook-page-token-6505c642d0b1
 # and https://developers.facebook.com/tools/accesstoken/
-ACCESS_TOKEN = "EAAMZA08pZBs7ABABgpW4B9VgucNvasIPFmK6R2HMwJrpGGI8dinJ7mYGcI4ZBsVo3ms36jB2Cp7LqEUxTaubCN6lt88hYgbQO2CKV9KiyfdqxbaXTPeuGbUv4oLxGmdjvWYrdMjGB3WkfkkOkxPCZCxM5ZBwKkz8ZD"
+ACCESS_TOKEN = "EAACEdEose0cBAOVVuFGNRV8Cw0qKg0YAS0Ika1A10D80lO286LuZCZCmv3RFKfnXBvuFLZAqJAfhsSeZBsSJSgZAPTihMD11dN0BkLJ0M9tR9WOETUtp8rKFBis7htqW7RzyhVAUIGF9Sai4PN804pFL7UqjrHY5oPaR03I99m7Ku5D5ItAXI3E5S8SO0PRcZD"
 
 
 def api(path, params=None):
@@ -22,7 +22,7 @@ def api(path, params=None):
         params = {}
     params.update({"access_token": ACCESS_TOKEN})
     r = requests.get(
-        "https://graph.facebook.com/v2.11/{}".format(path), params=params)
+        "https://graph.facebook.com/v2.12/{}".format(path), params=params)
     return r.json()
 
 
@@ -125,7 +125,11 @@ class Event(object):
 
 
 if __name__ == "__main__":
-    events = api("adicu", {"fields": "events"})["events"]["data"]
+    response = api("adicu", {"fields": "events"})
+    try:
+        events = response['events']['data']
+    except KeyError:
+        raise ValueError("{}".format(response))
 
     for event in events:
         event = Event(api(event["id"], {
