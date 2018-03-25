@@ -14,7 +14,7 @@ SEMESTERS = {
 # Why do we even need an acess token for publicly available information?
 # See https://medium.com/@Jenananthan/how-to-create-non-expiry-facebook-page-token-6505c642d0b1
 # and https://developers.facebook.com/tools/accesstoken/
-ACCESS_TOKEN = "EAACEdEose0cBAOVVuFGNRV8Cw0qKg0YAS0Ika1A10D80lO286LuZCZCmv3RFKfnXBvuFLZAqJAfhsSeZBsSJSgZAPTihMD11dN0BkLJ0M9tR9WOETUtp8rKFBis7htqW7RzyhVAUIGF9Sai4PN804pFL7UqjrHY5oPaR03I99m7Ku5D5ItAXI3E5S8SO0PRcZD"
+ACCESS_TOKEN = "EAAMZA08pZBs7ABAFIpbASTZAoysfC5l97ZBNOgfhquTukx1LBZCDugeVZAsz8N9b2UFIYid7QNMWPoRZCxPZCZAyVzeua0DekYrR8vRgPkPESvrOytytZC5GTSEJQuruILuPLRp1Ng689BljqLhCJfhxQqg46g6Kn5HsWxB2WzQ5DOwAZDZD"
 
 
 def api(path, params=None):
