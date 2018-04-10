@@ -1,0 +1,42 @@
+_model: event
+---
+title: What did you say to me?! Alexa Skills in Python!
+---
+start: 2018-04-19 19:00
+---
+end: 2018-04-19 20:00
+---
+facebook_url: https://facebook.com/events/172668583389299
+---
+location: Math 417
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/30629595_1640452025990641_1626523025736204288_o.jpg?oh=d4840639481b3c455f78487218a56107&oe=5B3189BD
+---
+short_description: Virtual assistants and voice recognition technology have come a long way since Apple first introduced Siri. With Amazon’s Alexa currently leading the movement, virtual assistants are now seemingly a part of daily life. Take a look under the hood and learn how to build your own Alexa Skill.  In this beginner friendly workshop train Alexa to say “Hello World” or read you the weather forecast. I will cover the architectural concepts of how Alexa Skills function as well as teach you how to develop your own skill using Alexa Skills Kit, AWS Lambda, and Python. Laptop are required and there will be some coding but no previous intermediate or advanced coding experience is required.
+---
+long_description: Virtual assistants and voice recognition technology have come a long way since Apple first introduced Siri. With Amazon’s Alexa currently leading the movement, virtual assistants are now seemingly a part of daily life. Take a look under the hood and learn how to build your own Alexa Skill.  In this beginner friendly workshop train Alexa to say “Hello World” or read you the weather forecast. I will cover the architectural concepts of how Alexa Skills function as well as teach you how to develop your own skill using Alexa Skills Kit, AWS Lambda, and Python. Laptop are required and there will be some coding but no previous intermediate or advanced coding experience is required.
+
+## FAQ 
+
+#### Who should come to this event?
+Anyone interested in learning how to develop an Alexa skill! 
+
+#### What should I bring?
+Please bring a laptop! 
+
+#### Can I use a PC, a Chromebook, or a X computer?
+Chromebooks won't work, but PC, Mac, Linux, will work great! 
+
+#### What should I install beforehand?
+Students are encouraged (but not required) to set up the following before the workshop:
+- A developer account on https://developer.amazon.com (“Amazon Developer Console”)
+- An AWS account on https://aws.amazon.com (“AWS Console”)
+
+#### What topics should I know before coming?
+You should know fundamentals of Python (variables, data types, control flow, functions)
+
+#### Is the meeting venue physically accessible to anyone?
+Unfortunately, the mathematics building is not wheelchair accessible. If this is an issue for you, please contact an organizer at workshops@adicu.com. 
+
+#### Is there a way to contact any of the event organizers if I have questions not listed here?
+Yes! If you have any questions, feel free to email lesley@adicu.com
