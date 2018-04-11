@@ -11,7 +11,9 @@ title: Mentors
 ----
 description: Applications to be a mentor for the Spring 2018 semester are now closed. Thanks for applying!
 ----
-image: mentor.jpg
+link: 
+----
+image: sam.jpg
 ----
 button: Apply to be a mentor
 #### callout ####
@@ -21,11 +23,13 @@ title: Mentees
 ----
 description: Applications to be a mentee for the Spring 2018 semester are now closed. Thanks for applying!
 ----
-image: mentee.jpg
+link: 
+----
+image: lalitha.jpg
 ----
 button: Apply to be a mentee
 ---
-background_image: mentorship.jpg
+background_image: erik.jpg
 ---
 blurbs:
 

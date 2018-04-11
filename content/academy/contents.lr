@@ -1,0 +1,27 @@
+_model: page
+---
+title: Academy
+---
+background_image: kendalalice.jpg
+---
+blurbs:
+
+#### blurb ####
+title: About
+----
+blurb: ADI Academy is a semester-long program that teaches the basics of web application development. Academy meets once a week and consists of a short lecture followed by time to work on provided exercises. The program is designed to not only help students learn skills not conventionally taught in computer science classes but also to encourage graduates of the program to develop their own future ideas into applications. Feel free to reach out to academy@adicu.com with any questions!
+----
+color: blue
+#### blurb ####
+title: For Students
+----
+blurb:
+
+We are looking for students who have basic understanding of Python or a similar language. Other than basic language knowledge, we will be teaching everything from scratch so no prior knowledge is required! 
+<br>
+
+If you’d like to participate in ADI Academy, but are currently not familiar with a programming language, we encourage you to go through [this interactive course on Codecademy](https://www.codecademy.com/catalog/language/python) first. 
+
+*Applications for Spring 2018 are currently closed. Please check back in the fall 2018 semester for more information on how to register. *
+----
+color: blue

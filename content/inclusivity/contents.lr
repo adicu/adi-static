@@ -1,0 +1,49 @@
+_model: page
+---
+title: Inclusivity
+---
+background_image: willdevfest.jpg
+---
+bottom_card: 
+---
+blurbs:
+
+#### blurb ####
+title: 
+----
+blurb:
+
+ADI is committed to servicing the entire tech community at Columbia, including people who often face barriers in their pursuit of a Computer Science or Technical skillset. Having inclusive and diverse programs is a main priority, and we use each of our initiatives to further our mission. 
+----
+color: blue
+#### blurb ####
+title: 
+----
+blurb:
+
+Some of our work includes: 
+
+- connecting underrepresented students with information, resources, and people that can answer their questions to improve their experience as a technical student at Columbia.
+- furthering the technical education of our community members, particularly ones from students whose education backgrounds did not properly prepare them for the field.
+- exposing students to new areas of tech research, software engineering, and computer science.
+- providing opportunities for students to work on projects in teams.
+----
+color: blue
+#### blurb ####
+title: Students in STEM Inclusivity Coalition (siSTEMic)
+----
+blurb:
+
+In the spring of 2016, ADI began a coalition of student groups dedicated to improving inclusivity and diversity in the Columbia computer science department. Our work includes joint events between student groups and consistent communication and strategy talk between student groups and the computer science department at Columbia.
+
+*Current Affiliates Include:*
+
+[ColorCode](https://www.facebook.com/CUColorCode/)
+
+[Columbia Organization of Rising Entrepreneurs](https://www.coreatcu.com/)
+
+[Society of Hispanic Professional Engineers](http://www.columbia.edu/cu/shpe/)
+
+[Women in Computer Science](https://cuwics.github.io/)
+----
+color: blue
