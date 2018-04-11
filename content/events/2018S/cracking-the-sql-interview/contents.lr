@@ -1,0 +1,41 @@
+_model: event
+---
+title: Cracking the SQL Interview
+---
+start: 2018-04-16 19:30
+---
+end: 2018-04-16 20:30
+---
+facebook_url: https://facebook.com/events/201067723817801
+---
+location: Hamilton 602
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/29366066_1618350194867491_4656025985186004992_o.jpg?oh=6945329a4e2b0d5f725a805bd115d663&oe=5B669460
+---
+short_description: Join ADI for a workshop on SQL! The focus of this workshop will be on improving your SQL writing skills, so anyone preparing for interviews (OR that database final coming up!) will greatly benefit. 
+---
+long_description: Join ADI for a workshop on SQL! The focus of this workshop will be on improving your SQL writing skills, so anyone preparing for interviews (OR that database final coming up!) will greatly benefit. 
+
+The format of the workshop will be as follows: 
+
+7:30pm - 8:10pm: Lecture & Questions
+8:10pm - 8:30pm: Breakout Exercises
+
+If you don't know SQL right now, but want to come to this workshop, work through the first two sections [here](https://www.codecademy.com/learn/learn-sql) and you should be good to go!  
+
+## FAQs:
+
+### Who should come to this event?
+Anyone in need of SQL interview prep for data oriented positions! HOWEVER, this workshop is also great for anyone who wants to pick up some fundamentals of SQL. 
+
+#### What topics should I know beforehand? 
+You should know what tables are, what a query is and what how to do simple queries like "SELECT * FROM table_name WHERE table_name.attribute = 'cat';" 
+
+### What should I bring?
+If you want to bring a laptop to follow along, feel free, but it's not needed -- just bring a ton of excitement! 
+
+#### Is the meeting venue physically accessible to anyone? 
+Yes, Hamilton Hall has ramps wherever there are stairs and an elevator on each floor.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+If you have any questions about this event please contact tabara@adicu.com

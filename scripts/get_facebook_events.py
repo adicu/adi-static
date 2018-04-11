@@ -2,6 +2,7 @@ import datetime as dt
 import os
 import shutil
 import string
+import urllib
 
 import requests
 
@@ -13,7 +14,7 @@ SEMESTERS = {
 # Why do we even need an acess token for publicly available information?
 # See https://medium.com/@Jenananthan/how-to-create-non-expiry-facebook-page-token-6505c642d0b1
 # and https://developers.facebook.com/tools/accesstoken/
-ACCESS_TOKEN = "EAAMZA08pZBs7ABACVbFDjbkWs9QWkUHf3CsWFHUmrd0ZAqi4eKzNwaYdz0kjchPxyluAyU1C0zxkA9VgF7bDAsOMNFzQfWy8fswLNnOnSK7jPgvZBGSV3ZBxx7U2w2ulMMkjL2QZCOZCEIcuiffXraMDDmhrgVYoVkZD"
+ACCESS_TOKEN = "EAAMZA08pZBs7ABAFIpbASTZAoysfC5l97ZBNOgfhquTukx1LBZCDugeVZAsz8N9b2UFIYid7QNMWPoRZCxPZCZAyVzeua0DekYrR8vRgPkPESvrOytytZC5GTSEJQuruILuPLRp1Ng689BljqLhCJfhxQqg46g6Kn5HsWxB2WzQ5DOwAZDZD"
 
 
 def api(path, params=None):
@@ -21,7 +22,7 @@ def api(path, params=None):
         params = {}
     params.update({"access_token": ACCESS_TOKEN})
     r = requests.get(
-        "https://graph.facebook.com/v2.11/{}".format(path), params=params)
+        "https://graph.facebook.com/v2.12/{}".format(path), params=params)
     return r.json()
 
 
@@ -46,7 +47,16 @@ class Event(object):
 
         self.facebook_url = "https://facebook.com/events/" + event['id']
         if "cover" in event:
-            self.background_image = event["cover"]["source"]
+            url = urllib.parse.urlparse(event['cover']['source'])
+            qs = {
+                key: value
+                for key, value in urllib.parse.parse_qsl(url.query)
+                if key in {"oh", "oe"}  # timestamps for Facebook CDN
+            }
+            self.background_image = urllib.parse.urlunparse([
+                url.scheme, url.netloc, url.path, url.params,
+                urllib.parse.urlencode(qs), url.fragment
+            ])
         else:
             self.background_image = ""
         try:
@@ -115,7 +125,11 @@ class Event(object):
 
 
 if __name__ == "__main__":
-    events = api("adicu", {"fields": "events"})["events"]["data"]
+    response = api("adicu", {"fields": "events"})
+    try:
+        events = response['events']['data']
+    except KeyError:
+        raise ValueError("{}".format(response))
 
     for event in events:
         event = Event(api(event["id"], {
