@@ -1,0 +1,40 @@
+_model: page
+---
+title: ADI Alumni Association
+---
+background_image: brunch.jpg
+---
+blurbs:
+
+#### blurb ####
+title: Mission
+----
+blurb:
+
+The ADI Alumni Association seeks to foster a greater sense of community between current and past Columbia students interested in technology and innovation. We achieve this through initiatives that advance our core principles of connectivity, innovation, and service. <br>
+<br>
+For current and future alumni, we host events to keep them connected to each other and the undergraduate community. By bringing together students and professionals with a diverse array of experiences, we hope to cultivate environments that are catalysts for innovation. Finally, through supporting initiatives on an off campus we will serve the tech community by working to make it more diverse and inclusive. <br>
+<br>
+_If you have any questions, please feel free to reach out to us at alumni@adicu.com_ <br>
+<br>
+There are three fundamental values by which we guide the work of ADI Alumni Association: connectivity, innovation, and service.
+----
+color: blue
+#### blurb ####
+title: Connectivity
+----
+blurb: ADI Alumni Association seeks to serve as a catalyst for connection between alumni and with the undergraduate computer science community
+----
+color: yellow
+#### blurb ####
+title: Innovation
+----
+blurb: ADI Alumni Association seeks innovation through the sharing of perspectives, resources and experiences
+----
+color: blue
+#### blurb ####
+title: Service
+----
+blurb: ADI Alumni Association is committed to communities of current ADI students, alumni, and the greater tech community.
+----
+color: green
