@@ -1,0 +1,42 @@
+_model: page
+---
+title: Harlem Labs
+---
+blurbs:
+
+#### blurb ####
+title: Preface
+----
+blurb:
+
+Harlem Labs is a semesterly-long project that brings low-income black and latinx high school students from the New York community (focusing mostly on Harlem) to Columbia University in order to teach them Computer Science. Harlem Labs will teach students the foundations of Computer Science as well as programming in Python, and expose them to a variety of advanced topics within the field. <br>
+<br>
+We, the Harlem Labs team, feel that it is imperative that we are actively attempting to be a part of the process of reclaiming Columbia spaces for the Harlem community. We feel that because we occupy Harlem’s space, it goes without saying that all aspects of the program should reflect the fact that it exist to serve Harlem’s youth, including our projects name. <br>
+<br>
+_If you have any questions, including how to get involved, please feel free to reach out to us at harlemlabs@adicu.com_
+----
+color: blue
+#### blurb ####
+title: Mission
+----
+blurb: The Harlem Labs team is dedicated to creating a positive space for black and latinx high school students to learn skills in Computer Science at Columbia University. We wish to revolutionize the ways in which tech education is approached by placing an increased emphasis on communication and dialogue between our participants and teachers as a way to pass along tech knowledge.
+----
+color: green
+#### blurb ####
+title: Curriculum
+----
+blurb:
+
+Fall Semester
+- Web Development (HTML, CSS, Javascript) 
+- Thinking Algorithmically
+
+Spring Semester
+- Object Oriented Programming in Python
+- Applications of Python in Web Development (Flask)
+----
+color: yellow
+---
+background_image: my-babies.jpg
+---
+bottom_card: 
