@@ -13,7 +13,7 @@ title:
 ----
 blurb:
 
-ADI is committed to servicing the entire tech community at Columbia, including people who often face barriers in their pursuit of a Computer Science or Technical skillset. Having inclusive and diverse programs is a main priority, and we use each of our initiatives to further our mission. 
+ADI is committed to servicing the entire tech community at Columbia, including people who often face barriers in their pursuit of a Computer Science or Technical skillset. Having inclusive and diverse programs is a main priority, and we use each of our initiatives to further this mission. 
 ----
 color: blue
 #### blurb ####
@@ -27,5 +27,21 @@ Some of our work includes:
 - furthering the technical education of our community members, particularly ones from students whose education backgrounds did not properly prepare them for the field.
 - exposing students to new areas of tech research, software engineering, and computer science.
 - providing opportunities for students to work on projects in teams.
+----
+color: blue
+#### blurb ####
+title: Sponsors
+----
+blurb:
+
+<style>
+    img{padding:15px;}
+</style>
+<h4> Bronze</h4>
+<img alt="Two Sigma" src="twosigma.png" width="20%">
+<img alt="AirTable" src="airtable.png" width="20%">
+<h4> Microsponsors</h4>
+<img alt="Jopwell" src="jopwell.png" width="20%">
+<img alt="Brightest" src="brightest.png" width="20%">
 ----
 color: blue
