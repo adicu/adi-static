@@ -16,7 +16,7 @@ module.exports = {
     modules: ['node_modules'],
   },
   module: {
-    loaders: [
+    rules: [
       { test: /\.js$/, exclude: /node_modules/,
         loader: 'babel-loader' },
       { test: /\.scss$/,
@@ -38,6 +38,5 @@ module.exports = {
     new ExtractTextPlugin('styles.css', {
       allChunks: true
     }),
-    new webpack.optimize.UglifyJsPlugin(),
   ]
 };
