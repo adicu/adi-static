@@ -92,7 +92,7 @@ $(function() {
           <span class="bar {{ colors[loop.index0 % 3] }}"></span>
         </div>
         <ul class="resources">
-          {% for row in this.children.filter(F.topic == topic) | sort | batch(2) %}
+          {% for row in this.children.filter(F.topic == topic) | sort(attribute="name") | batch(2) %}
           <li>
             {% for resource in row %}
             {{ render_resource(resource) }}
