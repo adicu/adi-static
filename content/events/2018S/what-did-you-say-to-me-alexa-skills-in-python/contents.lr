@@ -10,7 +10,7 @@ facebook_url: https://facebook.com/events/172668583389299
 ---
 location: Math 417
 ---
-background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/30629595_1640452025990641_1626523025736204288_o.jpg?oh=3e540eece08f53b073c3494142aa3117&oe=5BF74ABD
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/30629595_1640452025990641_1626523025736204288_o.jpg?oh=4bfd7e0f554f10db083b5e22c85c73ed&oe=5C1ED7BD
 ---
 short_description: Virtual assistants and voice recognition technology have come a long way since Apple first introduced Siri. With Amazon’s Alexa currently leading the movement, virtual assistants are now seemingly a part of daily life. Take a look under the hood and learn how to build your own Alexa Skill.  In this beginner friendly workshop train Alexa to say “Hello World” or read you the weather forecast. I will cover the architectural concepts of how Alexa Skills function as well as teach you how to develop your own skill using Alexa Skills Kit, AWS Lambda, and Python. Laptop are required and there will be some coding but no previous intermediate or advanced coding experience is required.
 ---
