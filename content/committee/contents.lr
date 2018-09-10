@@ -3,5 +3,12 @@ _model: committee
 title: Committee
 ---
 blurbs: 
+
+color: blue
+#### blurb ####
+title: Join ADI Committee!
+----
+blurb: 
+### Interested in shaping the next generation of tech at Columbia? Join ADI Committee and have a chance to organize events, run programs of your own, and meet a bunch of passionate, loving ADI enthusiasts. Applications for non-first years will open on September 16th at 11am. Applications for first years will open in late October.
 ---
 background_image: committee.jpg
