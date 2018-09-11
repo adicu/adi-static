@@ -1,0 +1,46 @@
+_model: event
+---
+title: Machine Learning with Matlab
+---
+start: 2018-09-18 17:00
+---
+end: 2018-09-18 18:00
+---
+facebook_url: https://facebook.com/events/526233431147370
+---
+location: Jed. D Satow Room, Lerner Hall
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/41617436_1834107839958391_8066205906263605248_o.jpg?oh=9e70b8c465db5efc16aa96aea2d18667&oe=5C24DA5D
+---
+short_description: ## About 
+---
+long_description: ## About 
+
+Engineers and data scientists work with large amounts of data in a variety of formats such as sensor, image, video, telemetry, databases, and more. They use machine learning to find patterns in data and to build models that predict future outcomes based on historical data.
+
+In this hands-on session, we explore the fundamentals of machine learning using MATLAB. We introduce machine learning techniques available in MATLAB to quickly explore your data, evaluate machine learning algorithms, compare the results and apply the best technique to your problem.
+
+Highlights include:
+- Exploratory Data Analysis with MATLAB.
+- Using interactive and programmatic approaches to training, evaluating and testing various machine learning models.
+- Running predictive models in parallel using multiple processors to expedite your results.
+
+## FAQs:
+
+### Who should come to this event?
+Anyone interested in machine learning. 
+
+#### What topics should I know beforehand? 
+You should know basic MATLAB Syntax, but there are no expectations of knowing machine learning beforehand. 
+
+### What should I bring?
+We highly recommend you bring a laptop!
+
+### Should I have anything installed beforehand?
+Yes, please install MATLAB beforehand! If you're a Columbia student, you can get it for free by following these directions: https://cuit.columbia.edu/cuit/software-downloads
+
+#### Is the meeting venue physically accessible to anyone? 
+Yes, Lerner Hall has an elevator on each floor.
+
+### Is there a way to contact any of the event organizers if I have questions not listed here?
+If you have any questions about this event please contact hello@adicu.com
