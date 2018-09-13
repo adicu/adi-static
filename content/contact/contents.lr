@@ -2,7 +2,7 @@ _model: page
 ---
 title: Contact
 ---
-bottom_card:
+bottom_card: 
 ---
 blurbs:
 
@@ -12,7 +12,7 @@ title: Come meet ADI
 blurb:
 
 <h3>
-Interested in learning more about ADI?  The best way to get to know us better is by coming to [Cookies and Code](/cookies-and-code), Wednesdays from 10pm-midnight in the Satow Room at Lerner. People of all experience levels are welcome to come by, meet our members, work on personal projects, and eat free cookies! What could be better?
+Interested in learning more about ADI?  The best way to get to know us better is by coming to Cookies and Code, Wednesdays from 9pm-midnight in Lerner's Broadway Room. People of all experience levels are welcome to come by, meet our members, work on personal projects, and eat free cookies! What could be better?
 </h3>
 ----
 color: green
