@@ -22,11 +22,10 @@ before_install:
 - date
 
 install:
-# There's a bug with Python 3 and Lektor deployment, so use python2 instead
-- export PATH=/opt/pyenv/plugins/python-build/bin:$PATH && python2 scripts/install.py
+- pip install lektor==3.1.1
 
 script:
-- lektor build -f webpack -O $HOME/output
+- lektor build -f webpack
 
 before_deploy:
 - test $TRAVIS_BRANCH == "master"
@@ -40,6 +39,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: lektor deploy -O $HOME/output production
+  script: lektor deploy production
   on:
     branch: master

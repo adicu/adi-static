@@ -9,12 +9,13 @@ import requests
 SEMESTERS = {
     "2017F": (dt.date(2017, 9, 1), dt.date(2017, 12, 31)),
     "2018S": (dt.date(2018, 1, 1), dt.date(2018, 5, 31)),
+    "2018F": (dt.date(2018, 9, 1), dt.date(2018, 12, 31)),
 }
 
 # Why do we even need an acess token for publicly available information?
 # See https://medium.com/@Jenananthan/how-to-create-non-expiry-facebook-page-token-6505c642d0b1
 # and https://developers.facebook.com/tools/accesstoken/
-ACCESS_TOKEN = "EAAMZA08pZBs7ABAFIpbASTZAoysfC5l97ZBNOgfhquTukx1LBZCDugeVZAsz8N9b2UFIYid7QNMWPoRZCxPZCZAyVzeua0DekYrR8vRgPkPESvrOytytZC5GTSEJQuruILuPLRp1Ng689BljqLhCJfhxQqg46g6Kn5HsWxB2WzQ5DOwAZDZD"
+ACCESS_TOKEN = "EAAMZA08pZBs7ABAJcOgvBwn3LOZBLv075K9kddilg7Rf6WfZCfyHs5kiBr8LbysqWvC8irdG60W1cOmfJfvztbRmWxCnLYY53RhIIPOp1QThGOPJxXOsGdOrtnZCKfah2jwqYE7xzrix4NKG8hTYcBh1RxW1OtSsZD"
 
 
 def api(path, params=None):
