@@ -11,22 +11,7 @@ blurbs:
 #### blurb ####
 title: 
 ----
-blurb:
-
-ADI is committed to servicing the entire tech community at Columbia, including people who often face barriers in their pursuit of a Computer Science or Technical skillset. Having inclusive and diverse programs is a main priority, and we use each of our initiatives to further this mission. 
-----
-color: blue
-#### blurb ####
-title: 
-----
-blurb:
-
-Some of our work includes: 
-
-- connecting underrepresented students with information, resources, and people that can answer their questions to improve their experience as a technical student at Columbia.
-- furthering the technical education of our community members, particularly ones from students whose education backgrounds did not properly prepare them for the field.
-- exposing students to new areas of tech research, software engineering, and computer science.
-- providing opportunities for students to work on projects in teams.
+blurb: ADI is committed to promoting an inclusive and equitable tech community at Columbia. We strive to have inclusive and diverse initiatives and to especially reach out to people who often face barriers in their pursuit of computer science.
 ----
 color: blue
 #### blurb ####
@@ -34,14 +19,61 @@ title: Sponsors
 ----
 blurb:
 
-<style>
-    img{padding:15px;}
-</style>
-<h4> Bronze</h4>
-<img alt="Two Sigma" src="twosigma.png" width="20%">
-<img alt="AirTable" src="airtable.png" width="20%">
-<h4> Microsponsors</h4>
-<img alt="Jopwell" src="jopwell.png" width="20%">
-<img alt="Brightest" src="brightest.png" width="20%">
+Our work is made possible by our amazing sponsors:
+
+#### Bronze Sponsors
+
+<div style="display: flex; jusitfy-items: center; align-items: center; justify-content: space-evenly; margin-bottom: 5%">
+<a style="flex-basis: 20%" href="https://airtable.com/"><img alt="Airtable" src="airtable.svg"></a>
+<a style="flex-basis: 20%" href="https://twosigma.com/"><img alt="Two Sigma" src="twosigma.svg"></a>
+<a style="flex-basis: 20%" href="https://www.home.barclays/"><img alt="Barclays" src="barclays.png"></a>
+</div>
+
+#### Microsponsors
+
+<div style="display: flex; jusitfy-items: center; align-items: center; justify-content: space-evenly; margin-bottom: 5%">
+<a style="flex-basis: 20%" href="https://www.brightest.io"><img alt="Brightest" src="brightest.png"></a>
+<a style="flex-basis: 20%" href="https://www.jopwell.com"><img alt="Jopwell" src="jopwell.png"></a>
+<a style="flex-basis: 20%" href="https://www.appnexus.com/"><img alt="Appnexus" src="appnexus.png"></a>
+</div>
 ----
 color: blue
+---
+sections:
+
+#### callout ####
+color: green
+----
+title: People of Color Mixers
+----
+description: We hold monthly Underrepresented People of Color mixers, to promote a stronger PoC community at Columbia and in tech.
+----
+link: 
+----
+image: mixer.jpg
+----
+button: 
+#### callout ####
+color: blue
+----
+title: Professor Lunches
+----
+description: We hold regular professor lunches that connect small groups of underrepresented students with Columbia faculty to help everyone get the mentorship and access they desire.
+----
+link: 
+----
+image: brunch.jpg
+----
+button: 
+#### callout ####
+color: yellow
+----
+title: Conference Sponsorships
+----
+description: We offer sponsorships so that students an go to conferences and build their professional network both in and out of NYC. Last year, we sponsored students to go to [Women Engineers Code](http://womenengineerscode.com) and to [Black Women Talk Tech](https://www.blackwomentalktech.com/conference)!
+----
+link: 
+----
+image: bg-2.jpg
+----
+button: 
