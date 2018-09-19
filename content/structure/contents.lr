@@ -1,0 +1,81 @@
+_model: page
+---
+title: Structure
+---
+blurbs:
+
+#### blurb ####
+title: Overview
+----
+blurb: ADI is probably best thought of as an umbrella organization, hosting many different initiatives and programs within. These initiatives run mostly independently and are spearheaded by our executive committee members. Although you don't *have* to be a committee member to organize programs -- we have lots of non-community members organizing workshops, for example -- it is generally easier if you join committee.
+----
+color: yellow
+#### blurb ####
+title: Our Committee
+----
+blurb:
+
+Committee members are primarily the people who run our various
+initiatives. We expect our committee members to:
+
+- Attend our mandatory committee meetings from 6-7 pm every Sunday.
+- Organize at least one long-term project throughout the semester.
+  That can either be a recurring program (e.g. mentorship or labs), or
+  it can be organizing one-off events regularly (e.g. organizing regular
+  workshops or professor lunches).
+  - Note that **participating** in one of our programs is not the same
+    as **organizing** one of our programs.
+  - While there is no upper limit to the number of programs you can
+    organize, we encourage everyone to be mindful of their other time
+    commitments and make sure your workload is sustainable.
+- Help out with DevFest, for the entire week. DevFest is the largest
+  and most involved event that we run, and we need everyone to be
+  helping as much as they can to make it work.
+
+We generally have several other "all-hands-on-deck" events throughout
+the year (e.g. "welcome to ADI" at the beginning of the semester).
+Although these are not strictly mandatory like DevFest is, we definitely
+encourage everyone who has the time to help out.
+
+While we do not have minimum time requirements where you must work on
+ADI, it's hard for us to imagine fulfilling committee responsibilities
+with fewer than 3-4 hours a week (with some weeks like DevFest requiring
+much more time).
+----
+color: green
+#### blurb ####
+title: Leads
+----
+blurb:
+
+Committee is led by 7 "leads", who are responsible for directing
+committee and ensuring we are best fulfilling our mission.
+
+Five of the leads are "pillar" leads, who focus on different aspects of
+our mission. These leads are responsible for coordinating across
+initiatives, checking in with individual initiatives, and providing
+support to make our programs successful. The five pillars are:
+
+- Internal -- initiatives to strengthen our internal committee community.
+- Community -- initiatives to strengthen the Columbia tech community.
+- Outreach -- initiatives interfacing with the non-Columbia tech
+  world.
+- DevFest -- initiatives involving [DevFest](https://devfe.st), our
+  annual hackathon.
+- Education -- initiatives to inform and educate the Columbia tech
+  community.
+
+We also have two executive leads, who handle our finances, run committee
+meetings, interface with Columbia's administration, and think about ADI
+as a whole (rather than the individual pillars).
+
+The leads are also **all** responsible for:
+
+- Meeting weekly from 5 - 6 pm to discuss ADI.
+- Responding to incident reports whenever they come in
+- Doing regular one-on-ones with committee members.
+- Keeping on top of what's happening on ADI, and making sure that our
+  programs are running smoothly and that our committee members are
+  happy.
+----
+color: blue
