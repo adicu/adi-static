@@ -1,0 +1,43 @@
+_model: event
+---
+title: Introduction to Git and Github
+---
+start: 2018-10-11 19:00
+---
+end: 2018-10-11 20:00
+---
+facebook_url: https://facebook.com/events/2031070220517077
+---
+location: Lerner 568
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/42394628_1848097571892751_5452315949816348672_o.jpg?oh=831b23fca2a299497ee2bee43e5a3a55&oe=5C62824F
+---
+short_description: Have you ever worked on a group project where everyone had a different version of things and it was giant mess? Then git is the tool for you!
+---
+long_description: Have you ever worked on a group project where everyone had a different version of things and it was giant mess? Then git is the tool for you!
+
+In theory, git is a beautiful and elegant tool that solves all your version control problems. In practice, using and learning git can be a giant mess. We'll cover git from the ground up, including why you should git, how git sees the world, how to use git, and how to get started with the popular git platform  [Github](https://github.com/)
+
+## FAQ
+
+#### Who should come?
+
+Anyone interested in learning about Git. Although Git is mostly used by software engineers, it's also a useful tool even if you don't study computer science!
+
+#### What should I know before hand?
+
+You'll get the most out of the workshop if you already know what the terminal / command line is and how to use it. Although you can use git without knowing terminal, none of us are that familiar with alternative interfaces.
+
+####  What should I bring?
+
+Bring a laptop! 
+
+### Can I use a PC, a Chromebook, or ...?
+
+If you can install git on it, you can use it! Git is officially supported for Windows, Mac, and Linux.
+
+#### How should I prepare for the workshop?
+
+We'll have some interactive exercises to get your feet wet, so it'd help if you installed [git](https://git-scm.com/download/) and made an account on [Github](https://github.com/) before the event. 
+
+Feel free to reach out alan@adicu.com with any other questions!
