@@ -1,0 +1,27 @@
+_model: event
+---
+title: Data Science with Dataiku: from exoplanets to flu season
+---
+start: 2018-10-04 17:30
+---
+end: 2018-10-04 18:30
+---
+facebook_url: https://facebook.com/events/2257589407668702
+---
+location: Lerner Broadway Room
+---
+background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/42709548_1851948371507671_7494754275533258752_n.jpg?oh=1c4ac7148f2e0009b554849f2dbf4af9&oe=5C600465
+---
+short_description: Patrick Masi-Phelps, a Data Scientist at [Dataiku](https://www.dataiku.com/), will talk about new tools and techniques his team has used when working with clients and contributing toward open source projects. The highlights include examples from detecting exoplanets and sorting mail using deep neural networks, and using time series analysis to project future flu seasons.
+---
+long_description: Patrick Masi-Phelps, a Data Scientist at [Dataiku](https://www.dataiku.com/), will talk about new tools and techniques his team has used when working with clients and contributing toward open source projects. The highlights include examples from detecting exoplanets and sorting mail using deep neural networks, and using time series analysis to project future flu seasons.
+
+## FAQ
+
+#### Who should come?
+
+Anyone interested in learning more about applied data science or machine learning!
+
+#### Who should I contact if I have more questions?
+
+Feel free to reach out to alan@adicu.com for more information!
