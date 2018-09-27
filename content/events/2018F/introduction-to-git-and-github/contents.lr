@@ -12,9 +12,9 @@ location: Lerner 568
 ---
 background_image: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/42394628_1848097571892751_5452315949816348672_o.jpg?oh=831b23fca2a299497ee2bee43e5a3a55&oe=5C62824F
 ---
-short_description: #Have you ever worked on a group project where everyone had a different version of things and it was giant mess? Then git is the tool for you!
+short_description: Have you ever worked on a group project where everyone had a different version of things and it was giant mess? Then git is the tool for you!
 ---
-long_description: #Have you ever worked on a group project where everyone had a different version of things and it was giant mess? Then git is the tool for you!
+long_description: Have you ever worked on a group project where everyone had a different version of things and it was giant mess? Then git is the tool for you!
 
 In theory, git is a beautiful and elegant tool that solves all your version control problems. In practice, using and learning git can be a giant mess. We'll cover git from the ground up, including why you should git, how git sees the world, how to use git, and how to get started with the popular git platform  [Github](https://github.com/)
 
