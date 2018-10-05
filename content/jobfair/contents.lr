@@ -47,6 +47,9 @@ blurb:
 
 <div style="display: flex; jusitfy-items: center; align-items: center; justify-content: space-evenly; margin-bottom: 5%">
 <a target="blank_" style="flex-basis: 20%" href="https://www.dataiku.com/"><img alt="Dataiku" src="dataiku.png"></a>
+<a target="blank_" style="flex-basis: 9%" href="https://byteacademy.co/"><img alt="Byte Academy" src="byteacademy.png"></a>
+<a target="blank_" style="flex-basis: 20%" href="https://www.edchain.io/"><img alt="edChain" src="edchain.png"></a>
+<a target="blank_" style="flex-basis: 15%" href="http://www.shoguninc.com"><img alt="Shogun" src="shogun.png"></a>
 </div>
 ----
 color: blue
