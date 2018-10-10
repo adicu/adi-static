@@ -256,11 +256,11 @@ button, .button {
     max-width: 95%;
     position: relative;
     margin: 0 auto;
-    -webkit-transform: translateY(-10rem);
-    -moz-transform: translateY(-10rem);
-    -o-transform: translateY(-10rem);
-    transform: translateY(-10rem);
-    margin-bottom: -10rem;
+    -webkit-transform: translateY(-15rem);
+    -moz-transform: translateY(-15rem);
+    -o-transform: translateY(-15rem);
+    transform: translateY(-15rem);
+    margin-bottom: -15rem;
     background-color: white;
     padding: 4rem 0 2.5rem !important;
     border-top-left-radius: 0.625rem;
