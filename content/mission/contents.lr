@@ -1,0 +1,37 @@
+_model: page
+---
+title: Our Mission
+---
+blurbs:
+
+#### blurb ####
+title: Short Form
+----
+blurb:
+
+ADI is a Columbia student group dedicated to expanding, educating, and
+empowering a community of students interested in technology.
+
+----
+color: blue
+#### blurb ####
+title: Long Form
+----
+blurb:
+
+As the pace of technology accelerates, we believe that individual
+technologists will play an increasingly important role in shaping our
+lives.  ADI aims to empower students to meet that responsibility by:
+
+- Fostering a more just, [inclusive](/inclusivity), and equitable tech
+  community, welcoming everyone of all backgrounds, experience levels,
+  and life stories.
+- Deepening the understanding of technology in all of its
+  [facets](/education), both technical and non-technical.
+- Engaging with and improving our local communities
+  [outside](/harlem-labs) of Columbia.
+
+Internally, within our committee, we hope to nurture the next generation
+of technology leadership.
+----
+color: green
