@@ -60,7 +60,9 @@ $(function() {
         <i class="fa {{ fa_icons[resource.type] }}" aria-hidden=true></i>
       </a>
     </h5>
+    {% if resource.level %}
     <h4> Level: {{ resource.level | capitalize }} </h4>
+    {% endif %}
     {{ resource.description }}
   </div>
 </div>
