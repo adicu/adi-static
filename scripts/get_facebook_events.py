@@ -67,9 +67,10 @@ class Event(object):
 
     @property
     def slug(self):
+        date = self.start.strftime("%Y-%m-%d")
         s = "".join(char for char in self.title.lower()
                     if char in string.ascii_lowercase or char in " ")
-        return s.replace(" ", "-").replace("--", "-")
+        return date + "-" + s.replace(" ", "-").replace("--", "-")
 
     @property
     def path(self):
