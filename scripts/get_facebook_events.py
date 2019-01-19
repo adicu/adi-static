@@ -92,6 +92,7 @@ class Event(object):
 
         # delete old event
         root = self.root()
+        os.makedirs(root, exist_ok=True)
         for d in os.listdir(root):
             d = os.path.join(root, d)
             if not os.path.isdir(d):
