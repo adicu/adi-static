@@ -11,6 +11,7 @@ SEMESTERS = {
     "2018S": (dt.date(2018, 1, 1), dt.date(2018, 5, 31)),
     "2018F": (dt.date(2018, 9, 1), dt.date(2018, 12, 31)),
     "2019S": (dt.date(2019, 1, 1), dt.date(2019, 5, 31)),
+    "2019F": (dt.date(2019, 9, 1), dt.date(2019, 12, 31)),
 }
 
 # Why do we even need an acess token for publicly available information?
