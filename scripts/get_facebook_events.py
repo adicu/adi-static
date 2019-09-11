@@ -54,7 +54,7 @@ class Event(object):
             qs = {
                 key: value
                 for key, value in urllib.parse.parse_qsl(url.query)
-                if key in {"_nc_ht", "oh", "oe"}  # timestamps for Facebook CDN
+                if key in {"_nc_oc", "_nc_ht", "oh", "oe"}  # timestamps for Facebook CDN
             }
             self.background_image = urllib.parse.urlunparse([
                 url.scheme, url.netloc, url.path, url.params,
