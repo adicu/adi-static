@@ -28,6 +28,9 @@ def api(path, params=None):
         "https://graph.facebook.com/v2.12/{}".format(path), params=params)
     return r.json()
 
+def image_api(path):
+    r = requests.get(path, stream=True)
+    return r.raw
 
 def parse_iso8601(s):
     return dt.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z")
@@ -49,19 +52,10 @@ class Event(object):
         self.short_description = self.long_description.split("\n")[0]
 
         self.facebook_url = "https://facebook.com/events/" + event['id']
+        self.background_image = None
+
         if "cover" in event:
-            url = urllib.parse.urlparse(event['cover']['source'])
-            qs = {
-                key: value
-                for key, value in urllib.parse.parse_qsl(url.query)
-                if key in {"_nc_oc", "_nc_ht", "oh", "oe"}  # timestamps for Facebook CDN
-            }
-            self.background_image = urllib.parse.urlunparse([
-                url.scheme, url.netloc, url.path, url.params,
-                urllib.parse.urlencode(qs), url.fragment
-            ])
-        else:
-            self.background_image = ""
+            self.background_image = image_api(event["cover"]["source"]) 
         try:
             self.location = event["place"]["name"]
         except KeyError:
@@ -120,14 +114,17 @@ class Event(object):
             fout.write("\n---\n")
             fout.write("location: " + self.location)
             fout.write("\n---\n")
-            if self.background_image:
-                fout.write("background_image: " + self.background_image)
+            if self.background_image is not None:
+                fout.write("background_image: " + "cover.jpg")
                 fout.write("\n---\n")
 
             fout.write("short_description: " + self.short_description)
             fout.write("\n---\n")
             fout.write("long_description: " + self.long_description)
 
+        if self.background_image is not None:
+            with open(os.path.join(self.path, "cover.jpg"), "wb") as fout:
+                shutil.copyfileobj(self.background_image, fout)
 
 if __name__ == "__main__":
     response = api("adicu", {"fields": "events"})
