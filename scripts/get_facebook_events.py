@@ -17,7 +17,7 @@ SEMESTERS = {
 # Why do we even need an acess token for publicly available information?
 # See https://medium.com/@Jenananthan/how-to-create-non-expiry-facebook-page-token-6505c642d0b1
 # and https://developers.facebook.com/tools/accesstoken/
-ACCESS_TOKEN = "EAAJYVQvayukBAO7Huv5AoPE993OefucwZBXU0JZAPQrCOCJdwyYAqZBs9okfczz5zJvwdA5MyRj1yI69e9hJFtyZCajpaHsXgEpkNX5WSS3Kbfc1RM3lyIZBCZAGyhq7ZApP2syvE6RKYvqyJdRDVf7cxitMvO8FVTZBEQZCjolvlZBwZDZD"
+ACCESS_TOKEN = "EAAF61ek8o5cBAMIJyoQUn12BITFxC1mb2p0JmTRkszQ6wXOC5woxLwRwlXvLHKhwXPsaFBXaiAAmEtyZAgnhc0tXpA6WJ7M8t0seX0jnj18WCoFULeetN1Jpde3YUGj4EdT8K4vneFH02sp0HboQOhrdIETJuk9hzUJ8aSAZDZD"
 
 
 def api(path, params=None):
@@ -55,7 +55,7 @@ class Event(object):
         self.background_image = None
 
         if "cover" in event:
-            self.background_image = image_api(event["cover"]["source"]) 
+            self.background_image = image_api(event["cover"]["source"])
         try:
             self.location = event["place"]["name"]
         except KeyError:
